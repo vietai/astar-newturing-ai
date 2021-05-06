@@ -24,7 +24,7 @@ const Mentorships = () => (
             <div className="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
               <p className="f3">THANG LUONG</p>
               <div className="w-100 bb b--white-50 mt3 mb2"></div>
-              <p className="fw2 lh-copy tracked">
+              <p className="fw3 lh-copy tracked">
                 Research scientist at Google Brain; Co-founder of VietAI & PhD
                 in Computer Science @Stanford where he built state-of-the-art
                 machine translation systems at both Google and Stanford. Dr.
@@ -51,7 +51,7 @@ const Mentorships = () => (
             <div className="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
               <p className="f3">Thuc Vu</p>
               <div className="w-100 bb b--white-50 mt3 mb2"></div>
-              <p className="fw2 lh-copy tracked">
+              <p className="fw3 lh-copy tracked">
                 Dr. Thuc Vu is Co-founder/CEO at OhmniLabs, Kambria & VietAI; He
                 previously founded Katango and Tappy which were acquired by
                 Google and Weeby.co, respectively. Thuc has deep expertise in
@@ -75,7 +75,7 @@ const Mentorships = () => (
             <div className="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
               <p className="f3">Vu Van</p>
               <div className="w-100 bb b--white-50 mt3 mb2"></div>
-              <p className="fw2 lh-copy tracked">
+              <p className="fw3 lh-copy tracked">
                 Co-founder/CEO of ELSA, Corp. MBA & M.Ed @ Stanford; Hard-core
                 operator & tireless entrepreneur. Passion in edtech and how we
                 can use technology to change education landscape, and make
