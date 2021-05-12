@@ -63,10 +63,22 @@
             "description": "Co-founder/CEO of ELSA, Corp. MBA & M.Ed @ Stanford; Hard-core operator & tireless entrepreneur.  Passion in edtech and how we can use technology to change  education landscape, and make education accessible to all & at high quality."
         }
     ],
-    "questions": [
+    "qas": [
         {
             "question": "What is pre-requisite criteria for the first batch?",
             "answer": "<ol> <li>Potential to apply AI to  reach 10-100x returns.</li> <li> Executive  willingness & tech team qualification. (Are  you excited about learning to apply AI? </li> <li> Can they execute what we advise in the  next 6 months? Post-launch companies </li></ol>"
+        },
+        {
+            "question": "How to apply?",
+            "answer": "Click here for the whole selection process review or click here to apply"
+        },
+        {
+            "question": "Can we get funding (scholarship) for this AI Bootcamp?",
+            "answer": "Yes. We offer conditional scholarships for outstanding startups, especially for social enterprises. Please check it out to see if you meet the criteria."
+        },
+        {
+            "question": "How long does the AI Bootcamp take?",
+            "answer": "12 intensive weeks. You have to spend at least 3 full weekdays for 8 middle weeks of intensive training. The other 2 weeks will be for one-on-one mentoring and final 2 weeks for prototype & demo showcase."
         }
     ]
 }
