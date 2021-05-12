@@ -1,8 +1,9 @@
 import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import { mentors } from '../../assets/data.json';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
+import './styles.css';
 
 const MentorMobile = ({ mentor, isActive, onClick }) => {
   return (
@@ -41,10 +42,16 @@ const MentorMobile = ({ mentor, isActive, onClick }) => {
 
 const Mentorships = ({ id }) => {
   const [activeId, setActiveId] = useState(0);
+  const [isShowModal, setIsShowModal] = useState(false);
 
   const _showInfo = (id) => {
     setActiveId(activeId === id ? 0 : id);
   };
+
+  useEffect(() => {
+    console.log('activeId = ', activeId);
+    setIsShowModal(activeId !== 0);
+  }, [activeId]);
 
   return (
     <>
@@ -80,71 +87,43 @@ const Mentorships = ({ id }) => {
 
       {/* <!-- modal desktop mentoship info --> */}
 
-      <div className="dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around relative mt3">
-        <p className="_btn-close white pointer tr absolute top-1 right-1">X</p>
+      {isShowModal ? (
+        <div
+          className="dn db-l w-100 bg-black-50 vh-100 fixed top-0 left-0 z-999"
+          onClick={() => setIsShowModal(false)}
+        >
+          <div className="modal dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around ">
+            <p
+              className="_btn-close white pointer tr absolute top-1 right-1"
+              onClick={() => setIsShowModal(false)}
+            >
+              X
+            </p>
 
-        <img src="images/m_thangluong.png" alt="" className="br4 w-25" />
+            {mentors
+              .filter((item) => item.id === activeId)
+              .map((item) => (
+                <>
+                  <div className="w-25 pt3">
+                    <img
+                      src={`images/${item.image}`}
+                      alt=""
+                      className="br4 w-100"
+                    />
+                  </div>
+                  <div className="w-60 pr4">
+                    <p className="_mentor-name f2 lh-copy">{item.name}</p>
+                    <p className="_mentor-title lh-copy">{item.title}</p>
 
-        <div className="w-60 pr4">
-          <p className="_mentor-name f2 lh-copy">THẮNG LƯƠNG</p>
-          <p className="_mentor-title lh-copy">PhD at NYD</p>
-
-          <p className="_mentor-info lh-copy mt3">
-            Research scientist at Google Brain; Co-founder of VietAI & PhD in
-            Computer Science @Stanford where he built state-of-the-art machine
-            translation systems at both Google and Stanford. Dr. Luong is an
-            expert in natural language processing and deep learning, authoring
-            over 40 highly-cited scientific articles, 10 patents, and many
-            popular open-source projects. He is an inventor of LuongAttention,
-            NoisyStudent, and Google Meena chatbot.
-          </p>
+                    <p className="_mentor-info lh-copy mt3">
+                      {item.description}
+                    </p>
+                  </div>
+                </>
+              ))}
+          </div>
         </div>
-      </div>
-
-      {/* <!-- thuc vu --> */}
-      <div className="dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around relative mt3">
-        <p className="_btn-close white pointer tr absolute top-1 right-1">X</p>
-
-        <img src="images/m_thucvu.png" alt="" className="br4 w-25" />
-
-        <div className="w-60 pr4">
-          <p className="_mentor-name f2 lh-copy">THỨC VŨ</p>
-          <p className="_mentor-title lh-copy">
-            Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..
-          </p>
-
-          <p className="_mentor-info lh-copy mt3">
-            Dr. Thuc Vu is Co-founder/CEO at OhmniLabs, Kambria & VietAI; He
-            previously founded Katango and Tappy which were acquired by Google
-            and Weeby.co, respectively. Thuc has deep expertise in game theory,
-            machine learning, tournament design and multi-agent systems. He
-            earned his PhD from Stanford University and a Bachelor of Science
-            from Carnegie Mellon, both in computer science. Apart from being an
-            entrepreneur, Thuc is also a Research Scientist and Assistant
-            Professor at John Von Neumann Institute of Vietnam National
-            University.
-          </p>
-        </div>
-      </div>
-
-      {/* <!-- Vũ Văn --> */}
-      <div className="dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around relative mt3">
-        <p className="_btn-close white pointer tr absolute top-1 right-1">X</p>
-
-        <img src="images/m_vuvan.png" alt="" className="br4 w-25" />
-
-        <div className="w-60 pr4">
-          <p className="_mentor-name f2 lh-copy">VŨ VĂN</p>
-          <p className="_mentor-title lh-copy">Co-founder/CEO of ELSA</p>
-
-          <p className="_mentor-info lh-copy mt3">
-            Co-founder/CEO of ELSA, Corp. MBA & M.Ed @ Stanford; Hard-core
-            operator & tireless entrepreneur. Passion in edtech and how we can
-            use technology to change education landscape, and make education
-            accessible to all & at high quality.
-          </p>
-        </div>
-      </div>
+      ) : null}
     </>
   );
 };

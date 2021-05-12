@@ -86,7 +86,8 @@ const Menu = () => {
 
       <div
         id="desktop-menu"
-        className="dn flex-l w-100 bg-white pv2 shadow-2 z-5 fixed top-0"
+        className="dn flex-l w-100 bg-white pv2 shadow-2 "
+        // fixed top-0 z-4 
       >
         <div className="w-70 center flex justify-between items-center ph5">
           <img src="images/logo_red.svg" alt="" className="w25" />

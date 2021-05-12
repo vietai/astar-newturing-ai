@@ -17,7 +17,7 @@ const Apply = () => (
       </div>
 
       {/* <!-- todo --> */}
-      <div className="_desktop-progress dn flex-l w-80 center mt4 relative">
+      <div className="_desktop-progress dn flex-l w-80 center mt4">
         <div className="w-25 flex flex-column items-center">
           <div className="f4 fw5 pc-dark-gray w25 h25 flex bg-black-10 items-center justify-center br-100 pointer">
             1
