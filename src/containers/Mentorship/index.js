@@ -1,5 +1,31 @@
-import '../css/tachyons.min.css';
-import '../css/styles.css';
+import '../../css/tachyons.min.css';
+import '../../css/styles.css';
+import { mentors } from '../../assets/data.json';
+
+const MentorMobile = ({ mentor, isActive }) => {
+  return (
+    <>
+      <div className="w-100 w-25-l tc tl-l pv2 pv0-l">
+        <img
+          src={`images/${mentor.image}`}
+          alt=""
+          className="w-90 br4 pointer"
+        />
+      </div>
+      {/* <!-- mobile mentor info --> */}
+      {isActive ? (
+        <div className="db dn-l">
+          <div className="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
+            <p className="f3">{mentor.name}</p>
+            <div className="w-100 bb b--white-50 mt3 mb2"></div>
+            <p className="fw3 lh-copy tracked">{mentor.description}</p>
+            <p className="mt3 pc-yellow tracked ttu">READ MORE</p>
+          </div>
+        </div>
+      ) : null}
+    </>
+  );
+};
 
 const Mentorships = ({ id }) => (
   <>
@@ -8,7 +34,11 @@ const Mentorships = ({ id }) => (
         <p className="_title f3 fw6 pc-red ttu tracked tc">MENTORSHIP</p>
 
         <div className="_4_hinh flex flex-column flex-row-l mt4 justify-center-l">
-          <div className="w-100 w-25-l tc tl-l pv2 pv0-l">
+          <MentorMobile mentor={mentors[0]} isActive={false} />
+          <MentorMobile mentor={mentors[1]} isActive={false} />
+          <MentorMobile mentor={mentors[2]} isActive={false} />
+
+          {/* <div className="w-100 w-25-l tc tl-l pv2 pv0-l">
             <img
               src="images/m_thangluong.png"
               alt=""
@@ -16,7 +46,6 @@ const Mentorships = ({ id }) => (
             />
           </div>
 
-          {/* <!-- mobile mentor info --> */}
           <div className="db dn-l">
             <div className="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
               <p className="f3">THANG LUONG</p>
@@ -33,9 +62,11 @@ const Mentorships = ({ id }) => (
               </p>
               <p className="mt3 pc-yellow tracked ttu">READ MORE</p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="w-100 w-25-l tc pv2 pv0-l">
+          {/* TODO: thuc vu */}
+
+          {/* <div className="w-100 w-25-l tc pv2 pv0-l">
             <img
               src="images/m_thucvu.png"
               alt=""
@@ -43,7 +74,6 @@ const Mentorships = ({ id }) => (
             />
           </div>
 
-          {/* <!-- mobile mentor info --> */}
           <div className="db dn-l">
             <div className="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
               <p className="f3">Thuc Vu</p>
@@ -61,13 +91,14 @@ const Mentorships = ({ id }) => (
               </p>
               <p className="mt3 pc-yellow tracked ttu">READ MORE</p>
             </div>
-          </div>
+          </div> */}
 
+          {/* TODO: VU VAN */}
+          {/* 
           <div className="w-100 w-25-l tc pv2 pv0-l">
             <img src="images/m_vuvan.png" alt="" className="w-90 br4 pointer" />
           </div>
 
-          {/* <!-- mobile mentor info --> */}
           <div className="db dn-l">
             <div className="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
               <p className="f3">Vu Van</p>
@@ -80,7 +111,7 @@ const Mentorships = ({ id }) => (
               </p>
               <p className="mt3 pc-yellow tracked ttu">READ MORE</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

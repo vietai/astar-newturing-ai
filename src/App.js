@@ -6,7 +6,7 @@ import CountDown from './containers/countDown';
 import Vision from './containers/Vision';
 import Solutions from './containers/solutions';
 import Contents from './containers/contents';
-import Mentorships from './containers/mentorships';
+import Mentorships from './containers/Mentorship';
 import Apply from './containers/apply';
 import Tuition from './containers/tuition';
 import Partners from './containers/partners';
