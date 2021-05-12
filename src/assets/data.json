@@ -1,0 +1,28 @@
+{
+    "register_link": "",
+    "countdown": {
+        "time_to_start": "2021-6-11T00:01:00"
+    },
+    "menu": {
+        "vision": {
+            "name": "Vision",
+            "id": "vision"
+        },
+        "curriculum": {
+            "name": "Curriculum",
+            "id": "curriculum"
+        },
+        "mentorship": {
+            "name": "Mentorship",
+            "id": "mentorship"
+        },
+        "process": {
+            "name": "Process",
+            "id": "process"
+        },
+        "qa": {
+            "name": "Qa",
+            "id": "qa"
+        }
+    }
+}

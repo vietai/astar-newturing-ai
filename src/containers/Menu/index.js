@@ -1,6 +1,25 @@
-import '../css/tachyons.min.css';
-import '../css/styles.css';
+import '../../css/tachyons.min.css';
+import '../../css/styles.css';
 import { useState } from 'react';
+import { Link } from 'react-scroll';
+
+import { menu } from '../../assets/data.json';
+
+const MenuItem = ({ item, handleOnClick }) => {
+  return (
+    <Link
+      to={item.id}
+      spy={true}
+      smooth={true}
+      offset={-70}
+      duration={500}
+      className="pv4 plex-sans ttu pointer"
+      onClick={handleOnClick}
+    >
+      {item.name}
+    </Link>
+  );
+};
 
 const Menu = () => {
   const [visibleModal, setVisibleModal] = useState(false);
@@ -8,6 +27,8 @@ const Menu = () => {
   const _toggleModal = () => {
     setVisibleModal(!visibleModal);
   };
+
+  console.log('menu =', menu);
 
   return (
     <>
@@ -42,11 +63,17 @@ const Menu = () => {
         </div>
 
         <div className="w-100 flex flex-column self-stretch pa3 mv3 items-center">
-          <div className="pv4 plex-sans ttu pointer">INTRODUCE</div>
+          {/* <div className="pv4 plex-sans ttu pointer">INTRODUCE</div>
           <div className="pv4 plex-sans ttu pointer">CURRICULUM</div>
           <div className="pv4 plex-sans ttu pointer">MENTORSHIP</div>
           <div className="pv4 plex-sans ttu pointer">PROCESS</div>
-          <div className="pv4 plex-sans ttu pointer">Q&A</div>
+          <div className="pv4 plex-sans ttu pointer">Q&A</div> */}
+
+          <MenuItem item={menu.vision} handleOnClick={_toggleModal} />
+          <MenuItem item={menu.curriculum} handleOnClick={_toggleModal} />
+          <MenuItem item={menu.mentorship} handleOnClick={_toggleModal} />
+          <MenuItem item={menu.process} handleOnClick={_toggleModal} />
+          <MenuItem item={menu.qa} handleOnClick={_toggleModal} />
         </div>
       </div>
 

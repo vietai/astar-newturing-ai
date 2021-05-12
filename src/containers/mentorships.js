@@ -1,10 +1,11 @@
 import '../css/tachyons.min.css';
 import '../css/styles.css';
 
-const Mentorships = () => (
+const Mentorships = ({ id }) => (
   <>
     <div
-      id="desktop-mentorship"
+      id={id}
+      // id="desktop-mentorship"
       className="flex flex-l flex-column w-90 center mt2 pv5"
     >
       <div className="w-90 w-70-l center">

@@ -1,7 +1,7 @@
 import './App.css';
 import './css/tachyons.min.css';
 import './css/styles.css';
-import Menu from './containers/menu';
+import Menu from './containers/Menu';
 import CountDown from './containers/countDown';
 import Vision from './containers/vision';
 import Solutions from './containers/solutions';
@@ -13,19 +13,21 @@ import Partners from './containers/partners';
 import QA from './containers/qa';
 import Footer from './containers/footer';
 
+import { menu } from './assets/data.json';
+
 function App() {
   return (
     <div class="sans-serif">
       <Menu />
       <CountDown />
-      <Vision />
+      <Vision id={menu.vision.id} />
       <Solutions />
       <Contents />
-      <Mentorships />
+      <Mentorships id={menu.mentorship.id} />
       <Apply />
       <Tuition />
       <Partners />
-      <QA />
+      <QA id = {menu.qa.id} />
       <Footer />
     </div>
   );
