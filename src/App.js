@@ -10,7 +10,7 @@ import Mentorships from './containers/Mentorship';
 import Apply from './containers/apply';
 import Tuition from './containers/tuition';
 import Partners from './containers/partners';
-import QA from './containers/qa';
+import QA from './containers/QuestionAnswer';
 import Footer from './containers/footer';
 
 import { menu } from './assets/data.json';
