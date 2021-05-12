@@ -24,5 +24,20 @@
             "name": "Qa",
             "id": "qa"
         }
+    },
+    "vision": {
+        "title": "HELP YOU LEARN HOW TO INTEGRATE AI INTO YOUR BUSINESS &REACH 10-100X RETURN",
+        "col_1": {
+            "title": "Better quality of product and service",
+            "content": "Utilize AI to increase business productivity, better quality and increasingly personalized AI-enhanced products."
+        },
+        "col_2": {
+            "title": "Competitive advantage with AI",
+            "content": "Provide the companies with AI capability as a competitive advantage to make it harder to copycat."
+        },
+        "col_3": {
+            "title": "10-100x Transformation",
+            "content": "Unlock the companies’ scalability bottleneck with  AI instead of manual / human approach"
+        }
     }
 }

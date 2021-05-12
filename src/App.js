@@ -3,7 +3,7 @@ import './css/tachyons.min.css';
 import './css/styles.css';
 import Menu from './containers/Menu';
 import CountDown from './containers/countDown';
-import Vision from './containers/vision';
+import Vision from './containers/Vision';
 import Solutions from './containers/solutions';
 import Contents from './containers/contents';
 import Mentorships from './containers/mentorships';
@@ -27,7 +27,7 @@ function App() {
       <Apply />
       <Tuition />
       <Partners />
-      <QA id = {menu.qa.id} />
+      <QA id={menu.qa.id} />
       <Footer />
     </div>
   );
