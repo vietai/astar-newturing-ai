@@ -43,8 +43,6 @@ const Menu = () => {
     setVisibleModal(!visibleModal);
   };
 
-  console.log('menu =', menu);
-
   return (
     <>
       <div
