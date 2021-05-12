@@ -47,7 +47,6 @@ const Mentorships = ({ id }) => {
   };
 
   useEffect(() => {
-    console.log('activeId = ', activeId);
     setIsShowModal(activeId !== 0);
   }, [activeId]);
 
@@ -89,7 +88,7 @@ const Mentorships = ({ id }) => {
         <div
           className="dn db-l w-100 bg-black-50 vh-100 fixed top-0 left-0 z-999"
           onClick={() => {
-            // setActiveId(0); 
+            // setActiveId(0);
           }}
         >
           <div className="modal dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around ">
