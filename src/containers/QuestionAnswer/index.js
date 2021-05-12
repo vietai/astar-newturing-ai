@@ -49,7 +49,6 @@ const QA = ({ id }) => {
   const [activeQuestion, setActiveQuestion] = useState(null);
 
   const handleOnToggleAnswer = (i) => {
-    console.log('i = ', i);
     if (activeQuestion === i) {
       setActiveQuestion(null);
     } else {
