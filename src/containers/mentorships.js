@@ -3,11 +3,7 @@ import '../css/styles.css';
 
 const Mentorships = ({ id }) => (
   <>
-    <div
-      id={id}
-      // id="desktop-mentorship"
-      className="flex flex-l flex-column w-90 center mt2 pv5"
-    >
+    <div id={id} className="flex flex-l flex-column w-90 center mt2 pv5">
       <div className="w-90 w-70-l center">
         <p className="_title f3 fw6 pc-red ttu tracked tc">MENTORSHIP</p>
 

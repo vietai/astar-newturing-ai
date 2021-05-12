@@ -21,6 +21,21 @@ const MenuItem = ({ item, handleOnClick }) => {
   );
 };
 
+const DesktopMenuItem = ({ item }) => {
+  return (
+    <Link
+      to={item.id}
+      spy={true}
+      smooth={true}
+      offset={-70}
+      duration={500}
+      className="ph4 dim pointer ttu"
+    >
+      {item.name}
+    </Link>
+  );
+};
+
 const Menu = () => {
   const [visibleModal, setVisibleModal] = useState(false);
 
@@ -63,12 +78,6 @@ const Menu = () => {
         </div>
 
         <div className="w-100 flex flex-column self-stretch pa3 mv3 items-center">
-          {/* <div className="pv4 plex-sans ttu pointer">INTRODUCE</div>
-          <div className="pv4 plex-sans ttu pointer">CURRICULUM</div>
-          <div className="pv4 plex-sans ttu pointer">MENTORSHIP</div>
-          <div className="pv4 plex-sans ttu pointer">PROCESS</div>
-          <div className="pv4 plex-sans ttu pointer">Q&A</div> */}
-
           <MenuItem item={menu.vision} handleOnClick={_toggleModal} />
           <MenuItem item={menu.curriculum} handleOnClick={_toggleModal} />
           <MenuItem item={menu.mentorship} handleOnClick={_toggleModal} />
@@ -83,13 +92,14 @@ const Menu = () => {
       >
         <div className="w-70 center flex justify-between items-center ph5">
           <img src="images/logo_red.svg" alt="" className="w25" />
+
           <div className="flex items-center">
             <ul className="flex list fw3 sans-serif pc-dark-gray">
-              <li className="ph4 dim pointer ttu">INTRODUCE</li>
-              <li className="ph4 dim pointer ttu">CURRICULUM</li>
-              <li className="ph4 dim pointer ttu">MENTORSHIP</li>
-              <li className="ph4 dim pointer ttu">PROCESS</li>
-              <li className="ph4 dim pointer ttu">Q&A</li>
+              <DesktopMenuItem item={menu.vision} />
+              <DesktopMenuItem item={menu.curriculum} />
+              <DesktopMenuItem item={menu.mentorship} />
+              <DesktopMenuItem item={menu.process} />
+              <DesktopMenuItem item={menu.qa} />
             </ul>
             <div className="bg-pc-green ml4 ph4 pv3 br3 white fw4 f5 pointer dim">
               APPLY NOW
