@@ -24,8 +24,6 @@ const MentorMobile = ({ mentor, isActive, onClick }) => {
         />
       </Link>
       <div id={mentor.id} />
-      {/* <div id={isActive ? null : mentor.id} /> */}
-      {/* <!-- mobile mentor info --> */}
       {isActive ? (
         <div className="db dn-l">
           <div className="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
@@ -90,12 +88,16 @@ const Mentorships = ({ id }) => {
       {isShowModal ? (
         <div
           className="dn db-l w-100 bg-black-50 vh-100 fixed top-0 left-0 z-999"
-          onClick={() => setActiveId(0)}
+          onClick={() => {
+            // setActiveId(0); 
+          }}
         >
           <div className="modal dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around ">
             <p
               className="_btn-close white pointer tr absolute top-1 right-1"
-              onClick={() => setActiveId(0)}
+              onClick={() => {
+                setActiveId(0);
+              }}
             >
               X
             </p>
