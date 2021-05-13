@@ -26,3 +26,8 @@ mmi.md
 tmp.md
 package-lock.json
 yarn.lock
+
+/mmi.md
+/tmp.md
+/package-lock.json
+/yarn.lock
