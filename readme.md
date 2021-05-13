@@ -11,3 +11,22 @@
 ## Start
 
 ## Thumbnail & description
+
+## devops
+
+{
+    ...
+    "homepage": "https://alexlevn.github.io/dm_rj_sed_quiano",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    ...
+}
+
+```
+npm install gh-pages --save-dev
+```
+
+```
+yarn predeploy
+yarn deploy
+```
