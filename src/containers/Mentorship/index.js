@@ -5,6 +5,81 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import './styles.css';
 
+const NewMentorship = () => {
+  return (
+    <>
+      <div class="dn db-l w-70 center ph4 f3 fw6  tracked pc-red mv5">
+        MENTORSHIP
+      </div>
+      <div
+        id="desktop-mentorship"
+        class="dn flex-l flex-column w-70 center br3 mt2 pv2 ph3 white bg-pc-red"
+      >
+        <div class="w-100 flex justify-around">
+          <div class="w-third mh1 bg-near-white pc-black pv3 br2 tc pointer">
+            General Program Advisor
+          </div>
+          <div class="w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer">
+            AI Advisor
+          </div>
+          <div class="w-third mh1 bg-near-white pc-black pv3 br2 tc pointer">
+            AI Expert Buddy
+          </div>
+        </div>
+
+        <div class="w-90 center mt4">
+          <p class="_title f2 fw4 lh-copy tracked tl pc-white">
+            General Program Advisor
+          </p>
+          <p class="mt3 f6 fw3 tracked tl pc-white lh-copy pc-pink-white">
+            Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam
+            nonumy
+          </p>
+
+          <div
+            class="
+            _4_hinh
+            flex flex-column flex-row-l
+            mt4
+            justify-start
+            flex-wrap
+          "
+          >
+            <div class="w-third pv0 mv3">
+              <img
+                src="images/m_thangluong.png"
+                alt=""
+                class="w-90 br4 pointer"
+              />
+
+              <p class="f4 mt3 fw4 tl">Thang Luong</p>
+            </div>
+
+            <div class="w-third pv0 mv3">
+              <img src="images/m_thucvu.png" alt="" class="w-90 br4 pointer" />
+              <p class="f4 mt3 fw4 tl">Thuc Vu</p>
+            </div>
+
+            <div class="w-third pv0 mv3">
+              <img src="images/m_vuvan.png" alt="" class="w-90 br4 pointer" />
+              <p class="f4 mt3 fw4 tl">Vu Van</p>
+            </div>
+
+            <div class="w-third pv0 mv3">
+              <img
+                src="images/m_thangluong.png"
+                alt=""
+                class="w-90 br4 pointer"
+              />
+              <p class="f4 mt3 fw4 tl">Thang Luong</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
 const MentorMobile = ({ mentor, isActive, onClick }) => {
   return (
     <>
@@ -128,4 +203,5 @@ const Mentorships = ({ id }) => {
     </>
   );
 };
-export default Mentorships;
+
+export default NewMentorship;
