@@ -59,6 +59,12 @@
 .pc-near-white {
   color: #f3f5f6;
 }
+
+.bg-pc-pink-white {
+  background-color: #c79fa1;
+}
+
+
 .bg-pc-near-white {
   background-color: #f3f5f6;
 }
@@ -94,6 +100,14 @@
 
 .pc-gray {
   color: #707070;
+}
+
+.pc-light-gray{
+  color: #909090;
+}
+
+.bg-pc-medium-gray{
+  background-color: #EBEBEC;
 }
 
 .pc-gray-blue {

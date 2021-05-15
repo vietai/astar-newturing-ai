@@ -49,7 +49,7 @@ const Menu = () => {
         id="mobile-menu"
         className="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center fixed top-0 z-3"
       >
-        <img src="images/logo_red.svg" alt="" className="w22" />
+        <img src="images/newturing_ai.png" alt="" className="w22" />
         <img
           src="images/svg_bars.svg"
           alt=""
@@ -90,7 +90,7 @@ const Menu = () => {
         // fixed top-0 z-4 
       >
         <div className="w-70 center flex justify-between items-center ph5">
-          <img src="images/logo_red.svg" alt="" className="w25" />
+          <img src="images/newturing_ai.png" alt="" className="w25" />
 
           <div className="flex items-center">
             <ul className="flex list fw3 sans-serif pc-dark-gray">
