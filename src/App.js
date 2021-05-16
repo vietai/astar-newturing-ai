@@ -8,7 +8,7 @@ import Challenges from './containers/Challenges';
 import Contents from './containers/contents';
 import Mentorships from './containers/Mentorship';
 import Process from './containers/Process';
-// import Apply from './containers/apply';
+import Apply from './containers/Apply';
 // import Tuition from './containers/tuition';
 import Partners from './containers/partners';
 import QA from './containers/QuestionAnswer';
@@ -29,7 +29,7 @@ function App() {
       <Mentorships id={menu.mentorship.id} />
 
       <Process />
-      {/* <Apply /> */}
+      <Apply />
       {/* <Tuition /> */}
       <Partners />
       <QA id={menu.qa.id} />
