@@ -3,7 +3,7 @@ import '../css/styles.css';
 
 const Partners = () => (
   <>
-    <div className="w-100 bg-near-white pv3 mt4">
+    <div className="w-100 bg-near-white pv3 mt5">
       <div className="w-70 tc center">
         <p className="_partner-title f2 fw6 tracked pc-red pv4">PARTNERS</p>
         <div className="pv3 flex flex-wrap justify-around">
