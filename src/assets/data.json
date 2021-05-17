@@ -40,6 +40,21 @@
             "content": "Unlock the companies’ scalability bottleneck with  AI instead of manual / human approach"
         }
     },
+    "why_we": {
+        "title": "Why we are in unique position to offer this bootcamp",
+        "col_1": {
+            "title": "Global AI Network",
+            "content": "Utilize AI to increase business productivity, better quality and increasingly personalized AI-enhanced products."
+        },
+        "col_2": {
+            "title": "Customizable AI Assessment",
+            "content": "Ability to tailor our AI evaluation to each company joining the bootcamp."
+        },
+        "col_3": {
+            "title": "Proven AI Programs",
+            "content": "Experience & expertise in providing AI training from foundational to advanced levels."
+        }
+    },
     "mentors": [
         {
             "id": 123,

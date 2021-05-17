@@ -87,7 +87,7 @@ const Menu = () => {
 
       <div
         id="desktop-menu"
-        className="dn flex-l w-100 bg-white pv2 shadow-2 "
+        className="dn flex-l w-100 bg-white pv2 shadow-2 fixed top-0 z-4"
         // fixed top-0 z-4
       >
         <div className="w-70 center flex justify-between items-center ph5">

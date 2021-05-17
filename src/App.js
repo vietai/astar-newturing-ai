@@ -5,6 +5,7 @@ import Menu from './containers/Menu';
 import CountDown from './containers/countDown';
 import Vision from './containers/Vision';
 import Challenges from './containers/Challenges';
+import WhyWe from './containers/WhyWe';
 // import Contents from './containers/contents';
 import Mentorships from './containers/Mentorship';
 import Process from './containers/Process';
@@ -16,6 +17,7 @@ import Footer from './containers/footer';
 
 import { menu } from './assets/data.json';
 
+
 function App() {
   return (
     <div className="sans-serif">
@@ -23,12 +25,12 @@ function App() {
       <CountDown />
       <Vision id={menu.vision.id} />
       <Challenges />
+      <WhyWe/>
 
       {/* <Solutions /> */}
-      <div>xxx content</div>
+      {/* <div>xxx content</div> */}
       {/* <Contents /> */}
       <Mentorships id={menu.mentorship.id} />
-
       <Process />
       <Apply />
       {/* <Tuition /> */}
