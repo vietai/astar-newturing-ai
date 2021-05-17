@@ -7,65 +7,86 @@ import { Link } from 'react-scroll';
 import './styles.css';
 
 const MobileMentorShip = () => {
+  const [selectGroupId, setSelectGroupId] = useState(-1);
+  const [activeMentorId, setActiveMentorId] = useState(0);
+
+  const _showInfoMentor = (id) => {
+    console.log('id = ', id);
+    setActiveMentorId(activeMentorId === id ? 0 : id);
+  };
+
   return (
     <div className="db dn-l w-100 bg-pc-red">
-      {/* <!-- group 1 --> */}
-      <div className="w-100 pa4 bb b--pink-white">
-        <div className="flex justify-between items-center">
-          <p className="f3 pc-white tracked">General Program Advisor</p>
-          <img src="images/svg_arrow_up.svg" alt="" className="w1 ml4" />
-        </div>
+      {groups.map((item, index) => {
+        return index === selectGroupId ? (
+          <>
+            <div className="w-100 pa4" onClick={() => setSelectGroupId(-1)}>
+              <div className="flex justify-between items-center">
+                <p className="f3 pc-white tracked">{item.title}</p>
+                <img src="images/svg_arrow_up.svg" alt="" className="w1 ml4" />
+              </div>
 
-        <div className="f6 pc-pink-white mt3 tracked lh-copy">
-          Lorem ipsum dolo si amet, consetftur sadipcipng eliterx
-        </div>
+              <div className="f6 pc-pink-white mt3 tracked lh-copy">
+                {item.description}
+              </div>
+            </div>
+            <div className="w-100 pa4 bb b--pink-white">
+              {/* // list mentors */}
+              {item.mentors.map((mentor) => (
+                <>
+                  <div className="w-100 pt3">
+                    {/* <Link
+                      to={mentor.id}
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                      className="w-100 w-25-l tc tl-l pv2 pv0-l"
+                    > */}
+                    <img
+                      src={'images/' + mentor.image}
+                      alt=""
+                      className="w-100 br4 pointer"
+                      onClick={() => _showInfoMentor(mentor.id)}
+                    />
+                    {/* </Link> */}
+                    <p className="f4 fw6 pc-white tracked mt3">{mentor.name}</p>
+                  </div>
 
-        {/* <!-- 1 --> */}
-        <div className="w-100 pv3">
-          <img
-            src="images/m_thangluong.png"
-            alt=""
-            className="w-100 br4 pointer"
-          />
-          <p className="f4 fw6 pc-white tracked mt3">Thang Luong</p>
-        </div>
-
-        {/* <!-- 2 --> */}
-        <div className="w-100 pv3">
-          <img src="images/m_thucvu.png" alt="" className="w-100 br4 pointer" />
-          <p className="f4 fw6 pc-white tracked mt3">Thuc Vu</p>
-        </div>
-
-        {/* <!-- 3--> */}
-        <div className="w-100 pv3">
-          <img src="images/m_vuvan.png" alt="" className="w-100 br4 pointer" />
-          <p className="f4 fw6 pc-white tracked mt3">Vu Van</p>
-        </div>
-      </div>
-
-      {/* <!-- group 2 --> */}
-      <div className="w-100 pa4 bb b--pink-white">
-        <div className="flex justify-between items-center">
-          <p className="f3 pc-white tracked">AI Advisor</p>
-          <img
-            src="images/svg_arrow_down_white.svg"
-            alt=""
-            className="w1 ml4"
-          />
-        </div>
-      </div>
-
-      {/* <!-- group 3 --> */}
-      <div className="w-100 pa4 bb b--pink-white">
-        <div className="flex justify-between items-center">
-          <p className="f3 pc-white tracked">AI Expert Buddy</p>
-          <img
-            src="images/svg_arrow_down_white.svg"
-            alt=""
-            className="w1 ml4"
-          />
-        </div>
-      </div>
+                  {/* <div id={mentor.id} /> */}
+                  {activeMentorId === mentor.id ? (
+                    <div className="db dn-l">
+                      <div className="w-100  bg-pc-red pc-near-white f6 mv2 pv2 br3 lh-copy">
+                        <div className="w-100 bb b--white-50 mt3 mb2"></div>
+                        <p className="f6 fw6 lh-copy tracked mt3">
+                          {mentor.title}
+                        </p>
+                        <p className="fw3 lh-copy tracked">
+                          {mentor.description}
+                        </p>
+                      </div>
+                    </div>
+                  ) : null}
+                </>
+              ))}
+            </div>
+          </>
+        ) : (
+          <div
+            className="w-100 pa4 bb b--pink-white"
+            onClick={() => setSelectGroupId(index)}
+          >
+            <div className="flex justify-between items-center">
+              <p className="f3 pc-white tracked">{item.title}</p>
+              <img
+                src="images/svg_arrow_down_white.svg"
+                alt=""
+                className="w1 ml4"
+              />
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };
@@ -119,15 +140,6 @@ const DesktopMentorship = () => {
         <div className=" _4_hinh flex flex-column flex-row-l mt4 justify-start flex-wrap">
           {mentors.map((item) => (
             <div className="w-third pv0 mv3">
-              {/* <div id={item.id} /> */}
-              {/* <Link
-                to={item.id}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="w-100 w-25-l tc tl-l pv2 pv0-l"
-              > */}
               <img
                 src={'images/' + item.image}
                 alt=""
@@ -137,8 +149,6 @@ const DesktopMentorship = () => {
                   _showInfoMentor(item.id);
                 }}
               />
-              {/* </Link> */}
-
               <p className="f4 mt3 fw4 tl">{item.name}</p>
             </div>
           ))}
