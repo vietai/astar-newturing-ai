@@ -1,7 +1,9 @@
 import '../css/tachyons.min.css';
 import '../css/styles.css';
+import Countdown from 'react-countdown';
+import { countdown } from '../assets/data.json';
 
-const CountDown = () => (
+const HtmlCountDown = ({ d, h, m, s }) => (
   <>
     <div
       id="mobile-count-down"
@@ -16,7 +18,7 @@ const CountDown = () => (
         >
           <div class="f6 fw3 db mb2">DAYS</div>
           <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">
-            00
+            {d}
           </div>
         </div>
 
@@ -29,7 +31,7 @@ const CountDown = () => (
         >
           <div class="f6 fw3 db mb2">HOURS</div>
           <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">
-            13
+            {h}
           </div>
         </div>
 
@@ -42,7 +44,7 @@ const CountDown = () => (
         >
           <div class="f6 fw3 db mb2">MINUTES</div>
           <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">
-            24
+            {m}
           </div>
         </div>
 
@@ -55,7 +57,7 @@ const CountDown = () => (
         >
           <div class="f6 fw3 db mb2">SECONDS</div>
           <div class="khoiVuong w3 h3 f25 fw4 flex justify-center items-center">
-            15
+            {s}
           </div>
         </div>
       </div>
@@ -116,4 +118,34 @@ const CountDown = () => (
     </div>
   </>
 );
-export default CountDown;
+
+const MainCountDown = () => {
+  const renderer = ({ days, hours, minutes, seconds, completed }) => {
+    if (completed) {
+      return <HtmlCountDown d={0} h={0} m={0} s={0} />;
+    } else {
+      return <HtmlCountDown d={days} h={hours} m={minutes} s={seconds} />;
+    }
+  };
+
+  // console.log('count donw = ', countdown);
+  // return  <div>
+  //   clgt<br/>
+  //   clgt<br/>
+  //   clgt<br/>
+  //   clgt<br/>
+  //   clgt<br/>
+
+  // </div>
+
+  return (
+    <Countdown
+      date={countdown.timeToStart}
+      intervalDelay={0}
+      precision={3}
+      renderer={renderer}
+    />
+  );
+};
+// export default MainCountDown;
+export default () => <HtmlCountDown d={0} h={13} m={24} s={15} />;

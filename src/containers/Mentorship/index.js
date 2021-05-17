@@ -2,6 +2,7 @@ import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import { groups } from '../../assets/data.json';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-scroll';
 import './styles.css';
 
 const MobileMentorShip = () => {
@@ -15,19 +16,34 @@ const MobileMentorShip = () => {
 
   return (
     <div className="db dn-l w-100 bg-pc-red">
+      <div id="m1" />
       {groups.map((item, index) => {
         return index === selectGroupId ? (
           <>
-            <div className="w-100 pa4" onClick={() => setSelectGroupId(-1)}>
-              <div className="flex justify-between items-center">
-                <p className="f3 pc-white tracked">{item.title}</p>
-                <img src="images/svg_arrow_up.svg" alt="" className="w1 ml4" />
-              </div>
+            <Link
+              to={'m1'}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="pointer"
+            >
+              <div className="w-100 pa4" onClick={() => setSelectGroupId(-1)}>
+                <div className="flex justify-between items-center">
+                  <p className="f3 pc-white tracked">{item.title}</p>
+                  <img
+                    src="images/svg_arrow_up.svg"
+                    alt=""
+                    className="w1 ml4"
+                  />
+                </div>
 
-              <div className="f6 pc-pink-white mt3 tracked lh-copy">
-                {item.description}
+                <div className="f6 pc-pink-white mt3 tracked lh-copy">
+                  {item.description}
+                </div>
               </div>
-            </div>
+            </Link>
+
             <div className="w-100 pa4 bb b--pink-white">
               {item.mentors.map((mentor) => (
                 <>
@@ -62,19 +78,28 @@ const MobileMentorShip = () => {
             </div>
           </>
         ) : (
-          <div
-            className="w-100 pa4 bb b--pink-white"
-            onClick={() => setSelectGroupId(index)}
+          <Link
+            to={'m1'}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="pointer"
           >
-            <div className="flex justify-between items-center">
-              <p className="f3 pc-white tracked">{item.title}</p>
-              <img
-                src="images/svg_arrow_down_white.svg"
-                alt=""
-                className="w1 ml4"
-              />
+            <div
+              className="w-100 pa4 bb b--pink-white"
+              onClick={() => setSelectGroupId(index)}
+            >
+              <div className="flex justify-between items-center">
+                <p className="f3 pc-white tracked">{item.title}</p>
+                <img
+                  src="images/svg_arrow_down_white.svg"
+                  alt=""
+                  className="w1 ml4"
+                />
+              </div>
             </div>
-          </div>
+          </Link>
         );
       })}
     </div>

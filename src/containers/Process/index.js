@@ -78,9 +78,14 @@ const MobileProcess = () => {
       ) : null}
 
       {/* <!-- process content --> */}
+      <p className="w-80 center pc-green mt3 f6 fw4 lh-copy">
+        {processes[selectProcessId].date}
+      </p>
       <div
         class="w-80 center pc-light-black f6 lh-copy tracked mt3"
-        dangerouslySetInnerHTML={{ __html: processes[selectProcessId].description }}
+        dangerouslySetInnerHTML={{
+          __html: processes[selectProcessId].description,
+        }}
       ></div>
     </div>
   );
