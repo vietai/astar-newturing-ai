@@ -5,7 +5,7 @@ import Menu from './containers/Menu';
 import CountDown from './containers/countDown';
 import Vision from './containers/Vision';
 import Challenges from './containers/Challenges';
-import Contents from './containers/contents';
+// import Contents from './containers/contents';
 import Mentorships from './containers/Mentorship';
 import Process from './containers/Process';
 import Apply from './containers/Apply';
@@ -25,7 +25,8 @@ function App() {
       <Challenges />
 
       {/* <Solutions /> */}
-      <Contents />
+      <div>xxx content</div>
+      {/* <Contents /> */}
       <Mentorships id={menu.mentorship.id} />
 
       <Process />
