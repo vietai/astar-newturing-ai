@@ -27,7 +27,7 @@ function App() {
       <Mentorships id={menu.mentorship.id} />
       <Process id={menu.process.id} />
       <Apply />
-      {/* <Partners /> */}
+      <Partners />
       <QA id={menu.qa.id} />
       <Footer />
     </div>

@@ -9,10 +9,25 @@ const Partners = () => (
         <div className="pv3 flex flex-wrap justify-around">
           <img
             alt=""
-            src="images/svg_logo1.svg"
+            src="images/p_500.png"
             className="w-40 w-30-m w-10-l mv3"
           />
           <img
+            alt=""
+            src="images/p_do.png"
+            className="w-40 w-30-m w-10-l mv3"
+          />
+          <img
+            alt=""
+            src="images/p_fpt.png"
+            className="w-40 w-30-m w-10-l mv3"
+          />
+          <img
+            alt=""
+            src="images/p_viisa.png"
+            className="w-40 w-30-m w-10-l mv3"
+          />
+          {/* <img
             alt=""
             src="images/svg_logo2.svg"
             className="w-40 w-30-m w-10-l mv3"
@@ -21,22 +36,7 @@ const Partners = () => (
             alt=""
             src="images/svg_logo3.svg"
             className="w-40 w-30-m w-10-l mv3"
-          />
-          <img
-            alt=""
-            src="images/svg_logo1.svg"
-            className="w-40 w-30-m w-10-l mv3"
-          />
-          <img
-            alt=""
-            src="images/svg_logo2.svg"
-            className="w-40 w-30-m w-10-l mv3"
-          />
-          <img
-            alt=""
-            src="images/svg_logo3.svg"
-            className="w-40 w-30-m w-10-l mv3"
-          />
+          /> */}
         </div>
       </div>
     </div>
