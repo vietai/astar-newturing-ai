@@ -8,36 +8,106 @@ import './styles.css';
 const NewMentorship = () => {
   return (
     <>
-      <div class="dn db-l w-70 center ph4 f3 fw6  tracked pc-red mv5">
+      {/* mobile */}
+      <div className="db dn-l w-100 bg-pc-red">
+        {/* <!-- group 1 --> */}
+        <div className="w-100 pa4 bb b--pink-white">
+          <div className="flex justify-between items-center">
+            <p className="f3 pc-white tracked">General Program Advisor</p>
+            <img src="images/svg_arrow_up.svg" alt="" className="w1 ml4" />
+          </div>
+
+          <div className="f6 pc-pink-white mt3 tracked lh-copy">
+            Lorem ipsum dolo si amet, consetftur sadipcipng eliterx
+          </div>
+
+          {/* <!-- 1 --> */}
+          <div className="w-100 pv3">
+            <img
+              src="images/m_thangluong.png"
+              alt=""
+              className="w-100 br4 pointer"
+            />
+            <p className="f4 fw6 pc-white tracked mt3">Thang Luong</p>
+          </div>
+
+          {/* <!-- 2 --> */}
+          <div className="w-100 pv3">
+            <img
+              src="images/m_thucvu.png"
+              alt=""
+              className="w-100 br4 pointer"
+            />
+            <p className="f4 fw6 pc-white tracked mt3">Thuc Vu</p>
+          </div>
+
+          {/* <!-- 3--> */}
+          <div className="w-100 pv3">
+            <img
+              src="images/m_vuvan.png"
+              alt=""
+              className="w-100 br4 pointer"
+            />
+            <p className="f4 fw6 pc-white tracked mt3">Vu Van</p>
+          </div>
+        </div>
+
+        {/* <!-- group 2 --> */}
+        <div className="w-100 pa4 bb b--pink-white">
+          <div className="flex justify-between items-center">
+            <p className="f3 pc-white tracked">AI Advisor</p>
+            <img
+              src="images/svg_arrow_down_white.svg"
+              alt=""
+              className="w1 ml4"
+            />
+          </div>
+        </div>
+
+        {/* <!-- group 3 --> */}
+        <div className="w-100 pa4 bb b--pink-white">
+          <div className="flex justify-between items-center">
+            <p className="f3 pc-white tracked">AI Expert Buddy</p>
+            <img
+              src="images/svg_arrow_down_white.svg"
+              alt=""
+              className="w1 ml4"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* desktop */}
+      <div className="dn db-l w-70 center ph4 f3 fw6  tracked pc-red mv5">
         MENTORSHIP
       </div>
       <div
         id="desktop-mentorship"
-        class="dn flex-l flex-column w-70 center br3 mt2 pv2 ph3 white bg-pc-red"
+        className="dn flex-l flex-column w-70 center br3 mt2 pv2 ph3 white bg-pc-red"
       >
-        <div class="w-100 flex justify-around">
-          <div class="w-third mh1 bg-near-white pc-black pv3 br2 tc pointer">
+        <div className="w-100 flex justify-around">
+          <div className="w-third mh1 bg-near-white pc-black pv3 br2 tc pointer">
             General Program Advisor
           </div>
-          <div class="w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer">
+          <div className="w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer">
             AI Advisor
           </div>
-          <div class="w-third mh1 bg-near-white pc-black pv3 br2 tc pointer">
+          <div className="w-third mh1 bg-near-white pc-black pv3 br2 tc pointer">
             AI Expert Buddy
           </div>
         </div>
 
-        <div class="w-90 center mt4">
-          <p class="_title f2 fw4 lh-copy tracked tl pc-white">
+        <div className="w-90 center mt4">
+          <p className="_title f2 fw4 lh-copy tracked tl pc-white">
             General Program Advisor
           </p>
-          <p class="mt3 f6 fw3 tracked tl pc-white lh-copy pc-pink-white">
+          <p className="mt3 f6 fw3 tracked tl pc-white lh-copy pc-pink-white">
             Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam
             nonumy
           </p>
 
           <div
-            class="
+            className="
             _4_hinh
             flex flex-column flex-row-l
             mt4
@@ -45,33 +115,41 @@ const NewMentorship = () => {
             flex-wrap
           "
           >
-            <div class="w-third pv0 mv3">
+            <div className="w-third pv0 mv3">
               <img
                 src="images/m_thangluong.png"
                 alt=""
-                class="w-90 br4 pointer"
+                className="w-90 br4 pointer"
               />
 
-              <p class="f4 mt3 fw4 tl">Thang Luong</p>
+              <p className="f4 mt3 fw4 tl">Thang Luong</p>
             </div>
 
-            <div class="w-third pv0 mv3">
-              <img src="images/m_thucvu.png" alt="" class="w-90 br4 pointer" />
-              <p class="f4 mt3 fw4 tl">Thuc Vu</p>
+            <div className="w-third pv0 mv3">
+              <img
+                src="images/m_thucvu.png"
+                alt=""
+                className="w-90 br4 pointer"
+              />
+              <p className="f4 mt3 fw4 tl">Thuc Vu</p>
             </div>
 
-            <div class="w-third pv0 mv3">
-              <img src="images/m_vuvan.png" alt="" class="w-90 br4 pointer" />
-              <p class="f4 mt3 fw4 tl">Vu Van</p>
+            <div className="w-third pv0 mv3">
+              <img
+                src="images/m_vuvan.png"
+                alt=""
+                className="w-90 br4 pointer"
+              />
+              <p className="f4 mt3 fw4 tl">Vu Van</p>
             </div>
 
-            <div class="w-third pv0 mv3">
+            <div className="w-third pv0 mv3">
               <img
                 src="images/m_thangluong.png"
                 alt=""
-                class="w-90 br4 pointer"
+                className="w-90 br4 pointer"
               />
-              <p class="f4 mt3 fw4 tl">Thang Luong</p>
+              <p className="f4 mt3 fw4 tl">Thang Luong</p>
             </div>
           </div>
         </div>

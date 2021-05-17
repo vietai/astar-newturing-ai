@@ -1,5 +1,6 @@
 import '../css/tachyons.min.css';
 import '../css/styles.css';
+import { register_link as registerLink } from '../assets/data.json';
 
 const Footers = () => (
   <>
@@ -14,7 +15,10 @@ const Footers = () => (
         <p className="copyright dn db-l mt3">Copyright 2010 @ VietAI</p>
       </div>
     </div>
-    <div className="db dn-l w-100 tc bg-pc-green pc-white fw6 ttu f5 pv3 tracked pointer fixed bottom-0 z-5">
+    <div
+      className="db dn-l w-100 tc bg-pc-green pc-white fw6 ttu f5 pv3 tracked pointer fixed bottom-0 z-5"
+      onClick={() => window.open(registerLink, '_blank')}
+    >
       APPLY NOW
     </div>
   </>
