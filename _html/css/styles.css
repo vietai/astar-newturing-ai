@@ -49,11 +49,19 @@
   color: #ebebec;
 }
 
+.bg-pc-white{
+  background-color: #EBEBEC;
+}
+
 .pc-white-title {
   color: #eefcfa;
 }
 .pc-pink-white {
   color: #c79fa1;
+}
+
+.b--pink-white {
+  border-color: #c79fa1;
 }
 
 .pc-near-white {
@@ -63,7 +71,6 @@
 .bg-pc-pink-white {
   background-color: #c79fa1;
 }
-
 
 .bg-pc-near-white {
   background-color: #f3f5f6;
@@ -102,12 +109,12 @@
   color: #707070;
 }
 
-.pc-light-gray{
+.pc-light-gray {
   color: #909090;
 }
 
-.bg-pc-medium-gray{
-  background-color: #EBEBEC;
+.bg-pc-medium-gray {
+  background-color: #ebebec;
 }
 
 .pc-gray-blue {

@@ -2,7 +2,7 @@ import '../css/tachyons.min.css';
 import '../css/styles.css';
 
 const Contents = () => (
-  <div className="w-100 bg-black-05 pv5 overflow-hidden mt7">
+  <div className="w-100 bg-black-05 pv5 overflow-hidden mt5">
     <div className="_title f2 fw6 pc-red ttu tracked tc ph4">
       what you will learn in this <span className="dn dib-l"> bootcamp?</span>
     </div>

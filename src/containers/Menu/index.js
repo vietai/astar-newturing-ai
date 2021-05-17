@@ -2,6 +2,7 @@ import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
+import { register_link as registerLink } from '../../assets/data.json';
 
 import { menu } from '../../assets/data.json';
 
@@ -87,7 +88,7 @@ const Menu = () => {
       <div
         id="desktop-menu"
         className="dn flex-l w-100 bg-white pv2 shadow-2 "
-        // fixed top-0 z-4 
+        // fixed top-0 z-4
       >
         <div className="w-70 center flex justify-between items-center ph5">
           <img src="images/newturing_ai.png" alt="" className="w25" />
@@ -100,7 +101,10 @@ const Menu = () => {
               <DesktopMenuItem item={menu.process} />
               <DesktopMenuItem item={menu.qa} />
             </ul>
-            <div className="bg-pc-green ml4 ph4 pv3 br3 white fw4 f5 pointer dim">
+            <div
+              className="bg-pc-green ml4 ph4 pv3 br3 white fw4 f5 pointer dim"
+              onClick={() => window.open(registerLink, '_blank')}
+            >
               APPLY NOW
             </div>
           </div>
