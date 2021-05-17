@@ -228,7 +228,7 @@
         {
             "title": "Registration",
             "date": "May 24 - June 7",
-            "description": "Click{' '} <span href='#' className='dark-gray fw5 pointer' id=''>APPLY</span>{' '} to fill the registration form. In this form, we expect to learn more about your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully at your best effort. To achieve great outcomes, we expect at least two members (1 business & 1 tech lead/executive) per company to enroll in our program. <br /> <br /> For us to fully evaluate the company's potential, we expect to get detailed answers jointly by the CEO (for business) and CTO (for tech). Only 1 submission per company."
+            "description": "Click <a href='https://forms.gle/Vew1ywYdZQejCgj96' className='dark-gray fw5 pointer' id=''>APPLY</a> to fill the registration form. In this form, we expect to learn more about your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully at your best effort.<br /> <br />To achieve great outcomes, we expect at least two members (1 business & 1 tech lead/executive) per company to enroll in our program. For us to fully evaluate the company's potential, we expect to get detailed answers jointly by the CEO (for business) and CTO (for tech). Only 1 submission per company."
         },
         {
             "title": "Screening",
