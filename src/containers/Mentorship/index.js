@@ -1,9 +1,7 @@
 import '../../css/tachyons.min.css';
 import '../../css/styles.css';
-import { mentors as abc } from '../../assets/data.json';
 import { groups } from '../../assets/data.json';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-scroll';
 import './styles.css';
 
 const MobileMentorShip = () => {
@@ -31,29 +29,18 @@ const MobileMentorShip = () => {
               </div>
             </div>
             <div className="w-100 pa4 bb b--pink-white">
-              {/* // list mentors */}
               {item.mentors.map((mentor) => (
                 <>
                   <div className="w-100 pt3">
-                    {/* <Link
-                      to={mentor.id}
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                      className="w-100 w-25-l tc tl-l pv2 pv0-l"
-                    > */}
                     <img
                       src={'images/' + mentor.image}
                       alt=""
                       className="w-100 br4 pointer"
                       onClick={() => _showInfoMentor(mentor.id)}
                     />
-                    {/* </Link> */}
                     <p className="f4 fw6 pc-white tracked mt3">{mentor.name}</p>
                   </div>
 
-                  {/* <div id={mentor.id} /> */}
                   {activeMentorId === mentor.id ? (
                     <div className="db dn-l">
                       <div className="w-100  bg-pc-red pc-near-white f6 mv2 pv2 br3 lh-copy">
@@ -61,9 +48,12 @@ const MobileMentorShip = () => {
                         <p className="f6 fw6 lh-copy tracked mt3">
                           {mentor.title}
                         </p>
-                        <p className="fw3 lh-copy tracked">
-                          {mentor.description}
-                        </p>
+                        <p
+                          className="fw3 lh-copy tracked mt3"
+                          dangerouslySetInnerHTML={{
+                            __html: mentor.description,
+                          }}
+                        ></p>
                       </div>
                     </div>
                   ) : null}
@@ -186,9 +176,12 @@ const DesktopMentorship = () => {
                       <p className="_mentor-name f2 lh-copy">{item.name}</p>
                       <p className="_mentor-title lh-copy">{item.title}</p>
 
-                      <p className="_mentor-info lh-copy mt3">
-                        {item.description}
-                      </p>
+                      <p
+                        className="_mentor-info lh-copy mt3"
+                        dangerouslySetInnerHTML={{
+                          __html: item.description,
+                        }}
+                      ></p>
                     </div>
                   </>
                 ))}
@@ -200,7 +193,7 @@ const DesktopMentorship = () => {
   );
 };
 
-const NewMentorship = ({ id }) => {
+const Mentorship = ({ id }) => {
   return (
     <>
       <div id={id} />
@@ -213,128 +206,4 @@ const NewMentorship = ({ id }) => {
   );
 };
 
-const MentorMobile = ({ mentor, isActive, onClick }) => {
-  return (
-    <>
-      <Link
-        to={mentor.id}
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        className="w-100 w-25-l tc tl-l pv2 pv0-l"
-        onClick={onClick}
-      >
-        <img
-          src={`images/${mentor.image}`}
-          alt=""
-          className="w-90 br4 pointer"
-        />
-      </Link>
-      <div id={mentor.id} />
-      {isActive ? (
-        <div className="db dn-l">
-          <div className="w-90 center bg-pc-red pc-near-white f6 mv2 pa3 br3 lh-copy">
-            <p className="f3">{mentor.name}</p>
-            <div className="w-100 bb b--white-50 mt3 mb2"></div>
-            <p className="fw3 lh-copy tracked">{mentor.description}</p>
-            <p className="mt3 pc-yellow tracked ttu">READ MORE</p>
-          </div>
-        </div>
-      ) : null}
-    </>
-  );
-};
-
-const Mentorships = ({ id }) => {
-  const [activeId, setActiveId] = useState(0);
-  const [isShowModal, setIsShowModal] = useState(false);
-
-  const _showInfo = (id) => {
-    setActiveId(activeId === id ? 0 : id);
-  };
-
-  useEffect(() => {
-    setIsShowModal(activeId !== 0);
-  }, [activeId]);
-
-  return (
-    <>
-      <div id={id} className="flex flex-l flex-column w-90 center mt2 pv5">
-        <div className="w-90 w-70-l center">
-          <p className="_title f3 fw6 pc-red ttu tracked tc">MENTORSHIP</p>
-
-          <div className="_4_hinh flex flex-column flex-row-l mt4 justify-center-l">
-            <MentorMobile
-              mentor={abc[0]}
-              isActive={activeId === abc[0].id}
-              onClick={() => {
-                _showInfo(abc[0].id);
-              }}
-            />
-            <MentorMobile
-              mentor={abc[1]}
-              isActive={activeId === abc[1].id}
-              onClick={() => {
-                _showInfo(abc[1].id);
-              }}
-            />
-            <MentorMobile
-              mentor={abc[2]}
-              isActive={activeId === abc[2].id}
-              onClick={() => {
-                _showInfo(abc[2].id);
-              }}
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* <!-- modal desktop mentoship info --> */}
-
-      {isShowModal ? (
-        <div
-          className="dn db-l w-100 bg-black-50 vh-100 fixed top-0 left-0 z-999"
-          onClick={() => {
-            // setActiveId(0);
-          }}
-        >
-          <div className="modal dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around ">
-            <p
-              className="_btn-close white pointer tr absolute top-1 right-1"
-              onClick={() => {
-                setActiveId(0);
-              }}
-            >
-              X
-            </p>
-
-            {abc
-              .filter((item) => item.id === activeId)
-              .map((item) => (
-                <>
-                  <div className="w-25 pt3">
-                    <img
-                      src={`images/${item.image}`}
-                      alt=""
-                      className="br4 w-100"
-                    />
-                  </div>
-                  <div className="w-60 pr4">
-                    <p className="_mentor-name f2 lh-copy">{item.name}</p>
-                    <p className="_mentor-title lh-copy">{item.title}</p>
-
-                    <p className="_mentor-info lh-copy mt3">
-                      {item.description}
-                    </p>
-                  </div>
-                </>
-              ))}
-          </div>
-        </div>
-      ) : null}
-    </>
-  );
-};
-
-export default NewMentorship;
+export default Mentorship;
