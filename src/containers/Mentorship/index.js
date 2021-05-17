@@ -1,160 +1,202 @@
 import '../../css/tachyons.min.css';
 import '../../css/styles.css';
-import { mentors } from '../../assets/data.json';
+import { mentors as abc } from '../../assets/data.json';
+import { groups } from '../../assets/data.json';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import './styles.css';
+
+const MobileMentorShip = () => {
+  return (
+    <div className="db dn-l w-100 bg-pc-red">
+      {/* <!-- group 1 --> */}
+      <div className="w-100 pa4 bb b--pink-white">
+        <div className="flex justify-between items-center">
+          <p className="f3 pc-white tracked">General Program Advisor</p>
+          <img src="images/svg_arrow_up.svg" alt="" className="w1 ml4" />
+        </div>
+
+        <div className="f6 pc-pink-white mt3 tracked lh-copy">
+          Lorem ipsum dolo si amet, consetftur sadipcipng eliterx
+        </div>
+
+        {/* <!-- 1 --> */}
+        <div className="w-100 pv3">
+          <img
+            src="images/m_thangluong.png"
+            alt=""
+            className="w-100 br4 pointer"
+          />
+          <p className="f4 fw6 pc-white tracked mt3">Thang Luong</p>
+        </div>
+
+        {/* <!-- 2 --> */}
+        <div className="w-100 pv3">
+          <img src="images/m_thucvu.png" alt="" className="w-100 br4 pointer" />
+          <p className="f4 fw6 pc-white tracked mt3">Thuc Vu</p>
+        </div>
+
+        {/* <!-- 3--> */}
+        <div className="w-100 pv3">
+          <img src="images/m_vuvan.png" alt="" className="w-100 br4 pointer" />
+          <p className="f4 fw6 pc-white tracked mt3">Vu Van</p>
+        </div>
+      </div>
+
+      {/* <!-- group 2 --> */}
+      <div className="w-100 pa4 bb b--pink-white">
+        <div className="flex justify-between items-center">
+          <p className="f3 pc-white tracked">AI Advisor</p>
+          <img
+            src="images/svg_arrow_down_white.svg"
+            alt=""
+            className="w1 ml4"
+          />
+        </div>
+      </div>
+
+      {/* <!-- group 3 --> */}
+      <div className="w-100 pa4 bb b--pink-white">
+        <div className="flex justify-between items-center">
+          <p className="f3 pc-white tracked">AI Expert Buddy</p>
+          <img
+            src="images/svg_arrow_down_white.svg"
+            alt=""
+            className="w1 ml4"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const DesktopMentorship = () => {
+  const [mentors, setMentors] = useState([]);
+  const [activeMentorId, setActiveMentorId] = useState(0);
+  const [selectGroupId, setSelectGroupId] = useState(0);
+  const [isShowModal, setIsShowModal] = useState(false);
+
+  useEffect(() => {
+    setMentors(groups[selectGroupId]);
+  }, [selectGroupId]);
+
+  return (
+    <div
+      id="desktop-mentorship"
+      className="dn flex-l flex-column w-70 center br3 mt2 pv2 ph3 white bg-pc-red"
+    >
+      {/* <div>{selectGroupId}</div> */}
+
+      <div className="w-100 flex justify-around">
+        {groups.map((item, index) => (
+          <div
+            className={
+              selectGroupId === index
+                ? 'w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer'
+                : 'w-third mh1 bg-near-white pc-black pv3 br2 tc pointer'
+            }
+            onClick={() => setSelectGroupId(index)}
+          >
+            {groups[index].title}
+          </div>
+        ))}
+        {/* <br />
+        <div
+          className={
+            selectGroupId === 0
+              ? 'w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer'
+              : 'w-third mh1 bg-near-white pc-black pv3 br2 tc pointer'
+          }
+          onClick={() => setSelectGroupId(0)}
+        >
+          {groups[0].title}
+        </div>
+        <div
+          className={
+            selectGroupId === 1
+              ? 'w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer'
+              : 'w-third mh1 bg-near-white pc-black pv3 br2 tc pointer'
+          }
+          onClick={() => setSelectGroupId(1)}
+        >
+          {groups[1].title}
+        </div>
+        <div
+          className={
+            selectGroupId === 2
+              ? 'w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer'
+              : 'w-third mh1 bg-near-white pc-black pv3 br2 tc pointer'
+          }
+          onClick={() => setSelectGroupId(2)}
+        >
+          {groups[2].title}
+        </div> */}
+      </div>
+
+      <div className="w-90 center mt4">
+        <p className="_title f2 fw4 lh-copy tracked tl pc-white">
+          General Program Advisor
+        </p>
+        <p className="mt3 f6 fw3 tracked tl pc-white lh-copy pc-pink-white">
+          Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy
+        </p>
+
+        <div
+          className="
+      _4_hinh
+      flex flex-column flex-row-l
+      mt4
+      justify-start
+      flex-wrap
+    "
+        >
+          <div className="w-third pv0 mv3">
+            <img
+              src="images/m_thangluong.png"
+              alt=""
+              className="w-90 br4 pointer"
+            />
+
+            <p className="f4 mt3 fw4 tl">Thang Luong</p>
+          </div>
+
+          <div className="w-third pv0 mv3">
+            <img
+              src="images/m_thucvu.png"
+              alt=""
+              className="w-90 br4 pointer"
+            />
+            <p className="f4 mt3 fw4 tl">Thuc Vu</p>
+          </div>
+
+          <div className="w-third pv0 mv3">
+            <img src="images/m_vuvan.png" alt="" className="w-90 br4 pointer" />
+            <p className="f4 mt3 fw4 tl">Vu Van</p>
+          </div>
+
+          <div className="w-third pv0 mv3">
+            <img
+              src="images/m_thangluong.png"
+              alt=""
+              className="w-90 br4 pointer"
+            />
+            <p className="f4 mt3 fw4 tl">Thang Luong</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const NewMentorship = ({ id }) => {
   return (
     <>
       <div id={id} />
-      {/* mobile */}
-      <div className="db dn-l w-100 bg-pc-red">
-        {/* <!-- group 1 --> */}
-        <div className="w-100 pa4 bb b--pink-white">
-          <div className="flex justify-between items-center">
-            <p className="f3 pc-white tracked">General Program Advisor</p>
-            <img src="images/svg_arrow_up.svg" alt="" className="w1 ml4" />
-          </div>
-
-          <div className="f6 pc-pink-white mt3 tracked lh-copy">
-            Lorem ipsum dolo si amet, consetftur sadipcipng eliterx
-          </div>
-
-          {/* <!-- 1 --> */}
-          <div className="w-100 pv3">
-            <img
-              src="images/m_thangluong.png"
-              alt=""
-              className="w-100 br4 pointer"
-            />
-            <p className="f4 fw6 pc-white tracked mt3">Thang Luong</p>
-          </div>
-
-          {/* <!-- 2 --> */}
-          <div className="w-100 pv3">
-            <img
-              src="images/m_thucvu.png"
-              alt=""
-              className="w-100 br4 pointer"
-            />
-            <p className="f4 fw6 pc-white tracked mt3">Thuc Vu</p>
-          </div>
-
-          {/* <!-- 3--> */}
-          <div className="w-100 pv3">
-            <img
-              src="images/m_vuvan.png"
-              alt=""
-              className="w-100 br4 pointer"
-            />
-            <p className="f4 fw6 pc-white tracked mt3">Vu Van</p>
-          </div>
-        </div>
-
-        {/* <!-- group 2 --> */}
-        <div className="w-100 pa4 bb b--pink-white">
-          <div className="flex justify-between items-center">
-            <p className="f3 pc-white tracked">AI Advisor</p>
-            <img
-              src="images/svg_arrow_down_white.svg"
-              alt=""
-              className="w1 ml4"
-            />
-          </div>
-        </div>
-
-        {/* <!-- group 3 --> */}
-        <div className="w-100 pa4 bb b--pink-white">
-          <div className="flex justify-between items-center">
-            <p className="f3 pc-white tracked">AI Expert Buddy</p>
-            <img
-              src="images/svg_arrow_down_white.svg"
-              alt=""
-              className="w1 ml4"
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* desktop */}
-      <div className="dn db-l w-70 center ph4 f3 fw6  tracked pc-red mv5">
+      <div className="w-100 w-70-l center ph2 ph4-l f2 fw6 tracked pc-red mv4 mt6-l tc tl-l">
         MENTORSHIP
       </div>
-      <div
-        id="desktop-mentorship"
-        className="dn flex-l flex-column w-70 center br3 mt2 pv2 ph3 white bg-pc-red"
-      >
-        <div className="w-100 flex justify-around">
-          <div className="w-third mh1 bg-near-white pc-black pv3 br2 tc pointer">
-            General Program Advisor
-          </div>
-          <div className="w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer">
-            AI Advisor
-          </div>
-          <div className="w-third mh1 bg-near-white pc-black pv3 br2 tc pointer">
-            AI Expert Buddy
-          </div>
-        </div>
-
-        <div className="w-90 center mt4">
-          <p className="_title f2 fw4 lh-copy tracked tl pc-white">
-            General Program Advisor
-          </p>
-          <p className="mt3 f6 fw3 tracked tl pc-white lh-copy pc-pink-white">
-            Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam
-            nonumy
-          </p>
-
-          <div
-            className="
-            _4_hinh
-            flex flex-column flex-row-l
-            mt4
-            justify-start
-            flex-wrap
-          "
-          >
-            <div className="w-third pv0 mv3">
-              <img
-                src="images/m_thangluong.png"
-                alt=""
-                className="w-90 br4 pointer"
-              />
-
-              <p className="f4 mt3 fw4 tl">Thang Luong</p>
-            </div>
-
-            <div className="w-third pv0 mv3">
-              <img
-                src="images/m_thucvu.png"
-                alt=""
-                className="w-90 br4 pointer"
-              />
-              <p className="f4 mt3 fw4 tl">Thuc Vu</p>
-            </div>
-
-            <div className="w-third pv0 mv3">
-              <img
-                src="images/m_vuvan.png"
-                alt=""
-                className="w-90 br4 pointer"
-              />
-              <p className="f4 mt3 fw4 tl">Vu Van</p>
-            </div>
-
-            <div className="w-third pv0 mv3">
-              <img
-                src="images/m_thangluong.png"
-                alt=""
-                className="w-90 br4 pointer"
-              />
-              <p className="f4 mt3 fw4 tl">Thang Luong</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <MobileMentorShip />
+      <DesktopMentorship />
     </>
   );
 };
@@ -212,24 +254,24 @@ const Mentorships = ({ id }) => {
 
           <div className="_4_hinh flex flex-column flex-row-l mt4 justify-center-l">
             <MentorMobile
-              mentor={mentors[0]}
-              isActive={activeId === mentors[0].id}
+              mentor={abc[0]}
+              isActive={activeId === abc[0].id}
               onClick={() => {
-                _showInfo(mentors[0].id);
+                _showInfo(abc[0].id);
               }}
             />
             <MentorMobile
-              mentor={mentors[1]}
-              isActive={activeId === mentors[1].id}
+              mentor={abc[1]}
+              isActive={activeId === abc[1].id}
               onClick={() => {
-                _showInfo(mentors[1].id);
+                _showInfo(abc[1].id);
               }}
             />
             <MentorMobile
-              mentor={mentors[2]}
-              isActive={activeId === mentors[2].id}
+              mentor={abc[2]}
+              isActive={activeId === abc[2].id}
               onClick={() => {
-                _showInfo(mentors[2].id);
+                _showInfo(abc[2].id);
               }}
             />
           </div>
@@ -255,7 +297,7 @@ const Mentorships = ({ id }) => {
               X
             </p>
 
-            {mentors
+            {abc
               .filter((item) => item.id === activeId)
               .map((item) => (
                 <>
