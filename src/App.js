@@ -6,11 +6,9 @@ import CountDown from './containers/countDown';
 import Vision from './containers/Vision';
 import Challenges from './containers/Challenges';
 import WhyWe from './containers/WhyWe';
-// import Contents from './containers/contents';
 import Mentorships from './containers/Mentorship';
 import Process from './containers/Process';
 import Apply from './containers/Apply';
-// import Tuition from './containers/tuition';
 import Partners from './containers/partners';
 import QA from './containers/QuestionAnswer';
 import Footer from './containers/footer';
@@ -26,14 +24,9 @@ function App() {
       <Vision id={menu.vision.id} />
       <Challenges id={menu.challenges.id} />
       <WhyWe />
-
-      {/* <Solutions /> */}
-      {/* <div>xxx content</div> */}
-      {/* <Contents /> */}
       <Mentorships id={menu.mentorship.id} />
       <Process id={menu.process.id} />
       <Apply />
-      {/* <Tuition /> */}
       <Partners />
       <QA id={menu.qa.id} />
       <Footer />
