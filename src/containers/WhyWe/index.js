@@ -3,7 +3,7 @@ import '../../css/styles.css';
 import { why_we as whyWe } from '../../assets/data.json';
 
 const WhyWe = ({ id }) => (
-  <div id={id} class="flex flex-column w-100 pt3 tc mt5">
+  <div id={id} class="flex flex-column w-100 pt3 pt5-l tc mt5">
     <p class="w-80 w-60-l center f3 f2-l fw6 pc-red ttu tracked-l mt5-l ph3">
       {whyWe.title}
     </p>

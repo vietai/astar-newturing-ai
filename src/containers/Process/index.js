@@ -75,7 +75,7 @@ const Process = ({ id }) => {
                       </p>
                     </div>
                   </div>
-                  <div className="bg-gray w5 bt bw1 b--pc-gray"></div>
+                  <div className="bg-gray w4 bt bw1 b--pc-gray"></div>
                 </div>
               ) : (
                 <div
