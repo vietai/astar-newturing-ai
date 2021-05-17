@@ -40,6 +40,21 @@
             "content": "Unlock the companies’ scalability bottleneck with  AI instead of manual / human approach"
         }
     },
+    "challenges": {
+        "title": "Existing Challenges for startups",
+        "col_1": {
+            "title": "01 _ Limited understanding on How to apply AI in solving busines problem",
+            "content": "Blind spot of how AI can and can’t help unlock certain bottlenecks that startups are facing. How AI can be relevant in their business model. Or limited understanding what technology is easiest to start with or easy to use & what the state-of-the-art AI approaches are."
+        },
+        "col_2": {
+            "title": "02 _ HOW TO IMPLEMENT AI INFRASTRUCTURE (MLOPS)",
+            "content": "AI infrastructure (or MLOPS) - or how to integrate AI prototypes into their business - is one of the most common roadblocks of any technology company in Vietnam. How to access and manage the computing resources to test, train and deploy AI algorithms?"
+        },
+        "col_3": {
+            "title": "03 _ HOW TO BUILD DATA PIPELINE",
+            "content": "Data pipeline architecture could be a tricky task. How far is it from Manual → Semi-automatic → Automatic?"
+        }
+    },
     "why_we": {
         "title": "Why we are in unique position to offer this bootcamp",
         "col_1": {
