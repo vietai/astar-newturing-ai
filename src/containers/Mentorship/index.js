@@ -11,7 +11,7 @@ const MobileMentorShip = () => {
   const [activeMentorId, setActiveMentorId] = useState(0);
 
   const _showInfoMentor = (id) => {
-    console.log('id = ', id);
+    // console.log('id = ', id);
     setActiveMentorId(activeMentorId === id ? 0 : id);
   };
 

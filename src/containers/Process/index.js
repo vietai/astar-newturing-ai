@@ -3,6 +3,89 @@ import '../../css/styles.css';
 import { processes } from '../../assets/data.json';
 import { useState } from 'react';
 
+const MobileProcess = () => {
+  const [selectProcessId, setSelectProcessId] = useState(0);
+  const [toggleCombobox, setToggleCombobox] = useState(false);
+
+  return (
+    <div class="db dn-l w-100 bg-pc-white pv4">
+      <p class="ph5 tc f2 fw6 pc-red tracked">SELECTION PROCESS</p>
+
+      <div
+        onClick={() => setToggleCombobox(!toggleCombobox)}
+        class="w-80 center flex justify-between mt4 pa3 br3 ba b--black-20 pointer lh-copy ttu items-center bg-white"
+      >
+        <p
+          class="pc-red f5 fw6 ttu tracked "
+          style={{
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+          }}
+        >
+          {selectProcessId + 1} - {processes[selectProcessId].title}
+        </p>
+        <img
+          src="images/svg_arrow_down.svg"
+          alt=""
+          class="w1 w2-l ml2 ml4-l mt2"
+        />
+      </div>
+
+      {/* <!-- selection control --> */}
+      {toggleCombobox === true ? (
+        <div className="absolute">
+          <div
+            onClick={() => {
+              setToggleCombobox(!toggleCombobox);
+              setSelectProcessId(0);
+            }}
+            class="w-80 center bg-pc-white flex justify-between mt3 pa3 br3 ba br--top b--black-20 pointer lh-copy ttu items-center"
+          >
+            <p class="pc-red f5 fw6 ttu tracked">1 - Registration</p>
+          </div>
+
+          <div
+            onClick={() => {
+              setToggleCombobox(!toggleCombobox);
+              setSelectProcessId(1);
+            }}
+            class="w-80 center bg-pc-white flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center"
+          >
+            <p class="pc-red f5 fw6 ttu tracked">2 - Screening</p>
+          </div>
+          <div
+            onClick={() => {
+              setToggleCombobox(!toggleCombobox);
+              setSelectProcessId(2);
+            }}
+            class="w-80 center bg-pc-white flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center"
+          >
+            <p class="pc-red f5 fw6 ttu tracked">3 - Interview</p>
+          </div>
+          <div
+            onClick={() => {
+              setToggleCombobox(!toggleCombobox);
+              setSelectProcessId(3);
+            }}
+            class="w-80 center bg-pc-white flex justify-between mt0 pa3 br3 ba br--bottom b--black-20 pointer lh-copy ttu items-center"
+          >
+            <p class="pc-red f5 fw6 ttu tracked">
+              4 - Final companies confirmed
+            </p>
+          </div>
+        </div>
+      ) : null}
+
+      {/* <!-- process content --> */}
+      <div
+        class="w-80 center pc-light-black f6 lh-copy tracked mt3"
+        dangerouslySetInnerHTML={{ __html: processes[selectProcessId].description }}
+      ></div>
+    </div>
+  );
+};
+
 const Process = ({ id }) => {
   const [selectProcessId, setSelectProcessId] = useState(0);
 
@@ -10,45 +93,7 @@ const Process = ({ id }) => {
     <>
       {/* mobile */}
       <div id={id} />
-      <div class="db dn-l w-100 bg-pc-white pv4">
-        <p class="ph5 tc f2 fw6 pc-red tracked">SELECTION PROCESS</p>
-
-        <div class="w-80 center flex justify-between mt4 pa3 br3 ba b--black-20 pointer lh-copy ttu items-center">
-          <p class="pc-red f5 fw6 ttu tracked">1 - Registration</p>
-          <img
-            src="images/svg_arrow_down.svg"
-            alt=""
-            class="w1 w2-l ml2 ml4-l mt2"
-          />
-        </div>
-
-        {/* <!-- selection control --> */}
-        {/* <div class="w-80 center flex justify-between mt3 pa3 br3 ba br--top b--black-20 pointer lh-copy ttu items-center">
-          <p class="pc-red f5 fw6 ttu tracked">1 - Registration</p>
-        </div>
-        <div class="w-80 center flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center">
-          <p class="pc-red f5 fw6 ttu tracked">2 - Screening</p>
-        </div>
-        <div class="w-80 center flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center">
-          <p class="pc-red f5 fw6 ttu tracked">3 - Interview</p>
-        </div>
-        <div class="w-80 center flex justify-between mt0 pa3 br3 ba br--bottom b--black-20 pointer lh-copy ttu items-center">
-          <p class="pc-red f5 fw6 ttu tracked">4 - Final companies confirmed</p>
-        </div> */}
-
-        {/* <!-- process content --> */}
-        <div class="w-80 center pc-light-black f6 lh-copy tracked mt3">
-          Click <span class="dark-gray b">APPLY</span> to fill the registration
-          form. In this form, we expect to learn more about your company,
-          milestones, & primary roadblocks in terms of applying AI to your
-          business model. Please respond carefully at your best effort.
-          <br />
-          <br />
-          For us to fully evaluate the company’s potential, we expect to get
-          detailed answers jointly by the CEO (for business) and CTO (for tech).
-          Only 1 submission per company.
-        </div>
-      </div>
+      <MobileProcess />
 
       {/* desktop */}
       <div className="dn db-l w-100 pt4 pb6 relative mt6">
