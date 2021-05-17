@@ -1,11 +1,11 @@
 import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 
-const Process = () => {
+const Process = ({ id }) => {
   return (
     <>
       {/* mobile */}
-
+      <div id={id} />
       <div class="db dn-l w-100 bg-pc-white pv4">
         <p class="ph5 tc f2 fw6 pc-red tracked">SELECTION PROCESS</p>
 

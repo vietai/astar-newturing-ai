@@ -5,9 +5,10 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import './styles.css';
 
-const NewMentorship = () => {
+const NewMentorship = ({ id }) => {
   return (
     <>
+      <div id={id} />
       {/* mobile */}
       <div className="db dn-l w-100 bg-pc-red">
         {/* <!-- group 1 --> */}

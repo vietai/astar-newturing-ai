@@ -2,10 +2,11 @@ import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import { challenges } from '../../assets/data.json';
 
-const Challenges = () => {
+const Challenges = ({ id }) => {
   return (
     <>
       {/* desktop */}
+      <div id={id} />
       <div className="dn db-l w-100 bg-pc-red mt5 mb6">
         <div className="w-70 center pv5">
           <p className="_title f3 fw6 tc tracked-mega ttu pc-white">

@@ -50,7 +50,17 @@ const Menu = () => {
         id="mobile-menu"
         className="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center fixed top-0 z-3"
       >
-        <img src="images/newturing_ai.png" alt="" className="w22" />
+        <Link
+          to={menu.top.id}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="pointer"
+        >
+          <img src="images/newturing_ai.png" alt="" className="w22" />
+        </Link>
+
         <img
           src="images/svg_bars.svg"
           alt=""
@@ -78,7 +88,7 @@ const Menu = () => {
 
         <div className="w-100 flex flex-column self-stretch pa3 mv3 items-center">
           <MenuItem item={menu.vision} handleOnClick={_toggleModal} />
-          <MenuItem item={menu.curriculum} handleOnClick={_toggleModal} />
+          <MenuItem item={menu.challenges} handleOnClick={_toggleModal} />
           <MenuItem item={menu.mentorship} handleOnClick={_toggleModal} />
           <MenuItem item={menu.process} handleOnClick={_toggleModal} />
           <MenuItem item={menu.qa} handleOnClick={_toggleModal} />
@@ -91,12 +101,21 @@ const Menu = () => {
         // fixed top-0 z-4
       >
         <div className="w-70 center flex justify-between items-center ph5">
-          <img src="images/newturing_ai.png" alt="" className="w25" />
+          <Link
+            to={menu.top.id}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="pointer"
+          >
+            <img src="images/newturing_ai.png" alt="" className="w25" />
+          </Link>
 
           <div className="flex items-center">
             <ul className="flex list fw3 sans-serif pc-dark-gray">
               <DesktopMenuItem item={menu.vision} />
-              <DesktopMenuItem item={menu.curriculum} />
+              <DesktopMenuItem item={menu.challenges} />
               <DesktopMenuItem item={menu.mentorship} />
               <DesktopMenuItem item={menu.process} />
               <DesktopMenuItem item={menu.qa} />

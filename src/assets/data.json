@@ -4,6 +4,10 @@
         "time_to_start": "2021-6-11T00:01:00"
     },
     "menu": {
+        "top": {
+            "name": "",
+            "id": "top"
+        },
         "vision": {
             "name": "Vision",
             "id": "vision"
@@ -11,6 +15,10 @@
         "curriculum": {
             "name": "Curriculum",
             "id": "curriculum"
+        },
+        "challenges": {
+            "name": "Challenges",
+            "id": "challenges"
         },
         "mentorship": {
             "name": "Mentorship",

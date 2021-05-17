@@ -17,21 +17,21 @@ import Footer from './containers/footer';
 
 import { menu } from './assets/data.json';
 
-
 function App() {
   return (
     <div className="sans-serif">
       <Menu />
+      <div id={menu.top.id} />
       <CountDown />
       <Vision id={menu.vision.id} />
-      <Challenges />
-      <WhyWe/>
+      <Challenges id={menu.challenges.id} />
+      <WhyWe />
 
       {/* <Solutions /> */}
       {/* <div>xxx content</div> */}
       {/* <Contents /> */}
       <Mentorships id={menu.mentorship.id} />
-      <Process />
+      <Process id={menu.process.id} />
       <Apply />
       {/* <Tuition /> */}
       <Partners />
