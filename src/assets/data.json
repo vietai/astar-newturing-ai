@@ -81,24 +81,25 @@
     "groups": [
         {
             "title": "General Program Advisor",
+            "description": "Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy",
             "mentors": [
                 {
-                    "id": 123,
-                    "name": "THANG LUONG",
+                    "id": 1,
+                    "name": "Thang Luong",
                     "image": "m_thangluong.png",
                     "title": "PhD at NYD",
                     "description": "Research scientist at  Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he built  state-of-the-art machine translation systems at both Google and Stanford. Dr.  Luong is an expert in natural language  processing and deep learning, authoring over 40 highly-cited scientific articles,  10 patents, and many popular open-source projects. He is an inventor of  LuongAttention, NoisyStudent, and Google Meena chatbot."
                 },
                 {
-                    "id": 456,
-                    "name": "THUC VU",
+                    "id": 2,
+                    "name": "Thuc Vu",
                     "image": "m_thucvu.png",
                     "title": "Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..",
                     "description": "Dr. Thuc Vu is Co-founder/CEO at  OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which were acquired by Google and Weeby.co,   respectively. Thuc has deep expertise in game theory, machine learning, tournament design and multi-agent   systems. He earned his PhD from Stanford University and a Bachelor of Science from Carnegie Mellon, both in computer  science. Apart from being an entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University."
                 },
                 {
-                    "id": 789,
-                    "name": "VU VAN",
+                    "id": 3,
+                    "name": "Vu Van",
                     "image": "m_vuvan.png",
                     "title": "Co-founder/CEO of ELSA",
                     "description": "Co-founder/CEO of ELSA, Corp. MBA & M.Ed @ Stanford; Hard-core operator & tireless entrepreneur.  Passion in edtech and how we can use technology to change  education landscape, and make education accessible to all & at high quality."
@@ -107,24 +108,53 @@
         },
         {
             "title": "AI Advisor",
+            "description": "Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy",
             "mentors": [
                 {
-                    "id": 123,
-                    "name": "THANG LUONG",
+                    "id": 4,
+                    "name": "Thang Luong",
                     "image": "m_thangluong.png",
                     "title": "PhD at NYD",
                     "description": "Research scientist at  Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he built  state-of-the-art machine translation systems at both Google and Stanford. Dr.  Luong is an expert in natural language  processing and deep learning, authoring over 40 highly-cited scientific articles,  10 patents, and many popular open-source projects. He is an inventor of  LuongAttention, NoisyStudent, and Google Meena chatbot."
                 },
                 {
-                    "id": 456,
-                    "name": "THUC VU",
+                    "id": 5,
+                    "name": "Thuc Vu",
                     "image": "m_thucvu.png",
                     "title": "Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..",
                     "description": "Dr. Thuc Vu is Co-founder/CEO at  OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which were acquired by Google and Weeby.co,   respectively. Thuc has deep expertise in game theory, machine learning, tournament design and multi-agent   systems. He earned his PhD from Stanford University and a Bachelor of Science from Carnegie Mellon, both in computer  science. Apart from being an entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University."
                 },
                 {
-                    "id": 789,
-                    "name": "VU VAN",
+                    "id": 4,
+                    "name": "Thang Luong",
+                    "image": "m_thangluong.png",
+                    "title": "PhD at NYD",
+                    "description": "Research scientist at  Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he built  state-of-the-art machine translation systems at both Google and Stanford. Dr.  Luong is an expert in natural language  processing and deep learning, authoring over 40 highly-cited scientific articles,  10 patents, and many popular open-source projects. He is an inventor of  LuongAttention, NoisyStudent, and Google Meena chatbot."
+                },
+                {
+                    "id": 6,
+                    "name": "Thuc Vu",
+                    "image": "m_thucvu.png",
+                    "title": "Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..",
+                    "description": "Dr. Thuc Vu is Co-founder/CEO at  OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which were acquired by Google and Weeby.co,   respectively. Thuc has deep expertise in game theory, machine learning, tournament design and multi-agent   systems. He earned his PhD from Stanford University and a Bachelor of Science from Carnegie Mellon, both in computer  science. Apart from being an entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University."
+                },
+                {
+                    "id": 7,
+                    "name": "Thang Luong",
+                    "image": "m_thangluong.png",
+                    "title": "PhD at NYD",
+                    "description": "Research scientist at  Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he built  state-of-the-art machine translation systems at both Google and Stanford. Dr.  Luong is an expert in natural language  processing and deep learning, authoring over 40 highly-cited scientific articles,  10 patents, and many popular open-source projects. He is an inventor of  LuongAttention, NoisyStudent, and Google Meena chatbot."
+                },
+                {
+                    "id": 8,
+                    "name": "Thuc Vu",
+                    "image": "m_thucvu.png",
+                    "title": "Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..",
+                    "description": "Dr. Thuc Vu is Co-founder/CEO at  OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which were acquired by Google and Weeby.co,   respectively. Thuc has deep expertise in game theory, machine learning, tournament design and multi-agent   systems. He earned his PhD from Stanford University and a Bachelor of Science from Carnegie Mellon, both in computer  science. Apart from being an entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University."
+                },
+                {
+                    "id": 9,
+                    "name": "Vu Van",
                     "image": "m_vuvan.png",
                     "title": "Co-founder/CEO of ELSA",
                     "description": "Co-founder/CEO of ELSA, Corp. MBA & M.Ed @ Stanford; Hard-core operator & tireless entrepreneur.  Passion in edtech and how we can use technology to change  education landscape, and make education accessible to all & at high quality."
@@ -133,23 +163,24 @@
         },
         {
             "title": "AI Expert Buddy",
+            "description": "Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy",
             "mentors": [
                 {
-                    "id": 123,
+                    "id": 10,
                     "name": "Thang Nguyen",
                     "image": "m_thangluong.png",
                     "title": "PhD at NYD",
                     "description": "Research scientist at  Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he built  state-of-the-art machine translation systems at both Google and Stanford. Dr.  Luong is an expert in natural language  processing and deep learning, authoring over 40 highly-cited scientific articles,  10 patents, and many popular open-source projects. He is an inventor of  LuongAttention, NoisyStudent, and Google Meena chatbot."
                 },
                 {
-                    "id": 456,
+                    "id": 11,
                     "name": "Ba Ngoc",
                     "image": "m_thucvu.png",
                     "title": "Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..",
                     "description": "Dr. Thuc Vu is Co-founder/CEO at  OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which were acquired by Google and Weeby.co,   respectively. Thuc has deep expertise in game theory, machine learning, tournament design and multi-agent   systems. He earned his PhD from Stanford University and a Bachelor of Science from Carnegie Mellon, both in computer  science. Apart from being an entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University."
                 },
                 {
-                    "id": 789,
+                    "id": 12,
                     "name": "Ngan Nguyen",
                     "image": "m_vuvan.png",
                     "title": "Co-founder/CEO of ELSA",

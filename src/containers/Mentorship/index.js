@@ -77,16 +77,22 @@ const DesktopMentorship = () => {
   const [isShowModal, setIsShowModal] = useState(false);
 
   useEffect(() => {
-    setMentors(groups[selectGroupId]);
+    setMentors(groups[selectGroupId].mentors);
   }, [selectGroupId]);
+
+  useEffect(() => {
+    setIsShowModal(activeMentorId !== 0);
+  }, [activeMentorId]);
+
+  const _showInfoMentor = (id) => {
+    setActiveMentorId(activeMentorId === id ? 0 : id);
+  };
 
   return (
     <div
       id="desktop-mentorship"
       className="dn flex-l flex-column w-70 center br3 mt2 pv2 ph3 white bg-pc-red"
     >
-      {/* <div>{selectGroupId}</div> */}
-
       <div className="w-100 flex justify-around">
         {groups.map((item, index) => (
           <div
@@ -100,89 +106,85 @@ const DesktopMentorship = () => {
             {groups[index].title}
           </div>
         ))}
-        {/* <br />
-        <div
-          className={
-            selectGroupId === 0
-              ? 'w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer'
-              : 'w-third mh1 bg-near-white pc-black pv3 br2 tc pointer'
-          }
-          onClick={() => setSelectGroupId(0)}
-        >
-          {groups[0].title}
-        </div>
-        <div
-          className={
-            selectGroupId === 1
-              ? 'w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer'
-              : 'w-third mh1 bg-near-white pc-black pv3 br2 tc pointer'
-          }
-          onClick={() => setSelectGroupId(1)}
-        >
-          {groups[1].title}
-        </div>
-        <div
-          className={
-            selectGroupId === 2
-              ? 'w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer'
-              : 'w-third mh1 bg-near-white pc-black pv3 br2 tc pointer'
-          }
-          onClick={() => setSelectGroupId(2)}
-        >
-          {groups[2].title}
-        </div> */}
       </div>
 
       <div className="w-90 center mt4">
         <p className="_title f2 fw4 lh-copy tracked tl pc-white">
-          General Program Advisor
+          {groups[selectGroupId].title}
         </p>
         <p className="mt3 f6 fw3 tracked tl pc-white lh-copy pc-pink-white">
-          Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy
+          {groups[selectGroupId].description}
         </p>
 
-        <div
-          className="
-      _4_hinh
-      flex flex-column flex-row-l
-      mt4
-      justify-start
-      flex-wrap
-    "
-        >
-          <div className="w-third pv0 mv3">
-            <img
-              src="images/m_thangluong.png"
-              alt=""
-              className="w-90 br4 pointer"
-            />
+        <div className=" _4_hinh flex flex-column flex-row-l mt4 justify-start flex-wrap">
+          {mentors.map((item) => (
+            <div className="w-third pv0 mv3">
+              {/* <div id={item.id} /> */}
+              {/* <Link
+                to={item.id}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="w-100 w-25-l tc tl-l pv2 pv0-l"
+              > */}
+              <img
+                src={'images/' + item.image}
+                alt=""
+                className="w-90 br4 pointer"
+                onClick={() => {
+                  console.log('just clicked!!');
+                  _showInfoMentor(item.id);
+                }}
+              />
+              {/* </Link> */}
 
-            <p className="f4 mt3 fw4 tl">Thang Luong</p>
-          </div>
-
-          <div className="w-third pv0 mv3">
-            <img
-              src="images/m_thucvu.png"
-              alt=""
-              className="w-90 br4 pointer"
-            />
-            <p className="f4 mt3 fw4 tl">Thuc Vu</p>
-          </div>
-
-          <div className="w-third pv0 mv3">
-            <img src="images/m_vuvan.png" alt="" className="w-90 br4 pointer" />
-            <p className="f4 mt3 fw4 tl">Vu Van</p>
-          </div>
-
-          <div className="w-third pv0 mv3">
-            <img
-              src="images/m_thangluong.png"
-              alt=""
-              className="w-90 br4 pointer"
-            />
-            <p className="f4 mt3 fw4 tl">Thang Luong</p>
-          </div>
+              <p className="f4 mt3 fw4 tl">{item.name}</p>
+            </div>
+          ))}
         </div>
+
+        {isShowModal ? (
+          <div
+            className="dn db-l w-100 bg-black-50 vh-100 fixed top-0 left-0 z-999"
+            onClick={() => {
+              setActiveMentorId(0);
+            }}
+          >
+            <div className="modal dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around ">
+              <p
+                className="_btn-close white pointer tr absolute top-1 right-1"
+                onClick={() => {
+                  setActiveMentorId(0);
+                }}
+              >
+                X
+              </p>
+
+              {mentors
+                .filter((item) => item.id === activeMentorId)
+                .map((item) => (
+                  <>
+                    <div className="w-25 pt3">
+                      <img
+                        src={`images/${item.image}`}
+                        alt=""
+                        className="br4 w-100"
+                      />
+                    </div>
+                    <div className="w-60 pr4">
+                      <p className="_mentor-name f2 lh-copy">{item.name}</p>
+                      <p className="_mentor-title lh-copy">{item.title}</p>
+
+                      <p className="_mentor-info lh-copy mt3">
+                        {item.description}
+                      </p>
+                    </div>
+                  </>
+                ))}
+            </div>
+          </div>
+        ) : null}
       </div>
     </div>
   );
