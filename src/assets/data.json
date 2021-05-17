@@ -125,35 +125,35 @@
                     "description": "Dr. Thuc Vu is Co-founder/CEO at  OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which were acquired by Google and Weeby.co,   respectively. Thuc has deep expertise in game theory, machine learning, tournament design and multi-agent   systems. He earned his PhD from Stanford University and a Bachelor of Science from Carnegie Mellon, both in computer  science. Apart from being an entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University."
                 },
                 {
-                    "id": 4,
+                    "id": 6,
                     "name": "Thang Luong",
                     "image": "m_thangluong.png",
                     "title": "PhD at NYD",
                     "description": "Research scientist at  Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he built  state-of-the-art machine translation systems at both Google and Stanford. Dr.  Luong is an expert in natural language  processing and deep learning, authoring over 40 highly-cited scientific articles,  10 patents, and many popular open-source projects. He is an inventor of  LuongAttention, NoisyStudent, and Google Meena chatbot."
-                },
-                {
-                    "id": 6,
-                    "name": "Thuc Vu",
-                    "image": "m_thucvu.png",
-                    "title": "Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..",
-                    "description": "Dr. Thuc Vu is Co-founder/CEO at  OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which were acquired by Google and Weeby.co,   respectively. Thuc has deep expertise in game theory, machine learning, tournament design and multi-agent   systems. He earned his PhD from Stanford University and a Bachelor of Science from Carnegie Mellon, both in computer  science. Apart from being an entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University."
                 },
                 {
                     "id": 7,
-                    "name": "Thang Luong",
-                    "image": "m_thangluong.png",
-                    "title": "PhD at NYD",
-                    "description": "Research scientist at  Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he built  state-of-the-art machine translation systems at both Google and Stanford. Dr.  Luong is an expert in natural language  processing and deep learning, authoring over 40 highly-cited scientific articles,  10 patents, and many popular open-source projects. He is an inventor of  LuongAttention, NoisyStudent, and Google Meena chatbot."
-                },
-                {
-                    "id": 8,
                     "name": "Thuc Vu",
                     "image": "m_thucvu.png",
                     "title": "Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..",
                     "description": "Dr. Thuc Vu is Co-founder/CEO at  OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which were acquired by Google and Weeby.co,   respectively. Thuc has deep expertise in game theory, machine learning, tournament design and multi-agent   systems. He earned his PhD from Stanford University and a Bachelor of Science from Carnegie Mellon, both in computer  science. Apart from being an entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University."
                 },
                 {
+                    "id": 8,
+                    "name": "Thang Luong",
+                    "image": "m_thangluong.png",
+                    "title": "PhD at NYD",
+                    "description": "Research scientist at  Google Brain; Co-founder of VietAI & PhD in Computer Science @Stanford where he built  state-of-the-art machine translation systems at both Google and Stanford. Dr.  Luong is an expert in natural language  processing and deep learning, authoring over 40 highly-cited scientific articles,  10 patents, and many popular open-source projects. He is an inventor of  LuongAttention, NoisyStudent, and Google Meena chatbot."
+                },
+                {
                     "id": 9,
+                    "name": "Thuc Vu",
+                    "image": "m_thucvu.png",
+                    "title": "Dr. Thuc Vu is Co-founder/CEO at OhmniLabs..",
+                    "description": "Dr. Thuc Vu is Co-founder/CEO at  OhmniLabs, Kambria & VietAI; He previously founded Katango and Tappy which were acquired by Google and Weeby.co,   respectively. Thuc has deep expertise in game theory, machine learning, tournament design and multi-agent   systems. He earned his PhD from Stanford University and a Bachelor of Science from Carnegie Mellon, both in computer  science. Apart from being an entrepreneur, Thuc is also a Research Scientist and Assistant Professor at John Von Neumann Institute of Vietnam National University."
+                },
+                {
+                    "id": 10,
                     "name": "Vu Van",
                     "image": "m_vuvan.png",
                     "title": "Co-founder/CEO of ELSA",
@@ -210,6 +210,28 @@
             "image": "m_vuvan.png",
             "title": "Co-founder/CEO of ELSA",
             "description": "Co-founder/CEO of ELSA, Corp. MBA & M.Ed @ Stanford; Hard-core operator & tireless entrepreneur.  Passion in edtech and how we can use technology to change  education landscape, and make education accessible to all & at high quality."
+        }
+    ],
+    "processes": [
+        {
+            "title": "REGISTRATION",
+            "date": "May 15 - May 28",
+            "description": "Click{' '} <span href='#' className='dark-gray fw5 pointer' id=''>APPLY</span>{' '} to fill the registration form. In this form, we expect to learn more about your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully at your best effort. To achieve great outcomes, we expect at least two members (1 business & 1 tech lead/executive) per company to enroll in our program. <br /> <br /> For us to fully evaluate the company's potential, we expect to get detailed answers jointly by the CEO (for business) and CTO (for tech). Only 1 submission per company."
+        },
+        {
+            "title": "SCREENING",
+            "date": "May 29 - JUNE 5",
+            "description": "Your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully at your best effort. To achieve great outcomes, we expect at least two members (1 business & 1 tech lead/executive) per company to enroll in our program. <br /> <br /> For us to fully evaluate the company's potential, we expect to get detailed answers jointly by the CEO (for business) and CTO (for tech). Only 1 submission per company."
+        },
+        {
+            "title": "INTERVIEW",
+            "date": "May 29 - JUNE 5",
+            "description": "Dh lead/executive) per company to enroll in our program. <br /> <br /> For us to fully evaluate the company's potential, we expect to get detailed answers joi Your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully at your best effort. To achieve great outcomes, we expect at least two members (1 business & 1 tecntly by the CEO (for business) and CTO (for tech). Only 1 submission per company."
+        },
+        {
+            "title": "FINAL COMPANIES CONFIRMED",
+            "date": "May 29 - JUNE 5",
+            "description": "Dect to get detailed answers joi Your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully at your best effort. To achieve great outcomes, we expect at least two members (1 business & 1 t."
         }
     ],
     "questions": [
