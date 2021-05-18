@@ -65,7 +65,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
       <p class="tc f2 fw5 center w-90 mt4">
         AI BOOTCAMP <br />
         <span class="i fw4 tracked tangergin"> for </span>
-        START UP
+        STARTUPS
       </p>
 
       <div class="tc pc-info tracked f6 w-90 center lh-title pt4">
@@ -83,7 +83,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         <div class="flex flex-column p-title pc-white tracked tc">
           <p class="">AI BOOTCAMP</p>
           <p class="pt3">
-            <span class="fw4 tangergin tracked i">for</span> STARTUP
+            <span class="fw4 tangergin tracked i">for</span> STARTUPS
           </p>
         </div>
         <div class="tc pc-info tracked f4 w-80 center lh-copy pt4">
