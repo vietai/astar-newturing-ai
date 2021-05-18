@@ -121,6 +121,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
 
 const MainCountDown = () => {
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
+    // console.log('s = ', seconds);
     if (completed) {
       return <HtmlCountDown d={0} h={0} m={0} s={0} />;
     } else {
@@ -128,24 +129,13 @@ const MainCountDown = () => {
     }
   };
 
-  // console.log('count donw = ', countdown);
-  // return  <div>
-  //   clgt<br/>
-  //   clgt<br/>
-  //   clgt<br/>
-  //   clgt<br/>
-  //   clgt<br/>
-
-  // </div>
-
   return (
     <Countdown
-      date={countdown.timeToStart}
-      intervalDelay={0}
+      date={countdown.time_to_start}
+      intervalDelay={1000}
       precision={3}
       renderer={renderer}
     />
   );
 };
-// export default MainCountDown;
-export default () => <HtmlCountDown d={0} h={13} m={24} s={15} />;
+export default MainCountDown;
