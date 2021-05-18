@@ -86,21 +86,21 @@
                 {
                     "id": 1,
                     "name": "Thang Luong",
-                    "image": "m_thangluong.png",
+                    "image": "m_ThangLuong.png",
                     "title": "Senior Research Scientist at Google Brain; VietAI",
                     "description": "Thang Luong is currently a senior research scientist at Google Brain. Having published over 30 scientific articles at premier conferences with over 5000 citations, Dr. Luong is a well-known AI researcher in the field of deep learning and machine learning. He has authored many patents and open-source software used worldwide.<br/><br/>Dr. Luong obtained his PhD in Computer Science from Stanford University in 2016. He also co-founded VietAI, a non-profit organization that aims to build a community of world-class AI experts in Vietnam."
                 },
                 {
                     "id": 2,
                     "name": "Thuc Vu",
-                    "image": "m_thucvu.png",
+                    "image": "m_ThucVu.png",
                     "title": "OhmniLab, Kambria Foundation",
                     "description": "Thuc Vu holds a PhD in Computer Science from Stanford University. He is a serial entrepreneur and social entrepreneur. His ventures include co-founding Tappy, a hyperlocal social app that has been acquired by Weeby.co,. and Katango, a social app, acquired by Google. He is also a co-founder of VietSeed, a nonprofit organization that helps underprivileged students in Vietnam obtain a college education. Thuc Vu is a prominent figure in the Vietnamese tech startup ecosystem and is often seen as the connector between Vietnamese and Silicon Valley players."
                 },
                 {
                     "id": 3,
                     "name": "Vu Van",
-                    "image": "m_vuvan.png",
+                    "image": "m_VuVan.png",
                     "title": "ELSA Speak",
                     "description": "Co-founder/CEO of ELSA, Corp. MBA & M.Ed @ Stanford; Hard-core operator & tireless entrepreneur. Passion in edtech and how we can use technology to change the education landscape, and make education accessible to all & at high quality."
                 }
@@ -113,70 +113,70 @@
                 {
                     "id": 4,
                     "name": "Truyen Tran",
-                    "image": "m_thangluong.png",
+                    "image": "m_TruyenTran.png",
                     "title": "Associate Professor, Deakin University, Australia",
                     "description": "Dr. Truyen Tran is Associate Professor of Artificial Intelligence at Deakin University, Australia. His ultimate research goals are uncovering the nature of intelligence to design competent and human-friendly intelligent machines, and transform living, physical and digital fields through AI. <br/><br/>Together with his team, Dr. Truyen has made advances in multiple research areas including deep neural networks, visual reasoning, machine learning for biomedicine, materials science, recommender system and software analytics.<br/><br/> Currently he is building machines that can remember and reason about what they see, while being mindful of what others think, and respect human values.<br/><br/>Tran holds a Bachelor of Science from the University of Melbourne in 2001 and a PhD in Computer Science from Curtin University in 2008. Before working at Deakin University, he spent a year in the industry, and 3 years as a postdoc at Curtin University."
                 },
                 {
                     "id": 5,
                     "name": "Preslav Nakov",
-                    "image": "m_thucvu.png",
+                    "image": "m_PreslavNakov.png",
                     "title": "Principal Scientist, Qatar Computing Research Institute",
                     "description": "Dr. Preslav Nakov is a Principal Scientist at the Qatar Computing Research Institute (QCRI), HBKU. His research interests include computational linguistics, 'fake news' detection, fact-checking, machine translation, question answering, sentiment analysis, lexical semantics, Web as a corpus, and biomedical text processing.<br/><br/>At QCRI, he leads the Tanbih project, developed in collaboration with MIT, which aims to limit the effect of 'fake news', propaganda and media bias by making users aware of what they are reading.<br/><br/>Dr. Nakov is the Secretary of ACL SIGLEX and ACL SIGSLAV, and a member of the EACL advisory board. He also serves on the editorial boards of the Journal of Transactions of the Association for Computational Linguistics, Computer Speech and Language, Natural Language Engineering, AI Communications, and Frontiers in AI. He is also on the Editorial Board of the Language Science Press Book Series on Phraseology and Multiword Expressions.<br/><br/>Dr. Nakov received his PhD from the University of California at Berkeley (supported by a Fulbright grant). He is the recipient of the Bulgarian President's John Atanasoff award, named after the inventor of the first automatic electronic digital computer."
                 },
                 {
                     "id": 6,
                     "name": "Huyen Chip",
-                    "image": "m_thangluong.png",
+                    "image": "m_HuyenNguyen.png",
                     "title": "Senior Deep Learning Engineer, NVIDIA",
                     "description": "Chip Huyen is a writer and computer scientist based in Silicon Valley. She graduated with a BS and MS in Computer Science from Stanford University, where she created and taught the course TensorFlow for Deep Learning Research. In her current role as senior deep learning engineer at NVIDIA, she works on productizing AI research at NVIDIA.<br/><br/>When not teaching machines to understand human languages, she writes books and blog. She’s the author of the best-selling series 'Xách ba lô lên và Đi', 'Giấc mơ Mỹ - Đường đến Stanford', and 'Tuổi trẻ không hối tiếc'. Her writings have also been published in reputable media outlets in the USA, France, and Vietnam."
                 },
                 {
                     "id": 7,
                     "name": "Bach Bui",
-                    "image": "m_thucvu.png",
+                    "image": "m_BachBui.png",
                     "title": "Head of Engineer, AMAZON",
                     "description": "Bach Bui is the Head of Engineer at Alexa Deep Learning Inference group, where he is leading a team of engineers and applied scientists building the next generation voice assistant system. Before that he was a co-founder of Arimo, a start-up founded in Silicon Valley. Bach got his PhD in Computer Science from University Illinois, Urbana Champaign. He has more than 15 years of experience running engineering and product teams building cutting edge Big Data and AI products in both startup and big company environments. He has authored over 6 patents and 12 scientific publications."
                 },
                 {
                     "id": 8,
                     "name": "Christopher Cuong T. Nguyen",
-                    "image": "m_thangluong.png",
+                    "image": "m_ChristopherCuongNguyen.png",
                     "title": "President of Arimo & Governing Board of Fulbright University Vietnam",
                     "description": "Christopher Cuong T. Nguyen is President and CEO of Arimo, a Panasonic company in Silicon Valley, where he leads the development of AI platforms and solutions for the enterprise.<br/><br/>He has served as engineering director of Google Apps and co-founded two other successful startups. As a professor, Christopher co-founded the Computer Engineering program at HKUST.<br/><br/>He earned his B.S. degree from the University of California-Berkeley summa cum laude, and a PhD. From Stanford, where he created the first standard-encoding Vietnamese software suite, authored RFC 1456 and contributed to Unicode 1.1.<br/><br/>Source: Fulbright University"
                 },
                 {
                     "id": 9,
                     "name": "Ph.D Xavier Anguera",
-                    "image": "m_thucvu.png",
+                    "image": "m_HinhMau.png",
                     "title": "CTO, ELSA Corp",
                     "description": "Xavier Anguera is the Co-Founder and CTO of ELSA Corp. Within Elsa he is responsible for engineering, research in speech/AI and data science. Prior to Elsa, he founded a digital electronic/audio-books publisher aimed at helping language learners getting used to the language while reading."
                 },
                 {
                     "id": 10,
                     "name": "Ph.D Hung Tran",
-                    "image": "m_vuvan.png",
+                    "image": "m_HungTran.png",
                     "title": "Founder/CEO Got It & Steam for Vietnam",
                     "description": "Hung Tran finished his Phd in Computer Science at University of Iowa, where he served as Assistant Professors in undergrad and grad courses at the Department of Computer Science. As a scientist with astute business sense, Dr Tran took on his entrepreneurship with passion in leveraging AI Technologies for Education and Knowledge Sharing. He founded and is currently the CTO of Got It, Inc., aiming to build the world's first No Code, Conversational AI Interface to any Database and Steam for Vietnam, a 501(c)(3) non-profit organization to bring world-class STEAM education to the Vietnamese people for free."
                 },
                 {
                     "id": 11,
                     "name": "Ph.D Steven Truong",
-                    "image": "m_vuvan.png",
+                    "image": "m_HungTruong.png",
                     "title": "CEO, VinBrain",
                     "description": "Mr. Truong has over 25 years of experience in the software industry as an engineer and a strategic leader. Prior to joining VinGroup, he had been a senior leader at Microsoft since 2007. He has experience leading teams to improve enterprise productivity and customer value, bringing the best of technologies together to make a bigger business impact.<br/><br/>He is passionate about creating new ventures, innovating product lines and services, and building motivated teams to lead them to wonderful accomplishments."
                 },
                 {
                     "id": 12,
                     "name": "Jared Go",
-                    "image": "m_vuvan.png",
+                    "image": "m_JaredGo.png",
                     "title": "CTO, Ohmnilabs & Kambria",
                     "description": "Jared Go is the Co-Founder and Chief Technology Officer at OhmniLabs. An entrepreneur who loves bringing together research, engineering, and design to solve real-world problems, Jared is passionate about making robots that can be truly useful in people’s homes and lives. An avid maker and roboticist, he experimented with generations of robot designs to help him better connect with his family on the opposite coast of the US.<br/><br/>Previously, Jared was the CTO and founding team member at Hobnob where he developed patented network algorithms and hardware to make cellular networks faster and more reliable. He is an expert with decades of experience in algorithms, software development, and computer graphics. His broad experience also covers mechanical and electrical engineering, as well as industrial design. Jared is a former Stanford PhD student and Stanford Graduate Fellow. He holds a degree in Computer Science from Carnegie Mellon."
                 },
                 {
                     "id": 13,
                     "name": "Hung Bui",
-                    "image": "m_vuvan.png",
+                    "image": "m_HungBui.png",
                     "title": "Director, VinAI Research, VinGroup",
                     "description": "Dr. Hung H. Bui is the Director of VinAI Research, VinGroup, Vietnam. His technical expertise and interests include probabilistic graphical models, deep generative models, Bayesian inference and machine learning, especially models for sequential and relational data with applications in human activity/intent recognition, video understanding and natural language processing. These interests center around the challenging problem of how to make the machine better understand the humans - a problem that plays a central part in intelligent assistive technologies, personal assistance and dialogue management.<br/><br/>Before joining VinAI, he was at Google DeepMind, Adobe Research and Nuance Natural Language Understanding Lab. He also spent almost 10 years at the AI Center, SRI International (formerly Stanford Research Institute), where he led the multi-institution research team in developing probabilistic inference technologies for understanding the user activities during the CALO project (at the time, the largest AI project in history, also known as the project that spun off Siri).<br/><br/>Dr. Hung received his Ph.D. in Computer Science from Curtin University in 1998, and spent three years as an assistant professor at the university."
                 }
@@ -189,35 +189,35 @@
                 {
                     "id": 14,
                     "name": "Thang Nguyen",
-                    "image": "m_thangluong.png",
+                    "image": "m_ThangNguyen.png",
                     "title": "Director, Saigon-Hanoi Bank",
                     "description": "Thang Nguyen graduated with a master's degree from the Hanoi Open University and is currently Deputy Director of Development Center at Saigon-Hanoi Bank.<br/><br/>He is also the founder of Mi AI Blog, a community of nearly 20K members sharing about AI in the style of 'Mi an lien' (instant noodles) through real projects."
                 },
                 {
                     "id": 15,
                     "name": "Ba Ngoc",
-                    "image": "m_thucvu.png",
+                    "image": "m_BaNgoc.png",
                     "title": "Founder of ProtonX; Google Developer Expert in Machine Learning",
                     "description": "Ba Ngoc is the Founder of ProtonX and VietAI Hanoi. He loves programming and machine learning and strongly believes that “Machines are capable of getting past the limits of human speed in the future”. He won Singapore UNESCO Open Data and Science Hackathon 2018. Besides, he has been writing a blog named “Learn machine learning in two months” and earned more than 1400 stars on Github. At VietAI, he's enthusiastic about teaching students Logistic Regression and Neural Network. In 2019, Ngoc was recognized by Google as the first Google Developer Expert in Machine Learning in Vietnam. In 2020, he has trained 31 applicants who passed the Tensorflow exam and became Tensorflow Certificate Holders."
                 },
                 {
                     "id": 16,
                     "name": "Ngan Nguyen",
-                    "image": "m_vuvan.png",
+                    "image": "m_NganNguyen.png",
                     "title": "Natural Language Processing (NLP) Engineer",
                     "description": "Ngân is a Natural Language Processing (NLP) Engineer. She graduated from University of Engineering and Technology-VNU with a BSc in Computer Science in the Honors Program. Her interest lies in computational linguistics research which includes syntactic and semantic parsing techniques and NLP applications such as information extraction, virtual assistant, etc.<br/><br/>She is currently working in fake news detection project."
                 },
                 {
                     "id": 17,
                     "name": "Thai Dinh",
-                    "image": "m_vuvan.png",
+                    "image": "m_ThaiDinh.png",
                     "title": "Director, Data Science, VISA",
                     "description": "Thai Dinh holds a Master degree from the University of Wisconsin-Madison, where his research focused on Optimization under uncertainty and Optimization-based Machine Learning methods. He has authored/co-authored papers on top-tier scientific journals such as Mathematical Programming and Nature Energy. Thai has spent time doing research at some of the largest national laboratories in the US, including Argonne and NREL. Thai is currently a Data Scientist at Trusting Social, where he is also in charge of a Data Science training program for junior members of the team."
                 },
                 {
                     "id": 18,
                     "name": "Brian Vũ",
-                    "image": "m_vuvan.png",
+                    "image": "m_BrianVu.png",
                     "title": "Head of data - Cofounder @ Primedata.ai",
                     "description": "Experienced in combining Deep Science with Exceptional Engineering to develop Platform that address these difficult Mar-Tech problems in Digital product companies."
                 }
