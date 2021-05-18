@@ -93,25 +93,25 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         <div class="dn flex-ns pv4 justify-center items-center mt4 pc-white-title">
           <div class="khoiVuong flex justify-center items-center flex-column">
             <p class="ttu">DAYS</p>
-            <p class="soTo">00</p>
+            <p class="soTo">{d}</p>
           </div>
 
           <p class="soTo ph3">:</p>
           <div class="khoiVuong flex justify-center items-center flex-column">
             <p class="ttu">HOURS</p>
-            <p class="soTo">13</p>
+            <p class="soTo">{h}</p>
           </div>
 
           <p class="soTo ph3">:</p>
           <div class="khoiVuong flex justify-center items-center flex-column">
             <p class="ttu">MINUTES</p>
-            <p class="soTo">24</p>
+            <p class="soTo">{m}</p>
           </div>
 
           <p class="soTo ph3">:</p>
           <div class="khoiVuong flex justify-center items-center flex-column">
             <p class="ttu">SECONDS</p>
-            <p class="soTo">15</p>
+            <p class="soTo">{s}</p>
           </div>
         </div>
       </div>
