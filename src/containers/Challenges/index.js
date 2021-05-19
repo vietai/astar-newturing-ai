@@ -50,7 +50,7 @@ const Challenges = ({ id }) => {
                 src="images/challenges.png"
                 alt=""
                 className="absolute"
-                style={{ width: '45%', bottom: '-60%', right: '3%' }}
+                style={{ width: '45%', bottom: '-200px', right: '3%' }}
               />
             </div>
           </div>

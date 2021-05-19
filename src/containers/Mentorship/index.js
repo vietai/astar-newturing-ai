@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 import './styles.css';
 
 const MobileMentorShip = () => {
-  const [selectGroupId, setSelectGroupId] = useState(-1);
+  const [selectGroupId, setSelectGroupId] = useState(0);
   const [activeMentorId, setActiveMentorId] = useState(0);
 
   const _showInfoMentor = (id) => {

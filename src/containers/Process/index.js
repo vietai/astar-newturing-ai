@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const MobileProcess = () => {
   const [selectProcessId, setSelectProcessId] = useState(0);
-  const [toggleCombobox, setToggleCombobox] = useState(false);
+  const [toggleCombobox, setToggleCombobox] = useState(true);
 
   return (
     <div class="db dn-l w-100 bg-pc-white pv4">
@@ -40,7 +40,7 @@ const MobileProcess = () => {
               setToggleCombobox(!toggleCombobox);
               setSelectProcessId(0);
             }}
-            class="w-80 center bg-pc-white flex justify-between mt3 pa3 br3 ba br--top b--black-20 pointer lh-copy ttu items-center"
+            class="w-80 center bg-white flex justify-between mt3 pa3 br3 ba br--top b--black-20 pointer lh-copy ttu items-center"
           >
             <p class="pc-red f5 fw6 ttu tracked">1 - Registration</p>
           </div>
@@ -50,7 +50,7 @@ const MobileProcess = () => {
               setToggleCombobox(!toggleCombobox);
               setSelectProcessId(1);
             }}
-            class="w-80 center bg-pc-white flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center"
+            class="w-80 center bg-white flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center"
           >
             <p class="pc-red f5 fw6 ttu tracked">2 - Screening</p>
           </div>
@@ -59,7 +59,7 @@ const MobileProcess = () => {
               setToggleCombobox(!toggleCombobox);
               setSelectProcessId(2);
             }}
-            class="w-80 center bg-pc-white flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center"
+            class="w-80 center bg-white flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center"
           >
             <p class="pc-red f5 fw6 ttu tracked">3 - Interview</p>
           </div>
@@ -68,7 +68,7 @@ const MobileProcess = () => {
               setToggleCombobox(!toggleCombobox);
               setSelectProcessId(3);
             }}
-            class="w-80 center bg-pc-white flex justify-between mt0 pa3 br3 ba br--bottom b--black-20 pointer lh-copy ttu items-center"
+            class="w-80 center bg-white flex justify-between mt0 pa3 br3 ba br--bottom b--black-20 pointer lh-copy ttu items-center"
           >
             <p class="pc-red f5 fw6 ttu tracked">
               4 - Final companies confirmed

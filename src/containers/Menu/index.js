@@ -30,7 +30,7 @@ const DesktopMenuItem = ({ item }) => {
       smooth={true}
       offset={-70}
       duration={500}
-      className="ph4 dim pointer ttu"
+      className="ph3 dim pointer ttu"
     >
       {item.name}
     </Link>
@@ -48,7 +48,7 @@ const Menu = () => {
     <>
       <div
         id="mobile-menu"
-        className="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center fixed top-0 z-3"
+        className="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center fixed top-0 z-99"
       >
         <Link
           to={menu.top.id}
@@ -97,10 +97,10 @@ const Menu = () => {
 
       <div
         id="desktop-menu"
-        className="dn flex-l w-100 bg-white pv2 shadow-2 fixed top-0 z-4"
+        className="dn flex-l w-100 bg-white pv2 shadow-2 fixed top-0 z-999"
         // fixed top-0 z-4
       >
-        <div className="w-70 center flex justify-between items-center ph5">
+        <div className="w-80 center flex justify-between items-center ph3">
           <Link
             to={menu.top.id}
             spy={true}
