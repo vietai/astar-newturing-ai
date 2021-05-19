@@ -24,6 +24,7 @@ yarn-error.log*
 
 mmi.md
 tmp.md
+feedback.md
 package-lock.json
 yarn.lock
 

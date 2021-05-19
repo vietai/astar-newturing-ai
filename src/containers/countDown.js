@@ -81,8 +81,8 @@ const HtmlCountDown = ({ d, h, m, s }) => (
     >
       <div class="flex flex-column">
         <div class="flex flex-column p-title pc-white tracked tc">
-          <p class="">AI BOOTCAMP</p>
-          <p class="pt3">
+          <p class="fw7">AI BOOTCAMP</p>
+          <p class="pt3 fw7">
             <span class="fw4 tangergin tracked i">for</span> STARTUPS
           </p>
         </div>
