@@ -14,6 +14,7 @@ import QA from './containers/QuestionAnswer';
 import Footer from './containers/footer';
 
 import { menu } from './assets/data.json';
+import What from './containers/What';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Vision id={menu.vision.id} />
       <Challenges id={menu.challenges.id} />
       <WhyWe />
+      <What />
       <Mentorships id={menu.mentorship.id} />
       <Process id={menu.process.id} />
       <Apply />
