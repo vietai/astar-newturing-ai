@@ -2,7 +2,6 @@
     "register_link": "https://forms.gle/Vew1ywYdZQejCgj96",
     "countdown": {
         "time_to_start": "2021-06-06T00:01:01"
-
     },
     "menu": {
         "top": {
@@ -35,18 +34,18 @@
         }
     },
     "vision": {
-        "title": "HELP YOU LEARN HOW TO INTEGRATE AI INTO YOUR BUSINESS &REACH 10-100X RETURN",
+        "title": "HOW SURPRISINGLY ARTIFICIAL INTELLIGENCE  CAN TRANSFORM YOUR BUSINESS!",
         "col_1": {
-            "title": "Better quality of product and service",
-            "content": "Utilize AI to increase business productivity, better quality and increasingly personalized AI-enhanced products."
+            "title": "10-100X<br/>Transformation",
+            "content": "AI Transformation can unlock the companies’ scalability bottleneck (e.g. AI in Recommendation Engine have enabled Amazon to predict customer behavior and finally, generate 140 billion U.S. dollars accounting for 35% revenue in 2020 - Statista)"
         },
         "col_2": {
-            "title": "Competitive advantage with AI",
-            "content": "Provide the companies with AI capability as a competitive advantage to make it harder to copycat."
+            "title": "Competitive<br/>advantage (MOAT)",
+            "content": "AI provides companies with Economic Moat (refers to a business' ability to maintain competitive advantages over competitors in the long term) to make it harder to copycat (E.g. AI with search algorithm is Google’s MOAT)"
         },
         "col_3": {
-            "title": "10-100x Transformation",
-            "content": "Unlock the companies’ scalability bottleneck with  AI instead of manual / human approach"
+            "title": "Personalized<br/>products & services",
+            "content": "Human approach will prevent companies from creating personalized products & services. But it was the past, the future is here, with AI-powered personalization, you can make it happen (E.g. AI with Speech Recognition has made ELSA become a personalized English Language Speech Assistant for 1.15 billion English learners globally) "
         }
     },
     "challenges": {

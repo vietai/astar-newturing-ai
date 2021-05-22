@@ -69,7 +69,10 @@ const HtmlCountDown = ({ d, h, m, s }) => (
       </p>
 
       <div class="tc pc-info tracked f6 w-90 center lh-title pt4">
-        The First AI Bootcamp from Silicon Valley for Startups in Vietnam
+        The First AI Bootcamp supported by <b>Global AI Expert Network</b> with
+        <br />
+        <b>Personalized AI Assessment</b> for{' '}
+        <b>Aspiring Startups in Vietnam</b>
       </div>
     </div>
 
@@ -87,7 +90,11 @@ const HtmlCountDown = ({ d, h, m, s }) => (
           </p>
         </div>
         <div class="tc pc-info tracked f4 w-80 center lh-copy pt4">
-          The First AI Bootcamp from Silicon Valley for Startups in Vietnam
+          The First AI Bootcamp supported by <b>Global AI Expert Network</b>{' '}
+          with
+          <br />
+          <b>Personalized AI Assessment</b> for{' '}
+          <b>Aspiring Startups in Vietnam</b>
         </div>
 
         <div class="dn flex-ns pv4 justify-center items-center mt4 pc-white-title">
