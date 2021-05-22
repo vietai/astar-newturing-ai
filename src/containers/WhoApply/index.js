@@ -59,7 +59,7 @@ const WhoApply = ({ id }) => {
 
       {/* mobile */}
 
-      <div class="db dn-l w-100 bg-pc-red pv4 mt4">
+      <div class="db dn-l w-100 bg-pc-red pv4">
         <p class="_title f3 fw6 tc tracked-mega ttu pc-white lh-copy">
           {whoApply.title}
         </p>
