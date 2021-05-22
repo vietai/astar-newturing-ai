@@ -69,14 +69,14 @@ const What = () => {
             {/* <!-- hien thi mau xanh --> */}
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'green-week-box mr2-l'}>
-                Prerequisites for Machine
+                Prerequisites for Machine Learning
                 <br />
-                Learning (Python, Math)
+                (Python, Math, Framework)
               </div>
               <div className={toggleCol_2 + 'pink-week-box ml2-l'}>
-                Brainstorming & matching
+                Introduce with Advisors
                 <br />
-                with Advisors
+                (Exploration)
               </div>
             </div>
           </div>
@@ -96,11 +96,12 @@ const What = () => {
               </div>
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l'}>
                 <div className="w-100 pink-week-box">
-                  Meet Advisor (Prototype <br />
-                  Proposal)
+                  Meet Advisors
+                  <br />
+                  (Prototype proposal)
                 </div>
                 <div className="w-100 pink-week-box mt3">
-                  Data Preparation
+                  Data Preparation /
                   <br />
                   Collection
                 </div>
@@ -117,6 +118,8 @@ const What = () => {
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'green-week-box mr2-l'}>
                 Foundations of Deep Learning
+                <br />
+                Data science
               </div>
               <div className={toggleCol_2 + 'pink-week-box ml2-l'}>
                 Prototype Development
@@ -150,7 +153,8 @@ const What = () => {
               {/* <!-- cot do --> */}
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l '}>
                 <div className="w-100 pink-week-box h4">
-                  Prototype Development
+                  Meet Advisors <br />
+                  (Internal Checkup)
                 </div>
                 <div className="w-100 pink-week-box h55 mt3">
                   Prototype Development
@@ -169,7 +173,7 @@ const What = () => {
                 Language Learning
               </div>
               <div className={toggleCol_2 + 'pink-week-box ml2-l'}>
-                Meet Advisor
+                Meet Advisors <br /> (Internal Demo)
               </div>
             </div>
           </div>
