@@ -11,7 +11,7 @@ const What = () => {
     selectedId === 2 ? 'db w-100  w-50-l ' : 'dn db-l w-50-l ';
 
   return (
-    <div className="w-100 bg-dark-gray lh-copy">
+    <div className="w-100 bg-dark-gray lh-copy mt5">
       <div className="w-90 w-80-l center pv5 flex flex-wrap flex-column flex-row-l">
         {/* <!-- cot 1 --> */}
         <div className="w-100 w-40-l f2 fw6 ttu ph2 pl0 pr5-l debug whit-70 pc-near-white tc tl-l">

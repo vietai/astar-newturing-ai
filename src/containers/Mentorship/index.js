@@ -222,7 +222,7 @@ const Mentorship = ({ id }) => {
   return (
     <>
       <div id={id} />
-      <div className="w-100 w-70-l center ph2 ph4-l f2 fw6 tracked pc-red mv4 mt6-l tc tl-l">
+      <div className="w-100 w-70-l center ph2 ph4-l f2 fw6 tracked pc-red mv4 mt5-l tc tl-l">
         MENTORSHIP
       </div>
       <MobileMentorShip />

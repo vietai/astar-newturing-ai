@@ -60,7 +60,7 @@ const Challenges = ({ id }) => {
       {/* mobile */}
 
       <div class="db dn-l w-100 bg-pc-red pv4 mt4">
-        <p class="_title f3 fw6 tc tracked-mega ttu pc-white">
+        <p class="_title f3 fw6 tc tracked-mega ttu pc-white lh-copy">
           {challenges.title}
         </p>
 
