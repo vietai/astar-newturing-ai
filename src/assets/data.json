@@ -49,18 +49,18 @@
         }
     },
     "challenges": {
-        "title": "Existing Challenges for startups",
+        "title": "BUT, YOU’RE STILL IN TROUBLE WITH….",
         "col_1": {
-            "title": "01 _ Limited understanding on How to apply AI in solving busines problem",
-            "content": "Blind spot of how AI can and can’t help unlock certain bottlenecks that startups are facing. How AI can be relevant in their business model. Or limited understanding what technology is easiest to start with or easy to use & what the state-of-the-art AI approaches are."
+            "title": "01 _ Limited understanding of AI",
+            "content": "Majority of startups in Vietnam don’t know how AI can be relevant in their business model (why); how far is it to reach “10X-100X transformation” after integrating state-of-the-art AI and what technology to start with (what)?"
         },
         "col_2": {
-            "title": "02 _ HOW TO IMPLEMENT AI INFRASTRUCTURE (MLOPS)",
-            "content": "AI infrastructure (or MLOPS) - or how to integrate AI prototypes into their business - is one of the most common roadblocks of any technology company in Vietnam. How to access and manage the computing resources to test, train and deploy AI algorithms?"
+            "title": "02 _ How to get started",
+            "content": "After a personalized AI assessment with “why” & “what”, how to get started to make sure it won’t mess up your current operation but instead, increase level of automation & customer-centric intelligence?"
         },
         "col_3": {
-            "title": "03 _ HOW TO BUILD DATA PIPELINE",
-            "content": "Data pipeline architecture could be a tricky task. How far is it from Manual → Semi-automatic → Automatic?"
+            "title": "03 _ How to build data pipeline",
+            "content": "One of the most important steps of AI Transformation is to collect data & build the most optimal data pipeline, but at what stage to apply what structure and how much effort is required to build such a system?"
         }
     },
     "why_we": {
