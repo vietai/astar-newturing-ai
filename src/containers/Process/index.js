@@ -8,7 +8,7 @@ const MobileProcess = () => {
   const [toggleCombobox, setToggleCombobox] = useState(true);
 
   return (
-    <div class="db dn-l w-100 bg-pc-white pv4">
+    <div class="db dn-l w-100 bg-pc-white pb4 pt5">
       <p class="ph5 tc f2 fw6 pc-red tracked">SELECTION PROCESS</p>
 
       <div
