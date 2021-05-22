@@ -223,7 +223,7 @@ const Mentorship = ({ id }) => {
     <>
       <div id={id} />
       <div className="w-100 w-70-l center ph2 ph4-l f2 fw6 tracked pc-red mv4 mt5-l tc tl-l">
-        MENTORSHIP
+        GLOBAL AI EXPERT NETWORK
       </div>
       <MobileMentorShip />
       <DesktopMentorship />

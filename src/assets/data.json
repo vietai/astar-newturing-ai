@@ -80,8 +80,8 @@
     },
     "groups": [
         {
-            "title": "General Program Advisor",
-            "description": "Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy",
+            "title": "General Program Advisors",
+            "description": "Provide general advice to startups and help engage company leaders with AI Advisors and AI Expert Buddies.",
             "mentors": [
                 {
                     "id": 1,
@@ -108,7 +108,7 @@
         },
         {
             "title": "AI Advisor",
-            "description": "Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy",
+            "description": "provide startups with advices on cutting-edge technologies and how to apply to their businesses",
             "mentors": [
                 {
                     "id": 4,
@@ -184,7 +184,7 @@
         },
         {
             "title": "AI Expert Buddy",
-            "description": "Lorem ipsum dolor sit amet, conetur sadipscing elitr, sed diam nonumy",
+            "description": "work hands-on with startups to help achieve an AI demo at the end of the course",
             "mentors": [
                 {
                     "id": 14,
