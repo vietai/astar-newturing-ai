@@ -25,7 +25,7 @@ function App() {
       <CountDown />
       <Vision id={menu.transformation.id} />
       <Challenges id={menu.why.id} />
-      <WhyWe />
+      <WhyWe id={menu.how.id} />
       <Mentorships id={menu.mentorship.id} />
       <What id={menu.program.id} />
       <WhoApply />
