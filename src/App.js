@@ -25,8 +25,8 @@ function App() {
       <Vision id={menu.vision.id} />
       <Challenges id={menu.challenges.id} />
       <WhyWe />
-      <What />
       <Mentorships id={menu.mentorship.id} />
+      <What />
       <Process id={menu.process.id} />
       <Apply />
       <Partners />
