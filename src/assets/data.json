@@ -78,6 +78,21 @@
             "content": "Proven AI training program offered by VietAI. Here, startups will be taught by top lecturers, such as the first 3 Google Developer Experts in Machine Learning in Vietnam, etc; get access to top-notch training materials & technologies from Google, Stanford & other companies in Silicon Valley "
         }
     },
+    "who_apply": {
+        "title": "WHO SHOULD APPLY TO A-STAR?",
+        "col_1": {
+            "title": "Potential business model to apply AI",
+            "content": "Our “Personalized AI Assessment” process will make a final decision. Firstly, just think if you can meet two criteria: big market (enough space to make an extraordinary growth) & scalability business model (to apply AI)"
+        },
+        "col_2": {
+            "title": "Executive willingness & Tech team qualification",
+            "content": "AI transformation touches all aspects of the startup including one or even both commercial and operational activities. So executive willingness & tech team capacity to really apply AI prototype in your business in the next 6 months is pretty important"
+        },
+        "col_3": {
+            "title": "Target applicant",
+            "content": "We open space for both Founding members of startups with post-launched products & Leaders of newly created products from big corporates as well"
+        }
+    },
     "groups": [
         {
             "title": "General Program Advisors",

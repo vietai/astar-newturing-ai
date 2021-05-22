@@ -15,6 +15,7 @@ import Footer from './containers/footer';
 
 import { menu } from './assets/data.json';
 import What from './containers/What';
+import WhoApply from './containers/WhoApply';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <WhyWe />
       <Mentorships id={menu.mentorship.id} />
       <What />
+      <WhoApply />
       <Process id={menu.process.id} />
       <Apply />
       <Partners />

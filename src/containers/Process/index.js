@@ -101,7 +101,7 @@ const Process = ({ id }) => {
       <MobileProcess />
 
       {/* desktop */}
-      <div className="dn db-l w-100 pt4 pb6 relative mt6">
+      <div className="dn db-l w-100 pt4 pb6 relative mt7-l">
         <div className="_nen_do absolute bg-pc-red white w-40 right-0 tc h-100 top-0 z-0 br4 br--left"></div>
 
         <div className="w-70 center">
