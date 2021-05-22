@@ -6,11 +6,11 @@ const Partners = () => (
     <div className="w-100 bg-near-white pv3 mt5">
       <div className="w-70 tc center">
         <p className="_partner-title f2 fw6 tracked pc-red pv4">PARTNERS</p>
-        <div className="pv3 flex flex-wrap justify-around">
+        <div className="pv3 flex flex-wrap justify-around items-center">
           <img
             alt=""
-            src="images/p_500.png"
-            className="w-40 w-30-m w-10-l mv3"
+            src="images/p_vietai.png"
+            className="w-50 w-30-m w-10-l mv3"
           />
           <img
             alt=""
@@ -22,12 +22,12 @@ const Partners = () => (
             src="images/p_fpt.png"
             className="w-40 w-30-m w-10-l mv3"
           />
-          <img
+          {/*<img
             alt=""
             src="images/p_viisa.png"
             className="w-40 w-30-m w-10-l mv3"
           />
-          {/* <img
+           <img
             alt=""
             src="images/svg_logo2.svg"
             className="w-40 w-30-m w-10-l mv3"

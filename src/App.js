@@ -32,7 +32,7 @@ function App() {
       <Process id={menu.process.id} />
       <Apply />
       <Partners />
-      <QA id={menu.qa.id} />
+      {/* <QA id={menu.qa.id} /> */}
       <Footer />
     </div>
   );
