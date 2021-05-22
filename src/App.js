@@ -23,13 +23,13 @@ function App() {
       <Menu />
       <div id={menu.top.id} />
       <CountDown />
-      <Vision id={menu.vision.id} />
-      <Challenges id={menu.challenges.id} />
+      <Vision id={menu.transformation.id} />
+      <Challenges id={menu.why.id} />
       <WhyWe />
       <Mentorships id={menu.mentorship.id} />
-      <What />
+      <What id={menu.program.id} />
       <WhoApply />
-      <Process id={menu.process.id} />
+      <Process />
       <Apply />
       <Partners />
       {/* <QA id={menu.qa.id} /> */}

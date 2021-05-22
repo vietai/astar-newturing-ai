@@ -8,29 +8,25 @@
             "name": "",
             "id": "top"
         },
-        "vision": {
-            "name": "Vision",
-            "id": "vision"
+        "transformation": {
+            "name": "AI TRANSFORMATION",
+            "id": "how_surprisingly"
         },
-        "curriculum": {
-            "name": "Curriculum",
-            "id": "curriculum"
+        "why": {
+            "name": "Why",
+            "id": "but_you_are"
         },
-        "challenges": {
-            "name": "Challenges",
-            "id": "challenges"
+        "how": {
+            "name": "How",
+            "id": "how_benefit"
         },
         "mentorship": {
-            "name": "Mentorship",
-            "id": "mentorship"
+            "name": "AI EXPERT NETWORK",
+            "id": "ai_expert_network"
         },
-        "process": {
-            "name": "Process",
-            "id": "process"
-        },
-        "qa": {
-            "name": "Qa",
-            "id": "qa"
+        "program": {
+            "name": "Program",
+            "id": "what_will"
         }
     },
     "vision": {

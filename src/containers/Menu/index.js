@@ -87,11 +87,12 @@ const Menu = () => {
         </div>
 
         <div className="w-100 flex flex-column self-stretch pa3 mv3 items-center">
-          <MenuItem item={menu.vision} handleOnClick={_toggleModal} />
-          <MenuItem item={menu.challenges} handleOnClick={_toggleModal} />
+          <MenuItem item={menu.transformation} handleOnClick={_toggleModal} />
+          <MenuItem item={menu.why} handleOnClick={_toggleModal} />
+          <MenuItem item={menu.how} handleOnClick={_toggleModal} />
           <MenuItem item={menu.mentorship} handleOnClick={_toggleModal} />
-          <MenuItem item={menu.process} handleOnClick={_toggleModal} />
-          <MenuItem item={menu.qa} handleOnClick={_toggleModal} />
+          <MenuItem item={menu.program} handleOnClick={_toggleModal} />
+          {/* <MenuItem item={menu.qa} handleOnClick={_toggleModal} /> */}
         </div>
       </div>
 
@@ -114,11 +115,12 @@ const Menu = () => {
 
           <div className="flex items-center">
             <ul className="flex list fw3 sans-serif pc-dark-gray">
-              <DesktopMenuItem item={menu.vision} />
-              <DesktopMenuItem item={menu.challenges} />
+              <DesktopMenuItem item={menu.transformation} />
+              <DesktopMenuItem item={menu.why} />
+              <DesktopMenuItem item={menu.how} />
               <DesktopMenuItem item={menu.mentorship} />
-              <DesktopMenuItem item={menu.process} />
-              <DesktopMenuItem item={menu.qa} />
+              <DesktopMenuItem item={menu.program} />
+              {/* <DesktopMenuItem item={menu.qa} /> */}
             </ul>
             <div
               className="bg-pc-green ml4 ph4 pv3 br3 white fw4 f5 pointer dim"

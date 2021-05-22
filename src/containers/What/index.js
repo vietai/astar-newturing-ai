@@ -2,7 +2,7 @@ import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import { useState } from 'react';
 
-const What = () => {
+const What = ({ id }) => {
   const [selectedId, setSelectedId] = useState(1);
 
   const toggleCol_1 =
@@ -12,6 +12,7 @@ const What = () => {
 
   return (
     <div className="w-100 bg-dark-gray lh-copy mt5">
+      <div id={id} />
       <div className="w-90 w-80-l center pv5 flex flex-wrap flex-column flex-row-l">
         {/* <!-- cot 1 --> */}
         <div className="w-100 w-40-l f2 fw6 ttu ph2 pl0 pr5-l debug whit-70 pc-near-white tc tl-l">
