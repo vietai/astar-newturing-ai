@@ -7,7 +7,7 @@ const Challenges = ({ id }) => {
     <>
       {/* desktop */}
       <div id={id} />
-      <div className="dn db-l w-100 bg-pc-red mt5 mb6">
+      <div className="dn db-l w-100 bg-pc-red mt6 mb6">
         <div className="w-70 center pv5">
           <p className="_title f3 fw6 tc tracked-mega ttu pc-white">
             {challenges.title}
@@ -50,7 +50,7 @@ const Challenges = ({ id }) => {
                 src="images/challenges.png"
                 alt=""
                 className="absolute"
-                style={{ width: '45%', bottom: '-200px', right: '3%' }}
+                style={{ width: '45%', bottom: '-230px', right: '3%' }}
               />
             </div>
           </div>
@@ -59,7 +59,7 @@ const Challenges = ({ id }) => {
 
       {/* mobile */}
 
-      <div class="db dn-l w-100 bg-pc-red pv4 mt4">
+      <div class="db dn-l w-100 bg-pc-red pt5 pb4 mt5">
         <p class="_title f3 fw6 tc tracked-mega ttu pc-white lh-copy">
           {challenges.title}
         </p>

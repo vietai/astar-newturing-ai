@@ -11,7 +11,7 @@ const What = ({ id }) => {
     selectedId === 2 ? 'db w-100  w-50-l ' : 'dn db-l w-50-l ';
 
   return (
-    <div className="w-100 bg-dark-gray lh-copy mt5">
+    <div className="w-100 bg-dark-gray lh-copy mt0 mt6-l">
       <div id={id} />
       <div className="w-90 w-80-l center pv5 flex flex-wrap flex-column flex-row-l">
         {/* <!-- cot 1 --> */}
@@ -34,7 +34,7 @@ const What = ({ id }) => {
                 setSelectedId(1);
               }}
             >
-              <p className="green fw6 ttu">
+              <p className="pc_what_white fw6 ttu">
                 _TECHNOLOGY TRAINING / GUEST LECTURES
               </p>
             </div>
@@ -45,19 +45,19 @@ const What = ({ id }) => {
                 setSelectedId(2);
               }}
             >
-              <p className="dark-pink  fw6 ttu">_BUSINESS / PROTOTYPE</p>
+              <p className="pc_what_pink fw6 ttu">_BUSINESS / PROTOTYPE</p>
             </div>
           </div>
 
           {/* desktop: no click no opacity */}
           <div className="dn w-100 flex-l justify-end bb bw1 b--gray pv4">
             <div className="w-40 ">
-              <p className="green fw6 ttu">
+              <p className="pc_what_white fw6 ttu">
                 _TECHNOLOGY TRAINING / GUEST LECTURES
               </p>
             </div>
             <div className="w-40  ">
-              <p className="dark-pink fw6 ttu">_BUSINESS / PROTOTYPE</p>
+              <p className="pc_what_pink fw6 ttu">_BUSINESS / PROTOTYPE</p>
             </div>
           </div>
 

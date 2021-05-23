@@ -21,11 +21,19 @@
   padding: 1rem;
 }
 
+.pc_what_white {
+  color: #e1e2e2;
+}
+
+.pc_what_pink {
+  color: #d7aea8;
+}
+
 .green-week-box {
-  border-top: solid 10px #018e42;
-  border-left: solid 2px #018e42;
-  border-right: solid 2px #018e42;
-  border-bottom: solid 2px #018e42;
+  border-top: solid 10px #e1e2e2;
+  border-left: solid 2px #e1e2e2;
+  border-right: solid 2px #e1e2e2;
+  border-bottom: solid 2px #e1e2e2;
 
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -34,10 +42,10 @@
 }
 
 .pink-week-box {
-  border-top: solid 10px darkred;
-  border-left: solid 2px darkred;
-  border-right: solid 2px darkred;
-  border-bottom: solid 2px darkred;
+  border-top: solid 10px #d7aea8;
+  border-left: solid 2px #d7aea8;
+  border-right: solid 2px #d7aea8;
+  border-bottom: solid 2px #d7aea8;
 
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -46,10 +54,10 @@
 }
 
 .yellow-week-box {
-  border-top: solid 10px darkgoldenrod;
-  border-left: solid 2px darkgoldenrod;
-  border-right: solid 2px darkgoldenrod;
-  border-bottom: solid 2px darkgoldenrod;
+  border-top: solid 10px #731013;
+  border-left: solid 2px #731013;
+  border-right: solid 2px #731013;
+  border-bottom: solid 2px #731013;
 
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -242,7 +250,7 @@ _qa-title
 .h35 {
   height: 6rem;
 }
-.h45{
+.h45 {
   height: 12rem;
 }
 .h55 {
