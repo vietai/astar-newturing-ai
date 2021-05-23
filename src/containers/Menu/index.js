@@ -58,7 +58,7 @@ const Menu = () => {
           duration={500}
           className="pointer"
         >
-          <img src="images/newturing_ai.png" alt="" className="w22" />
+          <img src="images/logo_nti.jpg" alt="" className="w22" />
         </Link>
 
         <img
@@ -77,7 +77,7 @@ const Menu = () => {
         dn-l vh-100 w-100 pc-white bg-pc-red  flex-column justify fixed top-0 z-4 `}
       >
         <div className="w-100 flex justify-between pa4 items-center">
-          <img src="images/logo_white.svg" alt="" className="w22" />
+          <img src="images/newturing_ai_white.png" alt="" className="w22" />
           <div
             className="_btn-close white pointer f4 fw6"
             onClick={_toggleModal}
@@ -110,7 +110,7 @@ const Menu = () => {
             duration={500}
             className="pointer"
           >
-            <img src="images/newturing_ai.png" alt="" className="w25" />
+            <img src="images/logo_nti.jpg" alt="" className="w25" />
           </Link>
 
           <div className="flex items-center">

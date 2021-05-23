@@ -9,14 +9,14 @@ const Challenges = ({ id }) => {
       <div id={id} />
       <div className="dn db-l w-100 bg-pc-red mt6 mb6">
         <div className="w-70 center pv5">
-          <p className="_title f3 fw6 tc tracked-mega ttu pc-white">
+          <p className="_title f3 fw7 tc tracked-mega ttu pc-white ph3">
             {challenges.title}
           </p>
 
           <div className="_mansory w-100 flex flex-wrap justify-around mt4 relative">
             <div className="w-40 ph3">
               <div className="w-100 pv4">
-                <p className="f4 fw6 pc-white ttu tracked">
+                <p className="f4 fw7 pc-white ttu tracked">
                   {challenges.col_1.title}
                 </p>
 
@@ -26,7 +26,7 @@ const Challenges = ({ id }) => {
               </div>
 
               <div className="w-100 pv4">
-                <p className="f4 fw6 pc-white ttu tracked">
+                <p className="f4 fw7 pc-white ttu tracked">
                   {challenges.col_3.title}
                 </p>
 
@@ -38,7 +38,7 @@ const Challenges = ({ id }) => {
 
             <div className="w-40 ph3">
               <div className="w-100 pv5">
-                <p className="f4 fw6 pc-white ttu tracked lh-copy">
+                <p className="f4 fw7 pc-white ttu tracked lh-copy">
                   {challenges.col_2.title}
                 </p>
                 <p className="pc-pink-white mt4 tracked lh-copy f6 poppins fw2">
@@ -60,12 +60,12 @@ const Challenges = ({ id }) => {
       {/* mobile */}
 
       <div class="db dn-l w-100 bg-pc-red pt5 pb4 mt5">
-        <p class="_title f3 fw6 tc tracked-mega ttu pc-white lh-copy">
+        <p class="_title f3 fw7 tc tracked-mega ttu pc-white lh-copy ph2">
           {challenges.title}
         </p>
 
         <div class="w-80 center">
-          <p class="f5 fw6 pc-white ttu tracked lh-copy mt4">
+          <p class="f5 fw7 pc-white ttu tracked lh-copy mt4">
             {challenges.col_1.title}
           </p>
 
@@ -75,7 +75,7 @@ const Challenges = ({ id }) => {
         </div>
 
         <div class="w-80 center">
-          <p class="f5 fw6 pc-white ttu tracked lh-copy mt4">
+          <p class="f5 fw7 pc-white ttu tracked lh-copy mt4">
             {challenges.col_2.title}
           </p>
 
@@ -85,7 +85,7 @@ const Challenges = ({ id }) => {
         </div>
 
         <div class="w-80 center">
-          <p class="f5 fw6 pc-white ttu tracked lh-copy mt4">
+          <p class="f5 fw7 pc-white ttu tracked lh-copy mt4">
             {challenges.col_3.title}
           </p>
 

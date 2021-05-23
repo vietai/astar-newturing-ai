@@ -15,7 +15,7 @@ const What = ({ id }) => {
       <div id={id} />
       <div className="w-90 w-80-l center pv5 flex flex-wrap flex-column flex-row-l">
         {/* <!-- cot 1 --> */}
-        <div className="w-100 w-40-l f2 fw6 ttu ph2 pl0 pr5-l debug whit-70 pc-near-white tc tl-l">
+        <div className="w-100 w-40-l f2 fw7 ttu ph2 pl0 pr5-l debug whit-70 pc-near-white tc tl-l">
           What you will <br />
           learn in this <br />
           bootcamp
@@ -34,7 +34,7 @@ const What = ({ id }) => {
                 setSelectedId(1);
               }}
             >
-              <p className="pc_what_white fw6 ttu">
+              <p className="pc_what_white fw7 ttu">
                 _TECHNOLOGY TRAINING / GUEST LECTURES
               </p>
             </div>
@@ -45,19 +45,19 @@ const What = ({ id }) => {
                 setSelectedId(2);
               }}
             >
-              <p className="pc_what_pink fw6 ttu">_BUSINESS / PROTOTYPE</p>
+              <p className="pc_what_pink fw7 ttu">_BUSINESS / PROTOTYPE</p>
             </div>
           </div>
 
           {/* desktop: no click no opacity */}
           <div className="dn w-100 flex-l justify-end bb bw1 b--gray pv4">
             <div className="w-40 ">
-              <p className="pc_what_white fw6 ttu">
+              <p className="pc_what_white fw7 ttu">
                 _TECHNOLOGY TRAINING / GUEST LECTURES
               </p>
             </div>
             <div className="w-40  ">
-              <p className="pc_what_pink fw6 ttu">_BUSINESS / PROTOTYPE</p>
+              <p className="pc_what_pink fw7 ttu">_BUSINESS / PROTOTYPE</p>
             </div>
           </div>
 
