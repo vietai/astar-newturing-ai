@@ -50,7 +50,7 @@ const WhoApply = ({ id }) => {
                 src="images/challenges.png"
                 alt=""
                 className="absolute"
-                style={{ width: '45%', bottom: '-220px', right: '3%' }}
+                style={{ width: '45%', bottom: '-230px', right: '3%' }}
               />
             </div>
           </div>
