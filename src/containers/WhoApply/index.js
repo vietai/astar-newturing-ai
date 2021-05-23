@@ -8,7 +8,7 @@ const WhoApply = ({ id }) => {
       {/* desktop */}
       <div id={id} />
       <div className="dn db-l w-100 bg-pc-red mb6">
-        <div className="w-70 center pv5">
+        <div className="w-70 center pt5 pb6">
           <p className="_title f3 fw7 tc tracked-mega ttu pc-white">
             {whoApply.title}
           </p>
@@ -50,7 +50,7 @@ const WhoApply = ({ id }) => {
                 src="images/challenges.png"
                 alt=""
                 className="absolute"
-                style={{ width: '45%', bottom: '-230px', right: '3%' }}
+                style={{ width: '40%', bottom: '-250px', right: '5%' }}
               />
             </div>
           </div>
