@@ -123,7 +123,7 @@ const Menu = () => {
               {/* <DesktopMenuItem item={menu.qa} /> */}
             </ul>
             <div
-              className="bg-pc-green ml4 ph4 pv3 br3 white fw4 f5 pointer dim"
+              className="btnApply ml4 ph4 pv3 br3 fw6 f5 pointer dim"
               onClick={() => window.open(registerLink, '_blank')}
             >
               APPLY NOW
