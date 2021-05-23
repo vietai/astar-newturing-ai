@@ -228,6 +228,16 @@ _qa-title
 }
 
 /* sizes, layout */
+
+/* --spacing-large: 2rem;
+--spacing-extra-large: 4rem; */
+
+.ph45 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+
 .w25 {
   width: 3rem;
 }

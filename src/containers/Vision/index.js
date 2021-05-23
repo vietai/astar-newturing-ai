@@ -11,7 +11,7 @@ const Vision = ({ id }) => (
     </p>
 
     <div className="w-90 w-80-l flex flex-column flex-row-l center mt3 mt4-l">
-      <div className="w-100 w-third-l flex flex-column items-center ph4 ph5-l justify-start">
+      <div className="w-100 w-third-l flex flex-column items-center ph45 justify-start">
         <div className="flex flex-column items-center">
           <img src="images/vision_1.svg" alt="" className="pt4" />
           <p
@@ -24,7 +24,7 @@ const Vision = ({ id }) => (
         </p>
       </div>
 
-      <div className="w-100 w-third-l flex flex-column items-center ph4 ph5-l justify-start">
+      <div className="w-100 w-third-l flex flex-column items-center ph45 justify-start">
         <div className="flex flex-column items-center">
           <img src="images/vision_2.svg" alt="" className="pt4" />
           <p
@@ -38,7 +38,7 @@ const Vision = ({ id }) => (
         </p>
       </div>
 
-      <div className="w-100 w-third-l flex flex-column items-center ph4 ph5-l justify-start">
+      <div className="w-100 w-third-l flex flex-column items-center ph45 justify-start">
         <div className="flex flex-column items-center">
           <img src="images/vision_3.svg" alt="" className="pt4" />
           <p

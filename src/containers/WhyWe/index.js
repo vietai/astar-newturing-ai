@@ -9,7 +9,7 @@ const WhyWe = ({ id }) => (
     </p>
 
     <div class="w-90 w-70-l flex flex-column flex-row-l center mt3 mt4-l">
-      <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 ph5-l justify-start">
+      <div class="w-100 w-third-l pa3 flex flex-column items-center ph45 justify-start">
         <div class="flex flex-column items-center">
           <img src="images/svg_pc.svg" alt="" class="pt4" />
           <p
@@ -22,7 +22,7 @@ const WhyWe = ({ id }) => (
         </p>
       </div>
 
-      <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 ph5-l justify-start">
+      <div class="w-100 w-third-l pa3 flex flex-column items-center ph45 justify-start">
         <div class="flex flex-column items-center">
           <img src="images/svg_earth.svg" alt="" class="pt4" />
           <p
@@ -36,7 +36,7 @@ const WhyWe = ({ id }) => (
         </p>
       </div>
 
-      <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 ph5-l justify-start">
+      <div class="w-100 w-third-l pa3 flex flex-column items-center ph45 justify-start">
         <div class="flex flex-column items-center">
           <img src="images/svg_notebook.svg" alt="" class="pt4" />
           <p
