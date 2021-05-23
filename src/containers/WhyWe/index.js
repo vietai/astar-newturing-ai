@@ -9,7 +9,7 @@ const WhyWe = ({ id }) => (
     </p>
 
     <div class="w-90 w-70-l flex flex-column flex-row-l center mt3 mt4-l">
-      <div class="w-100 w-third-l pa3 flex flex-column items-center ph45 justify-start">
+      <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 justify-start">
         <div class="flex flex-column items-center">
           <img src="images/svg_pc.svg" alt="" class="pt4" />
           <p
@@ -17,12 +17,12 @@ const WhyWe = ({ id }) => (
             dangerouslySetInnerHTML={{ __html: whyWe.col_1.title }}
           />
         </div>
-        <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy">
+        <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy tj">
           {whyWe.col_1.content}
         </p>
       </div>
 
-      <div class="w-100 w-third-l pa3 flex flex-column items-center ph45 justify-start">
+      <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 justify-start">
         <div class="flex flex-column items-center">
           <img src="images/svg_earth.svg" alt="" class="pt4" />
           <p
@@ -31,12 +31,12 @@ const WhyWe = ({ id }) => (
           />
         </div>
 
-        <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy">
+        <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy tj">
           {whyWe.col_2.content}
         </p>
       </div>
 
-      <div class="w-100 w-third-l pa3 flex flex-column items-center ph45 justify-start">
+      <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 justify-start">
         <div class="flex flex-column items-center">
           <img src="images/svg_notebook.svg" alt="" class="pt4" />
           <p
@@ -44,7 +44,7 @@ const WhyWe = ({ id }) => (
             dangerouslySetInnerHTML={{ __html: whyWe.col_3.title }}
           />
         </div>
-        <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy">
+        <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy tj">
           {whyWe.col_3.content}
         </p>
       </div>

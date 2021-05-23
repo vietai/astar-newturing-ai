@@ -26,38 +26,38 @@ const What = ({ id }) => {
           {/* <!--  CONTENTS TITLES --> */}
 
           {/* mobile */}
-          <div className="w-100 flex dn-l justify-end bb bw1 b--gray pv4 h45">
+          <div className="w-100 flex dn-l justify-end bb bw1 b--white-05 pt4">
             <div
-              className={'w-40 pointer ' + (selectedId !== 1 ? 'o-30' : '')}
+              className={
+                'w-40 pointer h3 ' + (selectedId !== 1 ? 'o-30' : ' bb--pc-red')
+              }
               onClick={() => {
                 // console.log(1);
                 setSelectedId(1);
               }}
             >
-              <p className="pc_what_white fw7 ttu">
-                _TECHNOLOGY TRAINING / GUEST LECTURES
-              </p>
+              <p className="pc_what_white fw7 ttu">TRAINING</p>
             </div>
             <div
-              className={'w-40 pointer ' + (selectedId !== 2 ? 'o-30' : '')}
+              className={
+                'w-40 pointer h3 ' + (selectedId !== 2 ? 'o-30' : ' bb--pc-red')
+              }
               onClick={() => {
                 // console.log(2);
                 setSelectedId(2);
               }}
             >
-              <p className="pc_what_pink fw7 ttu">_BUSINESS / PROTOTYPE</p>
+              <p className="pc_what_pink fw7 ttu">PROTOTYPE</p>
             </div>
           </div>
 
           {/* desktop: no click no opacity */}
           <div className="dn w-100 flex-l justify-end bb bw1 b--gray pv4">
             <div className="w-40 ">
-              <p className="pc_what_white fw7 ttu">
-                _TECHNOLOGY TRAINING / GUEST LECTURES
-              </p>
+              <p className="pc_what_white fw7 ttu">TRAINING</p>
             </div>
             <div className="w-40  ">
-              <p className="pc_what_pink fw7 ttu">_BUSINESS / PROTOTYPE</p>
+              <p className="pc_what_pink fw7 ttu">PROTOTYPE</p>
             </div>
           </div>
 

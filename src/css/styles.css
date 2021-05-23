@@ -108,6 +108,10 @@
   background-color: #731013;
 }
 
+.bb--pc-red{
+  border-bottom: solid 4px #731013;
+}
+
 .pc-white {
   color: #ebebec;
 }
