@@ -16,16 +16,16 @@ const MobileMentorShip = () => {
 
   return (
     <div className="db dn-l w-100 bg-pc-red">
-      <div id="m1" />
+      <div id="top_group" />
       {groups.map((item, index) => {
         return index === selectGroupId ? (
           <>
             <Link
-              to={'m1'}
+              to={'top_group'}
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
+              duration={1000}
               className="pointer"
             >
               <div className="w-100 pa4" onClick={() => setSelectGroupId(-1)}>
@@ -48,12 +48,22 @@ const MobileMentorShip = () => {
               {item.mentors.map((mentor) => (
                 <>
                   <div className="w-100 pt3">
-                    <img
-                      src={'images/' + mentor.image}
-                      alt=""
-                      className="w-100 br4 pointer"
-                      onClick={() => _showInfoMentor(mentor.id)}
-                    />
+                    <div id={mentor.id} />
+                    <Link
+                      to={mentor.id}
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={1000}
+                      className="pointer"
+                    >
+                      <img
+                        src={'images/' + mentor.image}
+                        alt=""
+                        className="w-100 br4 pointer"
+                        onClick={() => _showInfoMentor(mentor.id)}
+                      />
+                    </Link>
                     <p className="f4 fw6 pc-white tracked mt3">{mentor.name}</p>
                   </div>
 
@@ -79,7 +89,7 @@ const MobileMentorShip = () => {
           </>
         ) : (
           <Link
-            to={'m1'}
+            to={'top_group'}
             spy={true}
             smooth={true}
             offset={-70}

@@ -83,6 +83,19 @@
 }
 
 /* colors */
+
+.nen_cam {
+  /* position: absolute; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  background-color: red;
+}
+/* .khung_hinh:hover .nen_cam {
+} */
+
 .pc-green {
   color: #018e42;
 }
@@ -108,7 +121,7 @@
   background-color: #731013;
 }
 
-.bb--pc-red{
+.bb--pc-red {
   border-bottom: solid 4px #731013;
 }
 
@@ -240,7 +253,6 @@ _qa-title
   padding-left: 3rem;
   padding-right: 3rem;
 }
-
 
 .w25 {
   width: 3rem;
