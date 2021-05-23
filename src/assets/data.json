@@ -119,7 +119,7 @@
         },
         {
             "title": "AI Advisor",
-            "description": "provide startups with advices on cutting-edge technologies and how to apply to their businesses",
+            "description": "Provide startups with advices on cutting-edge technologies and how to apply to their businesses",
             "mentors": [
                 {
                     "id": 4,
@@ -195,7 +195,7 @@
         },
         {
             "title": "AI Expert Buddy",
-            "description": "work hands-on with startups to help achieve an AI demo at the end of the course",
+            "description": "Work hands-on with startups to help achieve an AI demo at the end of the course",
             "mentors": [
                 {
                     "id": 14,
