@@ -62,7 +62,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         </div>
       </div>
 
-      <p class="tc f2 fw5 center w-90 mt4">
+      <p class="tc f2 fw7 center w-90 mt4">
         AI BOOTCAMP <br />
         <span class="i fw4 tracked tangergin"> for </span>
         STARTUPS
