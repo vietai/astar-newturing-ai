@@ -1,5 +1,6 @@
 import '../../css/tachyons.min.css';
 import '../../css/styles.css';
+import './styles.css';
 import { register_link as registerLink } from '../../assets/data.json';
 
 const Apply = () => {
@@ -10,10 +11,10 @@ const Apply = () => {
         Want to become the next gen AI companies? Nominate your company.
       </p>
       <div
-        className="dib bg-pc-green ph5 pv3 br3 white fw5 f6 pointer dim mt5"
+        className="btnApply dib  ph5 pv3 br3  fw6 f5 pointer dim mt5"
         onClick={() => window.open(registerLink, '_blank')}
       >
-        APPLY
+        APPLY NOW
       </div>
     </div>
   );
