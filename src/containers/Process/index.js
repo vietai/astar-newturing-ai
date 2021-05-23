@@ -9,14 +9,14 @@ const MobileProcess = () => {
 
   return (
     <div class="db dn-l w-100 bg-pc-white pb4 pt5">
-      <p class="ph5 tc f2 fw6 pc-red tracked">SELECTION PROCESS</p>
+      <p class="ph5 tc f2 fw7 pc-red tracked">SELECTION PROCESS</p>
 
       <div
         onClick={() => setToggleCombobox(!toggleCombobox)}
         class="w-80 center flex justify-between mt4 pa3 br3 ba b--black-20 pointer lh-copy ttu items-center bg-white"
       >
         <p
-          class="pc-red f5 fw6 ttu tracked "
+          class="pc-red f5 fw7 ttu tracked "
           style={{
             whiteSpace: 'nowrap',
             overflow: 'hidden',
@@ -42,7 +42,7 @@ const MobileProcess = () => {
             }}
             class="w-80 center bg-white flex justify-between mt3 pa3 br3 ba br--top b--black-20 pointer lh-copy ttu items-center"
           >
-            <p class="pc-red f5 fw6 ttu tracked">1 - Registration</p>
+            <p class="pc-red f5 fw7 ttu tracked">1 - Registration</p>
           </div>
 
           <div
@@ -52,7 +52,7 @@ const MobileProcess = () => {
             }}
             class="w-80 center bg-white flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center"
           >
-            <p class="pc-red f5 fw6 ttu tracked">2 - Screening</p>
+            <p class="pc-red f5 fw7 ttu tracked">2 - Screening</p>
           </div>
           <div
             onClick={() => {
@@ -61,7 +61,7 @@ const MobileProcess = () => {
             }}
             class="w-80 center bg-white flex justify-between pa3 ba b--black-20 pointer lh-copy ttu items-center"
           >
-            <p class="pc-red f5 fw6 ttu tracked">3 - Interview</p>
+            <p class="pc-red f5 fw7 ttu tracked">3 - Interview</p>
           </div>
           <div
             onClick={() => {
@@ -70,7 +70,7 @@ const MobileProcess = () => {
             }}
             class="w-80 center bg-white flex justify-between mt0 pa3 br3 ba br--bottom b--black-20 pointer lh-copy ttu items-center"
           >
-            <p class="pc-red f5 fw6 ttu tracked">
+            <p class="pc-red f5 fw7 ttu tracked">
               4 - Final companies confirmed
             </p>
           </div>
@@ -105,7 +105,7 @@ const Process = ({ id }) => {
         <div className="_nen_do absolute bg-pc-red white w-40 right-0 tc h-100 top-0 z-0 br4 br--left"></div>
 
         <div className="w-70 center">
-          <p className="ph5  pc-red f2 fw6 tracked">SELECTION PROCESS</p>
+          <p className="ph5  pc-red f2 fw7 tracked">SELECTION PROCESS</p>
         </div>
 
         <div className="w-70 pt4 mt4 bg-pc-medium-gray br4 z-5 center relative flex justify-around">
@@ -120,7 +120,7 @@ const Process = ({ id }) => {
                     </div>
                     <div className="ph3">
                       <p className="pc-green f6 fw4 lh-copy">{item.date}</p>
-                      <p className="pc-dark-gray lh-copy f5 fw6 tracked">
+                      <p className="pc-dark-gray lh-copy f5 fw7 tracked">
                         {item.title}
                       </p>
                     </div>
@@ -140,7 +140,7 @@ const Process = ({ id }) => {
                       <p className="pc-light-gray f6 fw4 lh-copy">
                         {item.date}
                       </p>
-                      <p className="pc-light-gray lh-copy f5 fw6 tracked">
+                      <p className="pc-light-gray lh-copy f5 fw7 tracked">
                         {item.title}
                       </p>
                     </div>
@@ -153,7 +153,7 @@ const Process = ({ id }) => {
 
           {/* <!-- cot 2 noi dung --> */}
           <div className="w-50 pv4 pr4">
-            <p className="f3 fw6 tracked lh-copy">
+            <p className="f3 fw7 tracked lh-copy">
               {processes[selectProcessId].title}
             </p>
             <p
