@@ -165,7 +165,7 @@ const DesktopMentorship = () => {
         <div className=" _4_hinh flex flex-column flex-row-l mt4 justify-start flex-wrap">
           {mentors.map((item) => (
             <div className="w-third pv0 mv3">
-              <img
+              {/* <img
                 src={'images/' + item.image}
                 alt=""
                 className="w-90 br4 pointer"
@@ -174,7 +174,36 @@ const DesktopMentorship = () => {
                   _showInfoMentor(item.id);
                 }}
               />
-              <p className="f4 mt3 fw4 tl">{item.name}</p>
+              <p className="f4 mt3 fw4 tl">{item.name}</p> */}
+
+              <div className="hover-item w-90 pv0 mv3">
+                <img
+                  src={'images/' + item.image}
+                  alt=""
+                  className="w-100 br0 h-100 mv0 pv0"
+                />
+
+                <div className="fixed_name flex flex-row items-baseline">
+                  <div className="h1 w25 bg-pc-red db mr2 o-70"></div>
+                  <p className="pc-near-white f4 fw6 nowrap dib">{item.name}</p>
+                </div>
+
+                <div
+                  className="h-100 w-100 br0 nen_cam flex flex-column justify-end"
+                  onClick={() => {
+                    console.log('just clicked!!');
+                    _showInfoMentor(item.id);
+                  }}
+                >
+                  <p className="ph3 white f4 fw6">{item.name}</p>
+                  <p className="ph3 white f6 fw5 mt2 lh-copy">
+                  {item.title}
+                  </p>
+                  <p className="ph3 white f6 fw5 mt2 mb4 pc-pink-white">
+                    View More
+                  </p>
+                </div>
+              </div>
             </div>
           ))}
         </div>
