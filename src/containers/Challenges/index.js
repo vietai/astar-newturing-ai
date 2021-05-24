@@ -13,6 +13,10 @@ const Challenges = ({ id }) => {
             {challenges.title}
           </p>
 
+          <p className="w-80 center f6 fw5 tc tracked-mega  pc-pink-white ph3 mt3">
+            {challenges.sub_title}
+          </p>
+
           <div className="_mansory w-100 flex flex-wrap justify-around mt4 relative">
             <div className="w-40 ph3">
               <div className="w-100 pv4">
@@ -62,6 +66,10 @@ const Challenges = ({ id }) => {
       <div class="db dn-l w-100 bg-pc-red pt5 pb4 mt5">
         <p class="_title f3 fw7 tc tracked-mega ttu pc-white lh-copy ph2">
           {challenges.title}
+        </p>
+
+        <p className="w-90 center f6 fw5 tc tracked-mega  pc-pink-white ph3 mt3">
+          {challenges.sub_title}
         </p>
 
         <div class="w-80 center">

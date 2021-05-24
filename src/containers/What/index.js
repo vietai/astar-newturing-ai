@@ -113,8 +113,8 @@ const What = ({ id }) => {
           {/* <!-- week 4, 5--> */}
           <div className="w-100 flex justify-end pv4">
             <div className="w-20 tc flex flex-wrap">
-              <div className="w-100 h4">week 4</div>
-              <div className="w-100 h4">week 5</div>
+              <div className="w-100 h4">Week 4</div>
+              <div className="w-100 h4">Week 5</div>
             </div>
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'green-week-box mr2-l'}>
@@ -131,10 +131,10 @@ const What = ({ id }) => {
           {/* <!-- week 6, 7, 8, 9 --> */}
           <div className="w-100 flex justify-end pv4">
             <div className="w-20 tc flex flex-wrap">
-              <div className="w-100 h4">week 6</div>
-              <div className="w-100 h4">week 7</div>
-              <div className="w-100 h4">week 8</div>
-              <div className="w-100 h4">week 9</div>
+              <div className="w-100 h4">Week 6</div>
+              <div className="w-100 h4">Week 7</div>
+              <div className="w-100 h4">Week 8</div>
+              <div className="w-100 h4">Week 9</div>
             </div>
             <div className="w-80 flex">
               {/* <!-- cot xanh --> */}
@@ -195,9 +195,9 @@ const What = ({ id }) => {
 
           {/* <!-- week 12 --> */}
           <div className="w-100 flex justify-end pv4">
-            <div className="w-20 tc">week 12</div>
+            <div className="w-20 tc">Week 12</div>
 
-            <div className="w-80 yellow-week-box h35">Demo day</div>
+            <div className="w-80 yellow-week-box bg-pc-red ttu f3 fw7 pc-white tc h35">Demo day</div>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import { why_we as whyWe } from '../../assets/data.json';
 import { RedApplyButton } from '../../components/ApplyButton';
 
 const WhyWe = ({ id }) => (
+  // dangerouslySetInnerHTML={{ __html: item.answer }}
   <>
     <div id={id} class="flex flex-column w-100 pt3 pt5-l tc mt5">
       <p class="w-80 w-60-l center f3 f2-l fw7 pc-red ttu tracked-l mt5-l ph3">
@@ -19,9 +20,10 @@ const WhyWe = ({ id }) => (
               dangerouslySetInnerHTML={{ __html: whyWe.col_1.title }}
             />
           </div>
-          <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy tj">
-            {whyWe.col_1.content}
-          </p>
+          <p
+            class="pt4 f5 poppins tracked pc-dark-gray lh-copy tj"
+            dangerouslySetInnerHTML={{ __html: whyWe.col_1.content }}
+          />
         </div>
 
         <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 justify-start">
@@ -33,9 +35,10 @@ const WhyWe = ({ id }) => (
             />
           </div>
 
-          <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy tj">
-            {whyWe.col_2.content}
-          </p>
+          <p
+            class="pt4 f5 poppins tracked pc-dark-gray lh-copy tj"
+            dangerouslySetInnerHTML={{ __html: whyWe.col_2.content }}
+          />
         </div>
 
         <div class="w-100 w-third-l pa3 flex flex-column items-center ph4 justify-start">
@@ -46,9 +49,10 @@ const WhyWe = ({ id }) => (
               dangerouslySetInnerHTML={{ __html: whyWe.col_3.title }}
             />
           </div>
-          <p class="pt4 f5 poppins tracked pc-dark-gray lh-copy tj">
-            {whyWe.col_3.content}
-          </p>
+          <p
+            class="pt4 f5 poppins tracked pc-dark-gray lh-copy tj"
+            dangerouslySetInnerHTML={{ __html: whyWe.col_3.content }}
+          />
         </div>
       </div>
     </div>

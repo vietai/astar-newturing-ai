@@ -30,7 +30,7 @@
         }
     },
     "vision": {
-        "title": "HOW SURPRISINGLY ARTIFICIAL INTELLIGENCE  CAN TRANSFORM YOUR BUSINESS!",
+        "title": "BENEFITS OF APPLYING AI INTO YOUR BUSINESS",
         "col_1": {
             "title": "10-100X<br/>Transformation",
             "content": "AI Transformation can unlock the companies’ scalability bottleneck (e.g. AI in Recommendation Engine have enabled Amazon to predict customer behavior and finally, generate 140 billion U.S. dollars accounting for 35% revenue in 2020 - Statista)"
@@ -45,7 +45,8 @@
         }
     },
     "challenges": {
-        "title": "BUT, YOU’RE STILL IN TROUBLE WITH…",
+        "title": "WHY DO WE START THIS BOOTCAMP",
+        "sub_title":"AI Bootcamp is launched to help address three most critical challenges faced by startups in reaching their full potentials.",
         "col_1": {
             "title": "01 _ Limited understanding of AI",
             "content": "Majority of startups in Vietnam don’t know how AI can be relevant in their business model (why); how far is it to reach “10X-100X transformation” after integrating state-of-the-art AI and what technology to start with (what)?"
@@ -67,7 +68,7 @@
         },
         "col_2": {
             "title": "Global AI<br/>Expert Network",
-            "content": "A privileged Global Network of AI Experts, covering all different domains and verticals that are relevant to startups in Vietnam such as AI in Retail & Ecommerce, AI in Healthcare, AI in Education, AI in Finance etc.,. Click here to see our global AI network."
+            "content": "A privileged Global Network of AI Experts, covering all different domains and verticals that are relevant to startups in Vietnam such as AI in Retail & Ecommerce, AI in Healthcare, AI in Education, AI in Finance etc.,. <a href='#ai_expert_network' >Click here</a> to see our global AI network."
         },
         "col_3": {
             "title": "Best-in-class AI<br/>Training Programs",
@@ -76,6 +77,7 @@
     },
     "who_apply": {
         "title": "WHO SHOULD APPLY TO A-STAR?",
+        "sub_title":"Given below is a pre-requisite list for potential companies",
         "col_1": {
             "title": "Potential business model to apply AI",
             "content": "Our “Personalized AI Assessment” process will make a final decision. Firstly, just think if you can meet two criteria: big market (enough space to make an extraordinary growth) & scalability business model (to apply AI)"
