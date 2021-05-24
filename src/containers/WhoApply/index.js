@@ -13,11 +13,12 @@ const WhoApply = ({ id }) => {
             {whoApply.title}
           </p>
 
-          <p className="w-80 center f6 fw5 tc tracked-mega  pc-pink-white ph3 mt3">
+          <p className="w-80 left debug f5 fw5 tl tracked-mega  pc-pink-white ph3 mt4">
             {whoApply.sub_title}
           </p>
 
-          <div className="_mansory w-100 flex flex-wrap justify-around mt4 relative">
+          <div className="_mansory w-100  flex flex-wrap justify-between mt4 relative">
+
             <div className="w-40 ph3">
               <div className="w-100 pv4">
                 <p className="f4 fw7 pc-white ttu tracked">
@@ -68,7 +69,7 @@ const WhoApply = ({ id }) => {
           {whoApply.title}
         </p>
 
-        <p className="w-90 center f6 fw5 tc tracked-mega  pc-pink-white ph3 mt3">
+        <p className="w-90 center f5 fw5 tl tracked-mega  pc-pink-white ph3 mt3">
           {whoApply.sub_title}
         </p>
 
