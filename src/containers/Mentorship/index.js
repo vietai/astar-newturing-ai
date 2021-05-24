@@ -50,22 +50,32 @@ const MobileMentorShip = () => {
                 <>
                   <div className="w-100 pt3">
                     <div id={mentor.id} />
-                    <Link
-                      to={mentor.id}
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={1000}
-                      className="pointer"
-                    >
-                      <img
-                        src={'images/' + mentor.image}
-                        alt=""
-                        className="w-100 br4 pointer"
-                        onClick={() => _showInfoMentor(mentor.id)}
-                      />
-                    </Link>
-                    <p className="f4 fw6 pc-white tracked mt3">{mentor.name}</p>
+                    <div className="relative">
+                      <Link
+                        to={mentor.id}
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                        className="pointer"
+                      >
+                        <img
+                          src={'images/' + mentor.image}
+                          alt=""
+                          className="w-100 br0 pointer"
+                          onClick={() => _showInfoMentor(mentor.id)}
+                        />
+                      </Link>
+
+                      <div className="fixed_name flex flex-row items-baseline">
+                        <div className="h1 w25 bg-pc-red db mr2 o-70"></div>
+                        <p className="pc-near-white f4 fw6 nowrap dib">
+                          {mentor.name}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* <p className="f4 fw6 pc-white tracked mt3">{mentor.name}</p> */}
                   </div>
 
                   <div
