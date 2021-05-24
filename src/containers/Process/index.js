@@ -157,7 +157,7 @@ const Process = ({ id }) => {
               {processes[selectProcessId].title}
             </p>
             <p
-              className="f6 fw3 tracked lh-copy pc-gray mt3"
+              className="f5 fw5 tracked lh-copy pc-gray mt3"
               dangerouslySetInnerHTML={{
                 __html: processes[selectProcessId].description,
               }}
