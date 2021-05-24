@@ -68,28 +68,12 @@ const MobileMentorShip = () => {
                     <p className="f4 fw6 pc-white tracked mt3">{mentor.name}</p>
                   </div>
 
-                  
                   <div
                     className={
                       'db dn-l relative box_close  ' +
                       (activeMentorId !== mentor.id ? '' : 'box_open')
                     }
                   >
-                    {/* noi dung an, dieu chinh kich thuoc */}
-                    {/* <div className="o-50 w-100  bg-pc-red pc-near-white f6 mv2 pv2 br3 lh-copy">
-                      <div className="w-100 bb b--white-50 mt3 mb2"></div>
-                      <p className="f6 fw6 lh-copy tracked mt3">
-                        {mentor.title}
-                      </p>
-                      <p
-                        className="fw3 lh-copy tracked mt3"
-                        dangerouslySetInnerHTML={{
-                          __html: mentor.description,
-                        }}
-                      ></p>
-                    </div> */}
-
-                    {/* noi dung that */}
                     <div className="w-100 absolute top-0 z-9 o bg-pc-red pc-near-white f6 mv2 pv2 br3 lh-copy">
                       <div className="w-100 bb b--white-50 mt3 mb2"></div>
                       <p className="f6 fw6 lh-copy tracked mt3">
@@ -103,23 +87,6 @@ const MobileMentorShip = () => {
                       ></p>
                     </div>
                   </div>
-
-                  {/* {activeMentorId === mentor.id ? (
-                    <div className="db dn-l"  >
-                      <div className="w-100  bg-pc-red pc-near-white f6 mv2 pv2 br3 lh-copy">
-                        <div className="w-100 bb b--white-50 mt3 mb2"></div>
-                        <p className="f6 fw6 lh-copy tracked mt3">
-                          {mentor.title}
-                        </p>
-                        <p
-                          className="fw3 lh-copy tracked mt3"
-                          dangerouslySetInnerHTML={{
-                            __html: mentor.description,
-                          }}
-                        ></p>
-                      </div>
-                    </div>
-                  ) : null} */}
                 </>
               ))}
             </div>
@@ -202,17 +169,6 @@ const DesktopMentorship = () => {
         <div className=" _4_hinh flex flex-column flex-row-l mt4 justify-start flex-wrap">
           {mentors.map((item) => (
             <div className="w-third pv0 mv3">
-              {/* <img
-                src={'images/' + item.image}
-                alt=""
-                className="w-90 br4 pointer"
-                onClick={() => {
-                  console.log('just clicked!!');
-                  _showInfoMentor(item.id);
-                }}
-              />
-              <p className="f4 mt3 fw4 tl">{item.name}</p> */}
-
               <div className="hover-item w-90 pv0 mv3">
                 <img
                   src={'images/' + item.image}

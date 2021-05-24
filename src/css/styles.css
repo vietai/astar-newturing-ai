@@ -19,8 +19,7 @@
 .box_open {
   transform-origin: top;
   height: 400px;
-  
-  /* height: auto; */
+
   overflow: scroll;
 }
 
