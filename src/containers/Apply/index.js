@@ -2,6 +2,7 @@ import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import './styles.css';
 import { register_link as registerLink } from '../../assets/data.json';
+// import ApplyButton from '../../components/ApplyButton';
 
 const Apply = () => {
   return (
@@ -10,6 +11,7 @@ const Apply = () => {
       <p className="f6 tracked fw3 mt4">
         Want to become the next gen AI companies? Nominate your company.
       </p>
+      {/* <ApplyButton/> */}
       <div
         className="btnApply dib  ph5 pv3 br3  fw7 f5 pointer dim mt5"
         onClick={() => window.open(registerLink, '_blank')}

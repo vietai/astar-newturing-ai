@@ -2,6 +2,7 @@ import '../css/tachyons.min.css';
 import '../css/styles.css';
 import Countdown from 'react-countdown';
 import { countdown } from '../assets/data.json';
+import ApplyButton from '../components/ApplyButton';
 
 const HtmlCountDown = ({ d, h, m, s }) => (
   <>
@@ -120,6 +121,10 @@ const HtmlCountDown = ({ d, h, m, s }) => (
             <p class="ttu">SECONDS</p>
             <p class="soTo">{s}</p>
           </div>
+        </div>
+
+        <div className="dn db-l w-100 tc">
+          <ApplyButton />
         </div>
       </div>
     </div>

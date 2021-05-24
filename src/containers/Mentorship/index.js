@@ -4,6 +4,7 @@ import { groups } from '../../assets/data.json';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import './styles.css';
+import ApplyButton, { RedApplyButton } from '../../components/ApplyButton';
 
 const MobileMentorShip = () => {
   const [selectGroupId, setSelectGroupId] = useState(0);
@@ -149,112 +150,119 @@ const DesktopMentorship = () => {
   };
 
   return (
-    <div
-      id="desktop-mentorship"
-      className="dn flex-l flex-column w-70 center br3 mt2 pv2 ph3 white bg-pc-red"
-    >
-      <div className="w-100 flex justify-around">
-        {groups.map((item, index) => (
-          <div
-            className={
-              selectGroupId === index
-                ? 'w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer'
-                : 'w-third mh1 bg-near-white pc-black pv3 br2 tc pointer'
-            }
-            onClick={() => setSelectGroupId(index)}
-          >
-            {groups[index].title}
-          </div>
-        ))}
-      </div>
-
-      <div className="w-90 center mt4">
-        <p className="_title f2 fw4 lh-copy tracked tl pc-white">
-          {groups[selectGroupId].title}
-        </p>
-        <p className="mt3 f6 fw3 tracked tl pc-white lh-copy pc-pink-white">
-          {groups[selectGroupId].description}
-        </p>
-
-        <div className=" _4_hinh flex flex-column flex-row-l mt4 justify-start flex-wrap">
-          {mentors.map((item) => (
-            <div className="w-third pv0 mv3">
-              <div className="hover-item w-90 pv0 mv3">
-                <img
-                  src={'images/' + item.image}
-                  alt=""
-                  className="w-100 br0 h-100 mv0 pv0"
-                />
-
-                <div className="fixed_name flex flex-row items-baseline">
-                  <div className="h1 w25 bg-pc-red db mr2 o-70"></div>
-                  <p className="pc-near-white f4 fw6 nowrap dib">{item.name}</p>
-                </div>
-
-                <div
-                  className="h-100 w-100 br0 nen_cam flex flex-column justify-end"
-                  onClick={() => {
-                    console.log('just clicked!!');
-                    _showInfoMentor(item.id);
-                  }}
-                >
-                  <p className="ph3 white f4 fw6">{item.name}</p>
-                  <p className="ph3 white f6 fw5 mt2 lh-copy">{item.title}</p>
-                  <p className="ph3 white f6 fw5 mt2 mb4 pc-pink-white">
-                    View More
-                  </p>
-                </div>
-              </div>
+    <>
+      <div
+        id="desktop-mentorship"
+        className="dn flex-l flex-column w-70 center br3 mt2 pv2 ph3 white bg-pc-red"
+      >
+        <div className="w-100 flex justify-around">
+          {groups.map((item, index) => (
+            <div
+              className={
+                selectGroupId === index
+                  ? 'w-third mh1 bg-near-white bg-pc-pink-white pc-black pv3 br2 tc pointer'
+                  : 'w-third mh1 bg-near-white pc-black pv3 br2 tc pointer'
+              }
+              onClick={() => setSelectGroupId(index)}
+            >
+              {groups[index].title}
             </div>
           ))}
         </div>
 
-        {isShowModal ? (
-          <div
-            className="dn db-l w-100 bg-black-50 vh-100 fixed top-0 left-0 z-999"
-            onClick={() => {
-              setActiveMentorId(0);
-            }}
-          >
-            <div className="modal dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around ">
-              <p
-                className="_btn-close white pointer tr absolute top-1 right-1"
-                onClick={() => {
-                  setActiveMentorId(0);
-                }}
-              >
-                X
-              </p>
+        <div className="w-90 center mt4">
+          <p className="_title f2 fw4 lh-copy tracked tl pc-white">
+            {groups[selectGroupId].title}
+          </p>
+          <p className="mt3 f6 fw3 tracked tl pc-white lh-copy pc-pink-white">
+            {groups[selectGroupId].description}
+          </p>
 
-              {mentors
-                .filter((item) => item.id === activeMentorId)
-                .map((item) => (
-                  <>
-                    <div className="w-25 pt3">
-                      <img
-                        src={`images/${item.image}`}
-                        alt=""
-                        className="br4 w-100"
-                      />
-                    </div>
-                    <div className="w-60 pr4">
-                      <p className="_mentor-name f2 lh-copy">{item.name}</p>
-                      <p className="_mentor-title lh-copy">{item.title}</p>
+          <div className=" _4_hinh flex flex-column flex-row-l mt4 justify-start flex-wrap">
+            {mentors.map((item) => (
+              <div className="w-third pv0 mv3">
+                <div className="hover-item w-90 pv0 mv3">
+                  <img
+                    src={'images/' + item.image}
+                    alt=""
+                    className="w-100 br0 h-100 mv0 pv0"
+                  />
 
-                      <p
-                        className="_mentor-info lh-copy mt3"
-                        dangerouslySetInnerHTML={{
-                          __html: item.description,
-                        }}
-                      ></p>
-                    </div>
-                  </>
-                ))}
-            </div>
+                  <div className="fixed_name flex flex-row items-baseline">
+                    <div className="h1 w25 bg-pc-red db mr2 o-70"></div>
+                    <p className="pc-near-white f4 fw6 nowrap dib">
+                      {item.name}
+                    </p>
+                  </div>
+
+                  <div
+                    className="h-100 w-100 br0 nen_cam flex flex-column justify-end"
+                    onClick={() => {
+                      console.log('just clicked!!');
+                      _showInfoMentor(item.id);
+                    }}
+                  >
+                    <p className="ph3 white f4 fw6">{item.name}</p>
+                    <p className="ph3 white f6 fw5 mt2 lh-copy">{item.title}</p>
+                    <p className="ph3 white f6 fw5 mt2 mb4 pc-pink-white">
+                      View More
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
-        ) : null}
+
+          {isShowModal ? (
+            <div
+              className="dn db-l w-100 bg-black-50 vh-100 fixed top-0 left-0 z-999"
+              onClick={() => {
+                setActiveMentorId(0);
+              }}
+            >
+              <div className="modal dn flex-l w-60 center br3 bg-pc-red pa4 pc-near-white justify-around ">
+                <p
+                  className="_btn-close white pointer tr absolute top-1 right-1"
+                  onClick={() => {
+                    setActiveMentorId(0);
+                  }}
+                >
+                  X
+                </p>
+
+                {mentors
+                  .filter((item) => item.id === activeMentorId)
+                  .map((item) => (
+                    <>
+                      <div className="w-25 pt3">
+                        <img
+                          src={`images/${item.image}`}
+                          alt=""
+                          className="br4 w-100"
+                        />
+                      </div>
+                      <div className="w-60 pr4">
+                        <p className="_mentor-name f2 lh-copy">{item.name}</p>
+                        <p className="_mentor-title lh-copy">{item.title}</p>
+
+                        <p
+                          className="_mentor-info lh-copy mt3"
+                          dangerouslySetInnerHTML={{
+                            __html: item.description,
+                          }}
+                        ></p>
+                      </div>
+                    </>
+                  ))}
+              </div>
+            </div>
+          ) : null}
+        </div>
       </div>
-    </div>
+      <div className="dn db-l w-100 tc">
+        <RedApplyButton />
+      </div>
+    </>
   );
 };
 
