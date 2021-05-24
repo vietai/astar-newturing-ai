@@ -8,6 +8,22 @@
   font-family: 'Lexend', sans-serif;
 }
 
+.box_close {
+  transition: 1s;
+  transform-origin: top;
+  overflow: hidden;
+
+  height: 0px;
+}
+
+.box_open {
+  transform-origin: top;
+  height: 400px;
+  
+  /* height: auto; */
+  overflow: scroll;
+}
+
 .hover-item {
   overflow: hidden;
   cursor: pointer;

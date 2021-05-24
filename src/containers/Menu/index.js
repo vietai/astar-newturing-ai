@@ -48,7 +48,7 @@ const Menu = () => {
     <>
       <div
         id="mobile-menu"
-        className="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center fixed top-0 z-99"
+        className="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center fixed top-0 z-999"
       >
         <Link
           to={menu.top.id}

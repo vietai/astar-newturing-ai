@@ -16,6 +16,7 @@ const MobileMentorShip = () => {
 
   return (
     <div className="db dn-l w-100 bg-pc-red">
+      {/* anchor  for Link_to */}
       <div id="top_group" />
       {groups.map((item, index) => {
         return index === selectGroupId ? (
@@ -25,7 +26,7 @@ const MobileMentorShip = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={1000}
+              duration={2000}
               className="pointer"
             >
               <div className="w-100 pa4" onClick={() => setSelectGroupId(-1)}>
@@ -44,7 +45,7 @@ const MobileMentorShip = () => {
               </div>
             </Link>
 
-            <div className="w-100 pa4 bb b--pink-white">
+            <div className="w-100 ph4 pt0 pb4 bb b--pink-white">
               {item.mentors.map((mentor) => (
                 <>
                   <div className="w-100 pt3">
@@ -67,8 +68,44 @@ const MobileMentorShip = () => {
                     <p className="f4 fw6 pc-white tracked mt3">{mentor.name}</p>
                   </div>
 
-                  {activeMentorId === mentor.id ? (
-                    <div className="db dn-l">
+                  
+                  <div
+                    className={
+                      'db dn-l relative box_close  ' +
+                      (activeMentorId !== mentor.id ? '' : 'box_open')
+                    }
+                  >
+                    {/* noi dung an, dieu chinh kich thuoc */}
+                    {/* <div className="o-50 w-100  bg-pc-red pc-near-white f6 mv2 pv2 br3 lh-copy">
+                      <div className="w-100 bb b--white-50 mt3 mb2"></div>
+                      <p className="f6 fw6 lh-copy tracked mt3">
+                        {mentor.title}
+                      </p>
+                      <p
+                        className="fw3 lh-copy tracked mt3"
+                        dangerouslySetInnerHTML={{
+                          __html: mentor.description,
+                        }}
+                      ></p>
+                    </div> */}
+
+                    {/* noi dung that */}
+                    <div className="w-100 absolute top-0 z-9 o bg-pc-red pc-near-white f6 mv2 pv2 br3 lh-copy">
+                      <div className="w-100 bb b--white-50 mt3 mb2"></div>
+                      <p className="f6 fw6 lh-copy tracked mt3">
+                        {mentor.title}
+                      </p>
+                      <p
+                        className="fw3 lh-copy tracked mt3"
+                        dangerouslySetInnerHTML={{
+                          __html: mentor.description,
+                        }}
+                      ></p>
+                    </div>
+                  </div>
+
+                  {/* {activeMentorId === mentor.id ? (
+                    <div className="db dn-l"  >
                       <div className="w-100  bg-pc-red pc-near-white f6 mv2 pv2 br3 lh-copy">
                         <div className="w-100 bb b--white-50 mt3 mb2"></div>
                         <p className="f6 fw6 lh-copy tracked mt3">
@@ -82,7 +119,7 @@ const MobileMentorShip = () => {
                         ></p>
                       </div>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </>
               ))}
             </div>
@@ -196,9 +233,7 @@ const DesktopMentorship = () => {
                   }}
                 >
                   <p className="ph3 white f4 fw6">{item.name}</p>
-                  <p className="ph3 white f6 fw5 mt2 lh-copy">
-                  {item.title}
-                  </p>
+                  <p className="ph3 white f6 fw5 mt2 lh-copy">{item.title}</p>
                   <p className="ph3 white f6 fw5 mt2 mb4 pc-pink-white">
                     View More
                   </p>

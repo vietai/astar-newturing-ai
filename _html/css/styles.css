@@ -8,6 +8,31 @@
   font-family: 'Lexend', sans-serif;
 }
 
+.test {
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+/* box_close */
+.test {
+  transition: 0.5s;
+  transform-origin: top;
+
+  /* khi su dung se la 0px */
+  height: 50px;
+}
+
+/* box_open */
+.test:hover {
+  transform-origin: top;
+  height: 700px;
+  /* height: auto; */
+  /* overflow: scroll; */
+}
+
 .hover-item {
   overflow: hidden;
   cursor: pointer;
