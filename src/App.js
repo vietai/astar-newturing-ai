@@ -16,6 +16,7 @@ import Footer from './containers/footer';
 import { menu } from './assets/data.json';
 import What from './containers/What';
 import WhoApply from './containers/WhoApply';
+import AStar from './containers/AStar';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <CountDown />
       <Vision id={menu.transformation.id} />
       <Challenges id={menu.why.id} />
+      <AStar />
       <WhyWe id={menu.how.id} />
       <Mentorships id={menu.mentorship.id} />
       <What id={menu.program.id} />
