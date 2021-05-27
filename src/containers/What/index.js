@@ -11,18 +11,23 @@ const What = ({ id }) => {
     selectedId === 2 ? 'db w-100  w-50-l ' : 'dn db-l w-50-l ';
 
   return (
-    <div className="w-100 bg-dark-gray lh-copy mt0 mt6-l">
+    // bg-dark-gray
+    <div className="w-100 bg-program lh-copy mt0 mt6-l">
       <div id={id} />
       <div className="w-90 w-80-l center pv5 flex flex-wrap flex-column flex-row-l">
         {/* <!-- cot 1 --> */}
-        <div className="w-100 w-40-l f2 fw7 ttu ph2 pl0 pr5-l debug whit-70 pc-near-white tc tl-l">
+        {/* #343741 */}
+        {/* pc-near-white */}
+        <div className="w-100 w-40-l f2 fw7 ttu ph2 pl0 pr5-l pc-what-title tc tl-l">
           What you will <br />
           learn in this <br />
           bootcamp
         </div>
 
         {/* <!-- cot 2 --> */}
-        <div className="w-100 w-60-l white-50 fw3">
+
+        {/* <div className="w-100 w-60-l white-50 fw3"> */}
+        <div className="w-100 w-60-l pc-what-content fw3">
           {/* <!--  CONTENTS TITLES --> */}
 
           {/* mobile */}
@@ -36,7 +41,8 @@ const What = ({ id }) => {
                 setSelectedId(1);
               }}
             >
-              <p className="pc_what_white fw7 ttu">TRAINING</p>
+              {/* <p className="pc-training fw7 ttu">TRAINING</p> */}
+              <p className="pc-training fw7 ttu">TRAINING</p>
             </div>
             <div
               className={
@@ -54,7 +60,8 @@ const What = ({ id }) => {
           {/* desktop: no click no opacity */}
           <div className="dn w-100 flex-l justify-end bb bw1 b--gray pv4">
             <div className="w-40 ">
-              <p className="pc_what_white fw7 ttu">TRAINING</p>
+              {/* <p className="pc_what_white fw7 ttu">TRAINING</p> */}
+              <p className="pc-training fw7 ttu">TRAINING</p>
             </div>
             <div className="w-40  ">
               <p className="pc_what_pink fw7 ttu">PROTOTYPE</p>
@@ -65,7 +72,7 @@ const What = ({ id }) => {
 
           {/* <!-- week 1 --> */}
           <div className="w-100 flex justify-end pv4">
-            <div className="w-20 tc">Week 1</div>
+            <div className="w-20 tc fw5">Week 1</div>
 
             {/* <!-- hien thi mau xanh --> */}
             <div className="w-80 flex">
@@ -84,7 +91,7 @@ const What = ({ id }) => {
 
           {/* <!-- week 2, 3 --> */}
           <div className="w-100 flex justify-end pv4 items-stretch ">
-            <div className="w-20 tc flex flex-wrap ">
+            <div className="w-20 tc fw5 flex flex-wrap ">
               <div className="w-100">Week 2</div>
               <div className="w-100">Week 3</div>
             </div>
@@ -112,7 +119,7 @@ const What = ({ id }) => {
 
           {/* <!-- week 4, 5--> */}
           <div className="w-100 flex justify-end pv4">
-            <div className="w-20 tc flex flex-wrap">
+            <div className="w-20 tc fw5 flex flex-wrap">
               <div className="w-100 h4">Week 4</div>
               <div className="w-100 h4">Week 5</div>
             </div>
@@ -130,7 +137,7 @@ const What = ({ id }) => {
 
           {/* <!-- week 6, 7, 8, 9 --> */}
           <div className="w-100 flex justify-end pv4">
-            <div className="w-20 tc flex flex-wrap">
+            <div className="w-20 tc fw5 flex flex-wrap">
               <div className="w-100 h4">Week 6</div>
               <div className="w-100 h4">Week 7</div>
               <div className="w-100 h4">Week 8</div>
@@ -166,7 +173,7 @@ const What = ({ id }) => {
 
           {/* <!-- week 10 --> */}
           <div className="w-100 flex justify-end pv4">
-            <div className="w-20 tc">Week 10</div>
+            <div className="w-20 tc fw5">Week 10</div>
 
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'green-week-box mr2-l'}>
@@ -181,7 +188,7 @@ const What = ({ id }) => {
 
           {/* <!-- week 11--> */}
           <div className="w-100 flex justify-end pv4">
-            <div className="w-20 tc">Week 11</div>
+            <div className="w-20 tc fw5">Week 11</div>
 
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'green-week-box h35 mr2-l'}>
@@ -195,9 +202,11 @@ const What = ({ id }) => {
 
           {/* <!-- week 12 --> */}
           <div className="w-100 flex justify-end pv4">
-            <div className="w-20 tc">Week 12</div>
+            <div className="w-20 tc fw5">Week 12</div>
 
-            <div className="w-80 yellow-week-box bg-pc-red ttu f3 fw7 pc-white tc h35">Demo day</div>
+            <div className="w-80 yellow-week-box bg-pc-red ttu f3 fw7 pc-white tc h35">
+              Demo day
+            </div>
           </div>
         </div>
       </div>

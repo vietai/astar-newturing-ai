@@ -80,19 +80,16 @@
   padding: 1rem;
 }
 
-.pc_what_white {
-  color: #e1e2e2;
-}
-
-.pc_what_pink {
-  color: #d7aea8;
-}
-
 .green-week-box {
-  border-top: solid 10px #e1e2e2;
+  /* border-top: solid 10px #e1e2e2;
   border-left: solid 2px #e1e2e2;
   border-right: solid 2px #e1e2e2;
-  border-bottom: solid 2px #e1e2e2;
+  border-bottom: solid 2px #e1e2e2; */
+
+  border-top: solid 10px #343741;
+  border-left: solid 2px #343741;
+  border-right: solid 2px #343741;
+  border-bottom: solid 2px #343741;
 
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -101,10 +98,14 @@
 }
 
 .pink-week-box {
-  border-top: solid 10px #d7aea8;
+  /* border-top: solid 10px #d7aea8;
   border-left: solid 2px #d7aea8;
   border-right: solid 2px #d7aea8;
-  border-bottom: solid 2px #d7aea8;
+  border-bottom: solid 2px #d7aea8; */
+  border-top: solid 10px #731013;
+  border-left: solid 2px #731013;
+  border-right: solid 2px #731013;
+  border-bottom: solid 2px #731013;
 
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -190,11 +191,13 @@
   color: #eefcfa;
 }
 .pc-pink-white {
-  color: #c79fa1;
+  /* color: #c79fa1; */
+  color: #731013;
 }
 
 .b--pink-white {
-  border-color: #c79fa1;
+  /* border-color: #c79fa1; */
+  border-color: #731013;
 }
 
 .pc-near-white {
@@ -202,7 +205,8 @@
 }
 
 .bg-pc-pink-white {
-  background-color: #c79fa1;
+  /* background-color: #c79fa1; */
+  background-color: #731013;
 }
 
 .bg-pc-near-white {
@@ -258,17 +262,37 @@
   color: #707070;
 }
 
-.bg_main_red {
-  background: #ef3b36; /* fallback for old browsers */
+.pc_what_white {
+  color: #e1e2e2;
+}
+
+.pc_what_pink {
+  /* color: #d7aea8; */
+  color: #731013;
+}
+
+.pc-what-title {
+  color: #343741;
+}
+
+.pc-training {
+  color: #343741;
+}
+.pc-what-content {
+  color: #343741;
+}
+
+.bg-program {
+  background: #8e9eab; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #731013,
-    #ef3b36
+    #8e9eab,
+    #eef2f3
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #731013,
-    #ef3b36
+    #8e9eab,
+    #eef2f3
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
