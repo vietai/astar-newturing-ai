@@ -191,23 +191,35 @@
   color: #eefcfa;
 }
 .pc-pink-white {
-  /* color: #c79fa1; */
-  color: #731013;
+  color: #c79fa1;
 }
 
 .b--pink-white {
-  /* border-color: #c79fa1; */
+  border-color: #c79fa1;
+}
+
+.bg-pc-pink-white {
+  background-color: #c79fa1;
+}
+
+
+/* .pc-red-white {
+  color: #731013;
+}
+
+.b--red-white {
   border-color: #731013;
 }
+
+.bg-pc-red-white {
+  background-color: #731013;
+} */
 
 .pc-near-white {
   color: #f3f5f6;
 }
 
-.bg-pc-pink-white {
-  /* background-color: #c79fa1; */
-  background-color: #731013;
-}
+
 
 .bg-pc-near-white {
   background-color: #f3f5f6;
