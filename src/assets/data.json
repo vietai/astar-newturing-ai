@@ -93,7 +93,7 @@
     },
     "groups": [
         {
-            "title": "General Program Advisors",
+            "title": "Program Advisor",
             "description": "Provide general advice to startups and help engage company leaders with AI Advisors and AI Expert Buddies.",
             "mentors": [
                 {
@@ -121,7 +121,7 @@
         },
         {
             "title": "AI Advisor",
-            "description": "Provide startups with advices on cutting-edge technologies and how to apply to their businesses",
+            "description": "Provide startups with advices on cutting-edge technologies and how to apply to their businesses.",
             "mentors": [
                 {
                     "id": 4,
@@ -203,8 +203,8 @@
             ]
         },
         {
-            "title": "AI Expert Buddy",
-            "description": "Work hands-on with startups to help achieve an AI demo at the end of the course",
+            "title": "AI Lecturer & Expert Buddy",
+            "description": "Lectures teach the intensive AI foundation training whereas  Expert Buddies work hands-on with startups to help achieve an AI demo at the end of the course.",
             "mentors": [
                 {
                     "id": 14,

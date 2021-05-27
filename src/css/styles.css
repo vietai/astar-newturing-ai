@@ -310,6 +310,9 @@ _qa-title
 .w15 {
   width: 1.5rem;
 }
+.w16 {
+  width: 1.6rem;
+}
 .w25 {
   width: 3rem;
 }
@@ -319,6 +322,11 @@ _qa-title
 .w22 {
   width: 2.4rem;
 }
+
+.w27 {
+  width: 3.4rem;
+}
+
 
 .w6 {
   width: 32rem;

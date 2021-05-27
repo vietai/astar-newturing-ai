@@ -13,7 +13,7 @@ const WhoApply = ({ id }) => {
             {whoApply.title}
           </p>
 
-          <p className="w-80 left debug f5 fw5 tl tracked-mega  pc-pink-white ph3 mt4">
+          <p className="w-80 center left debug f5 fw5 tc tracked-mega  pc-pink-white ph3 mt4">
             {whoApply.sub_title}
           </p>
 

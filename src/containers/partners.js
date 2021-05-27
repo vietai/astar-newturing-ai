@@ -7,11 +7,11 @@ const Partners = () => (
       <div className="w-70 tc center">
         <p className="_partner-title f2 fw7 tracked pc-red pv4">PARTNERS</p>
         <div className="pv3 flex flex-wrap justify-around items-center">
-          <img
+          {/* <img
             alt=""
             src="images/p_vietai.png"
             className="w-50 w-30-m w-10-l mv3"
-          />
+          /> */}
           <img
             alt=""
             src="images/p_do.png"

@@ -50,16 +50,25 @@ const Menu = () => {
         id="mobile-menu"
         className="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center fixed top-0 z-999"
       >
-        <Link
-          to={menu.top.id}
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          className="pointer"
-        >
-          <img src="images/logo_nti.png" alt="" className="w22" />
-        </Link>
+        <div className="flex items-center justify-center">
+          <Link
+            to={menu.top.id}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="pointer"
+          >
+            <img src="images/logo_nti.png" alt="" className="w22" />
+          </Link>
+
+          <div className="flex flex-column  items-center ml1">
+            <p className="near-black" style={{ fontSize: '5px' }}>
+              Co-organizer
+            </p>
+            <img src="images/vietai_logo_co.png" alt="" className="w16" />
+          </div>
+        </div>
 
         <img
           src="images/svg_bars.svg"
@@ -102,16 +111,26 @@ const Menu = () => {
         // fixed top-0 z-4
       >
         <div className="w-80 center flex justify-between items-center ph3">
-          <Link
-            to={menu.top.id}
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="pointer"
-          >
-            <img src="images/logo_nti.png" alt="" className="w25" />
-          </Link>
+          <div className="flex items-center justify-center">
+            <Link
+              to={menu.top.id}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="pointer"
+            >
+              <img src="images/logo_nti.png" alt="" className="w25" />
+            </Link>
+
+            <div className="flex flex-column  items-center ml1 justify-center">
+              <p className="near-black" style={{ fontSize: '5px' }}>
+                Co-organizer
+              </p>
+              <img src="images/vietai_logo_co.png" alt="" className="w2" />
+            </div>
+            
+          </div>
 
           <div className="flex items-center">
             <ul className="flex list fw3 sans-serif pc-dark-gray">
