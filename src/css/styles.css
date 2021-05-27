@@ -420,6 +420,16 @@ _qa-title
 
 /* br35 { border-radius: .8rem; } */
 
+.khoiVuongApply {
+  border-radius: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: solid 1.5px #731013;
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #d6d7d9;
+}
+
 .khoiVuong {
   border-radius: 0.75rem;
   background-color: rgba(255, 255, 255, 0.15);
