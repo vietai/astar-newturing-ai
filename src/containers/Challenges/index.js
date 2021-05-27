@@ -7,6 +7,7 @@ const Challenges = ({ id }) => {
     <>
       {/* desktop */}
       <div id={id} />
+
       <div className="dn db-l w-100 bg-pc-red mt6 mb6">
         <div className="w-70 center pv5">
           <p className="_title f3 f2-l fw7 tc tracked-mega ttu pc-white ph3">

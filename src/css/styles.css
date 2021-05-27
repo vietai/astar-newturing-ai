@@ -258,6 +258,20 @@
   color: #707070;
 }
 
+.bg_main_red {
+  background: #ef3b36; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #731013,
+    #ef3b36
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #731013,
+    #ef3b36
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /* near-white */
 /* .bg-content {
   background-color: #f3f5f6;
@@ -326,7 +340,6 @@ _qa-title
 .w27 {
   width: 3.4rem;
 }
-
 
 .w6 {
   width: 32rem;

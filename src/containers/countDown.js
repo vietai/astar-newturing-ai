@@ -92,7 +92,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
             <span class="fw4 tangergin tracked i">for</span> STARTUPS
           </p>
         </div>
-        <div class="tc pc-info tracked f4 w-80 center lh-copy pt4">
+        <div class="tc pc-info tracked f4 w-100 center lh-copy pt4">
           The First AI Bootcamp supported by <b>Global AI Expert Network</b>{' '}
           with
           <br />
