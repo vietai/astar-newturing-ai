@@ -30,10 +30,10 @@
         }
     },
     "vision": {
-        "title": "BENEFITS OF APPLYING AI INTO YOUR BUSINESS",
+        "title": "IT IS CLEAR WHY AI IS IMPORTANT TO YOUR BUSINESS?",
         "col_1": {
             "title": "10-100X<br/>Transformation",
-            "content": "AI Transformation can unlock the companies’ scalability bottleneck (e.g. AI in Recommendation Engine have enabled Amazon to predict customer behavior and finally, generate 140 billion U.S. dollars accounting for 35% revenue in 2020 - Statista)"
+            "content": "AI unlocks scalability bottleneck. E.g. AI in Recommendation Engine has enabled Amazon to predict customer behavior and finally, generate 140 billion U.S. dollars accounting for 35% revenue in 2020 - Statista)"
         },
         "col_2": {
             "title": "Competitive<br/>advantage (MOAT)",
@@ -41,7 +41,7 @@
         },
         "col_3": {
             "title": "Personalized<br/>products & services",
-            "content": "Human approach will prevent companies from creating personalized products & services. But it was the past, the future is here, with AI-powered personalization, you can make it happen (E.g. AI with Speech Recognition has made ELSA become a personalized English Language Speech Assistant for 1.15 billion English learners globally) "
+            "content": "Human approach will prevent companies from creating personalized products. But it was the past, the future is here, with AI-powered personalization, you can make it happen (E.g. AI with Speech Recognition has made ELSA become a personalized English Assistant for 1.15 billion English learners globally)"
         }
     },
     "challenges": {
