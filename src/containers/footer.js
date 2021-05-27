@@ -18,9 +18,24 @@ const Footers = () => (
 
       <div className="lh-copy  flex flex-column justify-between items-end">
         <div className="">
-          <img src="images/instagram.svg" alt="" className="ml4" />
-          <img src="images/twitter.svg" alt="" className="ml4" />
-          <img src="images/fb.svg" alt="" className="ml4" />
+          {/* <img src="images/instagram.svg" alt="" className="ml4" />
+          <img src="images/twitter.svg" alt="" className="ml4" /> */}
+          <a
+            href={'https://www.facebook.com/vietaipublic'}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="white pointer"
+          >
+            <img src="images/fb.svg" alt="" className="ml3" />
+          </a>
+          <a
+            href={'https://www.facebook.com/newturing'}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="white pointer"
+          >
+            <img src="images/fb.svg" alt="" className="ml3" />
+          </a>
         </div>
         <p className="copyright mt3 pc-pink-white">Copyright 2021 @ NTI</p>
       </div>
