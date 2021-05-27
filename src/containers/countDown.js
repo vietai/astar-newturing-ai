@@ -77,6 +77,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
         <b>Personalized AI Assessment</b> for{' '}
         <b>Aspiring Startups in Vietnam</b> */}
         Help startups learn how to integrate artificial intelligence and achieve
+        <br />
         10-100X hypergrowth
       </div>
     </div>
@@ -94,14 +95,16 @@ const HtmlCountDown = ({ d, h, m, s }) => (
             <span class="fw4 tangergin tracked i">for</span> STARTUPS
           </p>
         </div>
-        <div class="tc pc-info tracked f3 lh-copy pt4 w-80 center">
+        <div class="tc pc-info tracked f3 lh-copy pt4 w-100 center">
           {/* The First AI Bootcamp supported by <b>Global AI Expert Network</b>{' '}
           with
           <br />
           <b>Personalized AI Assessment</b> for{' '}
           <b>Aspiring Startups in Vietnam</b> */}
           Help startups learn how to integrate artificial intelligence and
-          achieve 10-100X hypergrowth
+          achieve
+          <br />
+          10-100X hypergrowth
         </div>
 
         <div class="dn flex-ns pv2 justify-center items-center mt4 pc-white-title">
