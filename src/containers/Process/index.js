@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const MobileProcess = () => {
   const [selectProcessId, setSelectProcessId] = useState(0);
-  const [toggleCombobox, setToggleCombobox] = useState(true);
+  const [toggleCombobox, setToggleCombobox] = useState(false);
 
   return (
     <div class="db dn-l w-100 bg-pc-white pb4 pt5">
@@ -13,7 +13,7 @@ const MobileProcess = () => {
 
       <div
         onClick={() => setToggleCombobox(!toggleCombobox)}
-        class="w-80 center flex justify-between mt4 pa3 br3 ba b--black-20 pointer lh-copy ttu items-center bg-white"
+        class="w-80 center flex justify-between mt4 pa3 br3 ba b--black-20 pointer lh-copy ttu items-start bg-white"
       >
         <p
           class="pc-red f5 fw7 ttu tracked "
@@ -28,7 +28,7 @@ const MobileProcess = () => {
         <img
           src="images/svg_arrow_down.svg"
           alt=""
-          class="w1 w2-l ml2 ml4-l mt2"
+          class="w15 ml2  mt2"
         />
       </div>
 
