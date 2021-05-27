@@ -3,13 +3,15 @@ import '../css/styles.css';
 import Countdown from 'react-countdown';
 import { countdown } from '../assets/data.json';
 import ApplyButton from '../components/ApplyButton';
+// import { register_link as registerLink } from '../assets/data.json';
 
 const HtmlCountDown = ({ d, h, m, s }) => (
   <>
     <div
       id="mobile-count-down"
-      class="flex dn-l vh-100 cover white flex-column items-center justify-center"
-      style={{ backgroundImage: 'url(images/mb_background.png)' }}
+      class="flex dn-l vh-100 cover white flex-column items-center justify-center bg-center"
+      // style={{ backgroundImage: 'url(images/mb_background.png)' }}
+      style={{ backgroundImage: 'url(images/bg_nti_ai_bootcamp.png)' }}
     >
       <div id="_mb-group-count-down" class="flex justify-center items-end">
         {/* <!--  days --> */}
@@ -81,10 +83,10 @@ const HtmlCountDown = ({ d, h, m, s }) => (
     <div
       id="desktop-count-down"
       class="dn dn-m flex-l w-100 bg-black-20 vh-100 items-center justify-around cover"
-      style={{ backgroundImage: "url('images/background.png')" }}
+      style={{ backgroundImage: "url('images/bg_nti_ai_bootcamp.png')" }}
     >
       <div class="flex flex-column">
-        <div class="flex flex-column p-title pc-white tracked tc">
+        <div class="flex flex-column p-title pc-white tracked tc mt4">
           <p class="fw7">AI BOOTCAMP</p>
           <p class="pt3 fw7">
             <span class="fw4 tangergin tracked i">for</span> STARTUPS
@@ -98,7 +100,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
           <b>Aspiring Startups in Vietnam</b>
         </div>
 
-        <div class="dn flex-ns pv4 justify-center items-center mt4 pc-white-title">
+        <div class="dn flex-ns pv2 justify-center items-center mt4 pc-white-title">
           <div class="khoiVuong flex justify-center items-center flex-column">
             <p class="ttu">DAYS</p>
             <p class="soTo">{d}</p>

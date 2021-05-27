@@ -30,7 +30,7 @@ const DesktopMenuItem = ({ item }) => {
       smooth={true}
       offset={-70}
       duration={500}
-      className="ph3 dim pointer ttu"
+      className="ph3 dim pointer ttu f7 fw5"
     >
       {item.name}
     </Link>
@@ -95,7 +95,7 @@ const Menu = () => {
           </div>
         </div>
 
-        <div className="w-100 flex flex-column self-stretch pa3 mv3 items-center">
+        <div className="w-100 flex flex-column self-stretch pa3 mv2 items-center">
           <MenuItem item={menu.transformation} handleOnClick={_toggleModal} />
           <MenuItem item={menu.why} handleOnClick={_toggleModal} />
           <MenuItem item={menu.how} handleOnClick={_toggleModal} />
@@ -107,7 +107,7 @@ const Menu = () => {
 
       <div
         id="desktop-menu"
-        className="dn flex-l w-100 bg-white pv2 shadow-2 fixed top-0 z-999"
+        className="dn flex-l w-100 bg-white pv0 shadow-2 fixed top-0 z-999"
         // fixed top-0 z-4
       >
         <div className="w-80 center flex justify-between items-center ph3">
@@ -129,7 +129,6 @@ const Menu = () => {
               </p>
               <img src="images/vietai_logo_co.png" alt="" className="w2" />
             </div>
-            
           </div>
 
           <div className="flex items-center">
@@ -142,11 +141,17 @@ const Menu = () => {
               {/* <DesktopMenuItem item={menu.qa} /> */}
             </ul>
             <div
-              className="bg-pc-red pc-white ml4 ph4 pv3 br3 fw6 f5 pointer dim"
+              className="bg-pc-red pc-white ml4 ph3 pv2 br2 fw6 f6 pointer dim"
               onClick={() => window.open(registerLink, '_blank')}
             >
               APPLY NOW
             </div>
+            {/* <div
+              className="bg-pc-red pc-white ml4 ph4 pv3 br3 fw6 f5 pointer dim"
+              onClick={() => window.open(registerLink, '_blank')}
+            >
+              APPLY NOW
+            </div> */}
           </div>
         </div>
       </div>

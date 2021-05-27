@@ -269,7 +269,7 @@ _qa-title
 
 /* text */
 .p-title {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 600;
 }
 
@@ -382,12 +382,12 @@ _qa-title
 
 @media only screen and (min-width: 60em) {
   .khoiVuong {
-    width: 208px;
-    height: 206px;
+    width: 160px;
+    height: 159px;
   }
   .soTo {
-    font-size: 100px;
-    line-height: 99px;
+    font-size: 80px;
+    line-height: 80px;
     font-weight: 600;
   }
 }
