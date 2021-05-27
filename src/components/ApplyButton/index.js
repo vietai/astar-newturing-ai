@@ -6,7 +6,7 @@ import { register_link as registerLink } from '../../assets/data.json';
 const ApplyButton = () => {
   return (
     <div
-      className="btnApply dib  ph6 pv3 br3  fw7 f4 pointer dim mt3"
+      className="btnApply dib  ph6 pv3 br3  fw7 f4 pointer dim mt4"
       onClick={() => window.open(registerLink, '_blank')}
     >
       APPLY NOW
