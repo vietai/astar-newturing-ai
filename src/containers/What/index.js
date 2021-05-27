@@ -147,7 +147,7 @@ const What = ({ id }) => {
                   Recommendation systems - Ecommerce
                 </div>
                 <div className="w-100 green-week-box h4 mt3">
-                  Credit scaring - Finance
+                  Credit scoring - Finance
                 </div>
               </div>
 

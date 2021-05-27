@@ -19,7 +19,7 @@ const Vision = ({ id }) => (
             dangerouslySetInnerHTML={{ __html: vision.col_1.title }}
           />
         </div>
-        <p className="pt4 f5 poppins tracked pc-dark-gray lh-copy tj">
+        <p className="pt4 f5 poppins tracked pc-dark-gray lh-copy tc tl-l">
           {vision.col_1.content}
         </p>
       </div>
@@ -33,7 +33,7 @@ const Vision = ({ id }) => (
           />
         </div>
 
-        <p className="pt4 f5 poppins tracked pc-dark-gray lh-copy tj">
+        <p className="pt4 f5 poppins tracked pc-dark-gray lh-copy tc tl-l">
           {vision.col_2.content}
         </p>
       </div>
@@ -46,7 +46,7 @@ const Vision = ({ id }) => (
             dangerouslySetInnerHTML={{ __html: vision.col_3.title }}
           />
         </div>
-        <p className="pt4 f5 poppins tracked pc-dark-gray lh-copy tj">
+        <p className="pt4 f5 poppins tracked pc-dark-gray lh-copy tc tl-l">
           {vision.col_3.content}
         </p>
       </div>

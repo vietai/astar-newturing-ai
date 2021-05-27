@@ -4,7 +4,7 @@ import { groups } from '../../assets/data.json';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import './styles.css';
-import ApplyButton, { RedApplyButton } from '../../components/ApplyButton';
+import { RedApplyButton } from '../../components/ApplyButton';
 
 const MobileMentorShip = () => {
   const [selectGroupId, setSelectGroupId] = useState(0);
@@ -63,8 +63,11 @@ const MobileMentorShip = () => {
                         <img
                           src={'images/' + mentor.image}
                           alt=""
-                          className="w-100 br0 pointer"
-                          onClick={() => _showInfoMentor(mentor.id)}
+                          className="w-100 br0 pointer none_select "
+                          onClick={(e) => {
+                            e.preventDefault();
+                            _showInfoMentor(mentor.id);
+                          }}
                         />
                       </Link>
 
