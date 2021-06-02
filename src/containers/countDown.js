@@ -89,11 +89,11 @@ const HtmlCountDown = ({ d, h, m, s }) => (
       style={{ backgroundImage: "url('images/bg_nti_ai_bootcamp.png')" }}
     >
       <div className="flex flex-column relative">
-        <img
+        {/* <img
           src="images/a-star-icon.png"
           alt=""
           className="astar absolute "
-        />
+        /> */}
 
         <div className="flex flex-column p-title pc-white tracked tc mt4">
           <p className="fw7">AI BOOTCAMP</p>

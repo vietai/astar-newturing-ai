@@ -1,7 +1,7 @@
 {
     "register_link": "https://forms.gle/Vew1ywYdZQejCgj96",
     "countdown": {
-        "time_to_start": "2021-06-20T00:01:01"
+        "time_to_start": "2021-06-21T00:01:01"
     },
     "menu": {
         "top": {
@@ -88,7 +88,7 @@
         },
         "col_3": {
             "title": "IDEAL PARTICIPANTS",
-            "content": "Our A-star bootcamp program is designed for founders (both technical and non technical), founding members of startups that have already launched their product / services to the market and looking to scale. The program is also suitable for senior leadership members from big corporations who are looking to transform their businesses using AI."
+            "content": "Our A-star bootcamp program is designed for founders (both technical and non technical), founding members of startups that have already launched their products / services to the market and looking to scale. The program is also suitable for senior leadership members from big corporations who are looking to transform their businesses using AI."
         }
     },
     "groups": [
@@ -261,17 +261,17 @@
     "processes": [
         {
             "title": "Registration",
-            "date": "May 31 - June 15",
+            "date": "June 7 - June 20",
             "description": "Click <a href='https://forms.gle/Vew1ywYdZQejCgj96' class='dark-gray fw5 pointer' id=''>APPLY</a> to fill the registration form. In this form, we expect to learn more about your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully with your best effort.<br/><br/>To achieve great outcomes, we expect at least two members (1 business & 1 tech lead/executive) per company to enroll in our program. For us to fully evaluate the company's potential, we expect to get detailed answers jointly by 1 business & 1 tech lead/executive. Only 1 submission per company."
         },
         {
             "title": "Screening",
-            "date": "June 16 - June 18",
+            "date": "June 21 - June 24",
             "description": "Initial evaluation of candidates and their businesses. Selected companies will be invited to the next round - Interview."
         },
         {
             "title": "Interview",
-            "date": "June 19, 20, 26, 27",
+            "date": "June 25, 26 and July 2, 3",
             "description": "Your interview will be scheduled into those days. You will have an intense conversation with our General Program Advisors to figure out if your company are ready to integrate AI in the next 6 months"
         },
         {
