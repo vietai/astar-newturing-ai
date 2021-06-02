@@ -21,7 +21,8 @@ const WhyWe = ({ id }) => (
             />
           </div>
           <p
-            className="pt4 f5 poppins tracked pc-dark-gray lh-copy tc"
+            // className="pt4 f5 poppins tracked pc-dark-gray lh-copy tc"
+            className="pt4 f5 f5-l fw5 pc-dark-gray tracked-l lh-copy tc"
             dangerouslySetInnerHTML={{ __html: whyWe.col_1.content }}
           />
         </div>
@@ -36,7 +37,7 @@ const WhyWe = ({ id }) => (
           </div>
 
           <p
-            className="pt4 f5 poppins tracked pc-dark-gray lh-copy tc"
+            className="pt4 f5 f5-l fw5 pc-dark-gray tracked-l lh-copy tc"
             dangerouslySetInnerHTML={{ __html: whyWe.col_2.content }}
           />
         </div>
@@ -50,7 +51,7 @@ const WhyWe = ({ id }) => (
             />
           </div>
           <p
-            className="pt4 f5 poppins tracked pc-dark-gray lh-copy tc"
+            className="pt4 f5 f5-l fw5 pc-dark-gray tracked-l lh-copy tc"
             dangerouslySetInnerHTML={{ __html: whyWe.col_3.content }}
           />
         </div>

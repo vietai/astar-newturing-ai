@@ -100,8 +100,8 @@
                     "id": 1,
                     "name": "Thang Luong",
                     "image": "m_ThangLuong.png",
-                    "title": "Senior Research Scientist at Google Brain; VietAI",
-                    "description": "Thang Luong is currently a senior research scientist at Google Brain. Having published over 30 scientific articles at premier conferences with over 5000 citations, Dr. Luong is a well-known AI researcher in the field of deep learning and machine learning. He has authored many patents and open-source software used worldwide.<br/><br/>Dr. Luong obtained his PhD in Computer Science from Stanford University in 2016. He also co-founded VietAI, a non-profit organization that aims to build a community of world-class AI experts in Vietnam."
+                    "title": "Staff Research Scientist at Google Brain; VietAI",
+                    "description": "Thang Luong is currently a staff research scientist at Google Brain. Having published over 50 scientific articles at premier conferences with over 13k citations, Dr. Luong is a well-known AI researcher in the field of deep learning and machine learning. He has authored many patents and open-source software used worldwide.<br/><br/>Dr. Luong obtained his PhD in Computer Science from Stanford University in 2016. He co-founded Project Meena, now known as Google's LaMDA chatbot, and VietAI, a non-profit organization that aims to build a community of world-class AI experts in Vietnam."
                 },
                 {
                     "id": 2,
@@ -262,7 +262,7 @@
         {
             "title": "Registration",
             "date": "June 7 - June 20",
-            "description": "Click <a href='https://forms.gle/Vew1ywYdZQejCgj96' class='dark-gray fw5 pointer' id=''>APPLY</a> to fill the registration form. In this form, we expect to learn more about your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully with your best effort.<br/><br/>To achieve great outcomes, we expect at least two members (1 business & 1 tech lead/executive) per company to enroll in our program. For us to fully evaluate the company's potential, we expect to get detailed answers jointly by 1 business & 1 tech lead/executive. Only 1 submission per company."
+            "description": "Click <a href='https://forms.gle/Vew1ywYdZQejCgj96' class='blue fw5 pointer' id=''>APPLY</a> to fill the registration form. In this form, we expect to learn more about your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully with your best effort.<br/><br/>To achieve great outcomes, we expect at least two members (1 business & 1 tech lead/executive) per company to enroll in our program. For us to fully evaluate the company's potential, we expect to get detailed answers jointly by 1 business & 1 tech lead/executive. Only 1 submission per company."
         },
         {
             "title": "Screening",
