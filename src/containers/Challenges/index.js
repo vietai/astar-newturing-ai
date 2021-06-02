@@ -69,7 +69,7 @@ const Challenges = ({ id }) => {
           {challenges.title}
         </p>
 
-        <p className="w-90 center f5 fw5 tl tracked-mega  pc-pink-white ph3 mt3">
+        <p className="w-90 center tl pc-pink-white tracked lh-copy f6 poppins fw2 ph3 mt3">
           {challenges.sub_title}
         </p>
 
