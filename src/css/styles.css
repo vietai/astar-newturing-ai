@@ -202,7 +202,6 @@
   background-color: #c79fa1;
 }
 
-
 /* .pc-red-white {
   color: #731013;
 }
@@ -218,8 +217,6 @@
 .pc-near-white {
   color: #f3f5f6;
 }
-
-
 
 .bg-pc-near-white {
   background-color: #f3f5f6;
@@ -352,6 +349,14 @@ _qa-title
 /* --spacing-large: 2rem;
 --spacing-extra-large: 4rem; */
 
+.astar {
+  transform: rotate(-15deg);
+  left: -100px;
+  top: 25px;
+  width: 13rem;
+  height: 13rem;
+}
+
 .ph45 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -383,6 +388,10 @@ _qa-title
 
 .w45 {
   width: 12rem;
+}
+
+.h45 {
+  height: 12rem;
 }
 
 .w-200 {
