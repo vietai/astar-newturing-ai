@@ -78,7 +78,7 @@ const What = ({ id }) => {
                 Learn about basic maths (linear algebra, calculus), Python
                 programming, and frameworks to learn AI.
               </div>
-              <div className={toggleCol_2 + 'pink-week-box ml2-l'}>
+              <div className={toggleCol_2 + 'pink-week-box tc ml2-l'}>
                 Introduce with Advisors (Exploration)
               </div>
             </div>
@@ -101,12 +101,12 @@ const What = ({ id }) => {
                 AI's framework.
               </div>
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l'}>
-                <div className="w-100 pink-week-box b">
+                <div className="w-100 pink-week-box tc b">
                   Meet Advisors
                   <br />
                   (Prototype proposal)
                 </div>
-                <div className="w-100 pink-week-box mt3">
+                <div className="w-100 pink-week-box tc mt3">
                   Data Preparation /
                   <br />
                   Collection
@@ -144,15 +144,15 @@ const What = ({ id }) => {
               </div>
 
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l '}>
-                <div className="w-100 pink-week-box h5">
+                <div className="w-100 pink-week-box tc h5">
                   Prototype Development
                 </div>
 
-                <div className="w-100 pink-week-box b mt3 h4">
+                <div className="w-100 pink-week-box tc b mt3 h4">
                   Meet Advisors <br />
                   (Internal Checkup)
                 </div>
-                <div className="w-100 pink-week-box mt3 h4">
+                <div className="w-100 pink-week-box tc mt3 h4">
                   Prototype Development
                 </div>
               </div>
@@ -189,19 +189,20 @@ const What = ({ id }) => {
                   <br />
                   <br />
                   <br />
+                  <br />
                 </div>
               </div>
 
               {/* <!-- cot do --> */}
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l '}>
-                <div className="w-100 pink-week-box  h45">
+                <div className="w-100 pink-week-box tc  h45">
                   Prototype Development
                 </div>
-                <div className="w-100 pink-week-box  mt3 b">
+                <div className="w-100 pink-week-box tc  mt3 b">
                   Meet Advisors (Internal Demo)
                 </div>
 
-                <div className="w-100 pink-week-box  mt3">Wrap Up</div>
+                <div className="w-100 pink-week-box tc  mt3">Wrap Up</div>
               </div>
             </div>
           </div>
