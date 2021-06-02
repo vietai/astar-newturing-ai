@@ -368,14 +368,17 @@ _qa-title
 .w16 {
   width: 1.6rem;
 }
+.w22 {
+  width: 2.4rem;
+}
+.h22 {
+  height: 2.4rem;
+}
 .w25 {
   width: 3rem;
 }
 .h25 {
   height: 3rem;
-}
-.w22 {
-  width: 2.4rem;
 }
 
 .w27 {
