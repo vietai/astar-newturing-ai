@@ -82,7 +82,7 @@ const Menu = () => {
         style={{ transition: 'all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1)' }}
         className={`
         ${visibleModal ? 'flex ' : 'dn '}
-        dn-l vh-100 w-100 pc-white bg-pc-red  flex-column justify fixed top-0 z-4 `}
+        dn-l vh-100 w-100 pc-white bg-pc-red  flex-column justify fixed top-0 z-999`}
       >
         <div className="w-100 flex justify-between pa4 items-center">
           <img src="images/logo_nti_white.png" alt="" className="w22" />

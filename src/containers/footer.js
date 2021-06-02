@@ -41,7 +41,7 @@ const Footers = () => (
       </div>
     </div>
     <div
-      className="db dn-l w-100 btnApply tc  fw7 ttu f5 pv3 tracked pointer fixed bottom-0 z-5"
+      className="db dn-l w-100 btnApply tc  fw7 ttu f5 pv3 tracked pointer fixed bottom-0 z-9999"
       onClick={() => window.open(registerLink, '_blank')}
     >
       APPLY NOW
