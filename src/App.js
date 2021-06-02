@@ -25,8 +25,8 @@ function App() {
       <div id={menu.top.id} />
       <CountDown />
       <Vision id={menu.transformation.id} />
-      <Challenges id={menu.why.id} />
       <AStar />
+      <Challenges id={menu.why.id} />
       <WhyWe id={menu.how.id} />
       <Mentorships id={menu.mentorship.id} />
       <What id={menu.program.id} />

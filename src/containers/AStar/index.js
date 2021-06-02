@@ -3,6 +3,7 @@ import '../../css/styles.css';
 
 const AStar = () => (
   <div className="flex flex-column w-100 pt3 pt5-l tc mt5">
+    <div className="w5 center bb b--black-40 dn db-l" />
     <p className="w-80 w-60-l center f3 f2-l fw7 pc-red ttu tracked-l mt5-l ph3">
       WHAT IS A-STAR BOOTCAMP?
     </p>
@@ -20,8 +21,6 @@ const AStar = () => (
       internal AI capacity and expertise that go way beyond the duration of the
       program.
     </p>
-
-    <div className="w5 center bb b--black-40 mt5 dn db-l" />
   </div>
 );
 export default AStar;
