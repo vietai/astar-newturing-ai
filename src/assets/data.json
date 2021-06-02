@@ -41,23 +41,23 @@
         },
         "col_3": {
             "title": "Personalized<br/>products & services",
-            "content": "Will prevent companies from offering personalized products and services to billions of users at scale without hurting their unit economics (E.g. AI with Speech Recognition has made ELSA become a personalized English Assistant for 1.15 billion English learners globally)"
+            "content": "Human approach will prevent companies from offering personalized products and services to billions of users at scale without hurting their unit economics (e.g., AI with Speech Recognition has made ELSA become a personalized English Assistant for 1.15 billion English learners globally)"
         }
     },
     "challenges": {
-        "title": "WHY DO WE START THIS BOOTCAMP",
+        "title": "WHY DO WE START A-STAR BOOTCAMP",
         "sub_title": "AI Bootcamp is launched to help address three most critical challenges faced by startups in reaching their full potentials.",
         "col_1": {
             "title": "01 _ Limited understanding of AI",
-            "content": "Majority of startups in Vietnam don’t know how AI can be relevant in their business model (why); how far is it to reach “10X-100X transformation” after integrating state-of-the-art AI and what technology to start with (what)?"
+            "content": "While AI has been discussed widely these days and becomes increasingly more popular, it still remains the biggest challenge for startup communities to understand how AI could be relevant to their unique business model, how AI could help them unlock new values and how to measure them. Our network of AI experts will help companies answer these questions and find the most relevant solutions for each startup."
         },
         "col_2": {
             "title": "02 _ How to get started",
-            "content": "After a personalized AI assessment with “why” & “what”, how to get started to make sure it won’t mess up your current operation but instead, increase level of automation & customer-centric intelligence?"
+            "content": "Once the companies understand how AI could be relevant to their business model and can help transform their value proposition, the next challenge is to figure out where AI can be applied first and how to get started; and what resources will be required within the team in order to start integrating AI into the existing business model without disrupting the current processes."
         },
         "col_3": {
             "title": "03 _ How to build data pipeline",
-            "content": "One of the most important steps of AI Transformation is to collect data & build the most optimal data pipeline, but at what stage to apply what structure and how much effort is required to build such a system?"
+            "content": "The 3rd most critical challenge faced by startups when building an AI solutions is training data. Our AI training program at the bootcamp will help startups answer some of the most tactical questions like how to collect data during the bootstrap stage, what an optimal data pipeline would look like; or at what point do we start automating the data collection process to prepare for scale, etc."
         }
     },
     "why_we": {
@@ -79,16 +79,16 @@
         "title": "WHO SHOULD APPLY TO A-STAR?",
         "sub_title": "Given below is a pre-requisite list for potential companies",
         "col_1": {
-            "title": "BUSINESS WITH AI APPLICABILITY",
-            "content": "Our “Personalized AI Assessment” process will help you verify this via two criteria: big market (enough space to make an extraordinary growth) & scalability business model with AI application"
+            "title": "Potential to integrate AI into existing business model",
+            "content": "As part of our selection process; our AI expert committee will evaluate whether there is a strong fit and potential for existing companies to integrate AI into their current business models and if AI can help companies unlock new values without causing disruption to their existing operations."
         },
         "col_2": {
-            "title": "Executive willingness & Tech team qualification",
-            "content": "AI transformation touches all aspects of the startup including both commercial and operational activities. So executive willingness & tech team capacity to really apply AI prototype to your business in the next 6 months is crucial"
+            "title": "TEAM'S READINESS AND QUALIFICATIONS",
+            "content": "Another critical selection criteria is for us to understand if the team is truly ready to apply AI into their business model in the near future. This touches multiple aspects of the companies: founders and leaderships’ willingness to take this big paradigm shift, and existing qualification of current tech team and their capacity to take on this new skill in the near term."
         },
         "col_3": {
-            "title": "Target applicant",
-            "content": "We open space for both Founding members of startups with post-launched products & Leaders of newly created products from big corporates as well"
+            "title": "IDEAL PARTICIPANTS",
+            "content": "Our A-star bootcamp program is designed for founders (both technical and non technical), founding members of startups that have already launched their product / services to the market and looking to scale. The program is also suitable for senior leadership members from big corporations who are looking to transform their businesses using AI."
         }
     },
     "groups": [
