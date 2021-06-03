@@ -152,6 +152,13 @@
                     "description": "Minh-Triet Tran is an Associate Professor and the Vice President at University of Science (VNU). He received his PhD degree from University of Science in 2009. His research topics include computer vision, machine learning, virtual reality, and augmented reality. He has authored and co- authored 90+ research papers with 400+ citations according to Google Scholar."
                 },
                 {
+                    "id": 6,
+                    "name": "Huyen Chip",
+                    "image": "m_HuyenNguyen.png",
+                    "title": "Senior Deep Learning Engineer, NVIDIA",
+                    "description": "Chip Huyen is a writer and computer scientist based in Silicon Valley. She graduated with a BS and MS in Computer Science from Stanford University, where she created and taught the course TensorFlow for Deep Learning Research. In her current role as senior deep learning engineer at NVIDIA, she works on productizing AI research at NVIDIA.<br/><br/>When not teaching machines to understand human languages, she writes books and blog. She’s the author of the best-selling series 'Xách ba lô lên và Đi', 'Giấc mơ Mỹ - Đường đến Stanford', and 'Tuổi trẻ không hối tiếc'. Her writings have also been published in reputable media outlets in the USA, France, and Vietnam."
+                },
+                {
                     "id": 8,
                     "name": "Christopher Cuong T. Nguyen",
                     "image": "m_ChristopherCuongNguyen.png",
@@ -192,13 +199,6 @@
                     "image": "m_HungBui.png",
                     "title": "Director, VinAI Research, VinGroup",
                     "description": "Dr. Hung H. Bui is the Director of VinAI Research, VinGroup, Vietnam. His technical expertise and interests include probabilistic graphical models, deep generative models, Bayesian inference and machine learning, especially models for sequential and relational data with applications in human activity/intent recognition, video understanding and natural language processing. These interests center around the challenging problem of how to make the machine better understand the humans - a problem that plays a central part in intelligent assistive technologies, personal assistance and dialogue management.<br/><br/>Before joining VinAI, he was at Google DeepMind, Adobe Research and Nuance Natural Language Understanding Lab. He also spent almost 10 years at the AI Center, SRI International (formerly Stanford Research Institute), where he led the multi-institution research team in developing probabilistic inference technologies for understanding the user activities during the CALO project (at the time, the largest AI project in history, also known as the project that spun off Siri).<br/><br/>Dr. Hung received his Ph.D. in Computer Science from Curtin University in 1998, and spent three years as an assistant professor at the university."
-                },
-                {
-                    "id": 6,
-                    "name": "Huyen Chip",
-                    "image": "m_HuyenNguyen.png",
-                    "title": "Senior Deep Learning Engineer, NVIDIA",
-                    "description": "Chip Huyen is a writer and computer scientist based in Silicon Valley. She graduated with a BS and MS in Computer Science from Stanford University, where she created and taught the course TensorFlow for Deep Learning Research. In her current role as senior deep learning engineer at NVIDIA, she works on productizing AI research at NVIDIA.<br/><br/>When not teaching machines to understand human languages, she writes books and blog. She’s the author of the best-selling series 'Xách ba lô lên và Đi', 'Giấc mơ Mỹ - Đường đến Stanford', and 'Tuổi trẻ không hối tiếc'. Her writings have also been published in reputable media outlets in the USA, France, and Vietnam."
                 }
             ]
         },
@@ -219,6 +219,13 @@
                     "image": "m_BaNgoc.png",
                     "title": "Founder of ProtonX; Google Developer Expert in Machine Learning",
                     "description": "Ba Ngoc is the Founder of ProtonX and VietAI Hanoi. He loves programming and machine learning and strongly believes that “Machines are capable of getting past the limits of human speed in the future”. He won Singapore UNESCO Open Data and Science Hackathon 2018. Besides, he has been writing a blog named “Learn machine learning in two months” and earned more than 1400 stars on Github. At VietAI, he's enthusiastic about teaching students Logistic Regression and Neural Network. In 2019, Ngoc was recognized by Google as the first Google Developer Expert in Machine Learning in Vietnam. In 2020, he has trained 31 applicants who passed the Tensorflow exam and became Tensorflow Certificate Holders."
+                },
+                {
+                    "id": 16,
+                    "name": "Ngan Nguyen",
+                    "image": "m_NganNguyen.png",
+                    "title": "Natural Language Processing (NLP) Engineer",
+                    "description": "Ngân is a Natural Language Processing (NLP) Engineer. She graduated from University of Engineering and Technology-VNU with a BSc in Computer Science in the Honors Program. Her interest lies in computational linguistics research which includes syntactic and semantic parsing techniques and NLP applications such as information extraction, virtual assistant, etc.<br/><br/>She is currently working in fake news detection project."
                 },
                 {
                     "id": 17,
@@ -247,13 +254,6 @@
                     "image": "m_ThuNguyen.png",
                     "title": "AI Researcher",
                     "description": "Thu is currently a Resident at VinAI Research. He loves to build a machine capable of grounding language to the visual world using deep learning. Beyond that, he is always passionate about learning new things and building stuff."
-                },
-                {
-                    "id": 16,
-                    "name": "Ngan Nguyen",
-                    "image": "m_NganNguyen.png",
-                    "title": "Natural Language Processing (NLP) Engineer",
-                    "description": "Ngân is a Natural Language Processing (NLP) Engineer. She graduated from University of Engineering and Technology-VNU with a BSc in Computer Science in the Honors Program. Her interest lies in computational linguistics research which includes syntactic and semantic parsing techniques and NLP applications such as information extraction, virtual assistant, etc.<br/><br/>She is currently working in fake news detection project."
                 }
             ]
         }
