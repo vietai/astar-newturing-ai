@@ -59,7 +59,7 @@ const Menu = () => {
             duration={500}
             className="pointer db"
           >
-            <img src="images/newturing_logo.png" alt="" className="h22 db" />
+            <img src="images/nti_horizontal_logo.png" alt="" className="h22 db" />
           </Link>
 
           <img
@@ -119,7 +119,7 @@ const Menu = () => {
               duration={500}
               className="pointer"
             >
-              <img src="images/newturing_logo.png" alt="" className="h22 db" />
+              <img src="images/nti_horizontal_logo.png" alt="" className="h22 db" />
             </Link>
 
             <img
