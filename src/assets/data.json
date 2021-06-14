@@ -1,7 +1,7 @@
 {
     "register_link": "https://forms.gle/Vew1ywYdZQejCgj96",
     "countdown": {
-        "time_to_start": "2021-06-21T00:01:01"
+        "time_to_start": "2021-07-01T00:01:01"
     },
     "menu": {
         "top": {
@@ -261,22 +261,22 @@
     "processes": [
         {
             "title": "Registration",
-            "date": "June 7 - June 20",
+            "date": "June 7 - June 30",
             "description": "Click <a href='https://forms.gle/Vew1ywYdZQejCgj96' class='blue fw5 pointer' id=''>APPLY</a> to fill the registration form. In this form, we expect to learn more about your company, milestones, & primary roadblocks in terms of applying AI to your business model. Please respond carefully with your best effort.<br/><br/>To achieve great outcomes, we expect at least two members (1 business & 1 tech lead/executive) per company to enroll in our program. For us to fully evaluate the company's potential, we expect to get detailed answers jointly by 1 business & 1 tech lead/executive. Only 1 submission per company."
         },
         {
             "title": "Screening",
-            "date": "June 21 - June 24",
+            "date": "July 1 - 8",
             "description": "Initial evaluation of candidates and their businesses. Selected companies will be invited to the next round - Interview."
         },
         {
             "title": "Interview",
-            "date": "June 25, 26 and July 2, 3",
+            "date": "July 9, 10, 16, 17",
             "description": "Your interview will be scheduled into those days. You will have an intense conversation with our General Program Advisors to figure out if your company are ready to integrate AI in the next 6 months"
         },
         {
             "title": "Final companies confirmed",
-            "date": "July 12 - 18",
+            "date": "July 30",
             "description": "Congratulations! The very first batch of AI Bootcamp for Startups will be confirmed via email."
         }
     ],
