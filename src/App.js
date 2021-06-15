@@ -17,10 +17,12 @@ import { menu } from './assets/data.json';
 import What from './containers/What';
 import WhoApply from './containers/WhoApply';
 import AStar from './containers/AStar';
+import SubcribeModal from './components/SubcribeModal'
 
 function App() {
   return (
     <div className="sans-serif">
+      <SubcribeModal/>
       <Menu />
       <div id={menu.top.id} />
       <CountDown />
