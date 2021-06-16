@@ -7,15 +7,6 @@ const CustomForm = ({ status, message, onValidated }) => {
   let email, fname;
 
   const submit = () => {
-    // console.log('clicked ...');
-    // console.log('status = ', status);
-    // console.log('message = ', message);
-
-    // console.log({
-    //   EMAIL: email.value,
-    //   FNAME: fname.value,
-    // });
-
     return (
       email &&
       fname &&
@@ -75,9 +66,6 @@ const CustomForm = ({ status, message, onValidated }) => {
 function SubcribeModal() {
   const [isShowModal, setIsShowModal] = useState(false);
 
-  // const url =
-  //   'https://vietai.us6.list-manage.com/subscribe/post?u=57067948e12d221d6b91a332c&amp;id=6ef2b4bc63';
-
   return (
     <>
       {/* modal button */}
@@ -91,12 +79,7 @@ function SubcribeModal() {
       </div>
 
       {isShowModal ? (
-        <div
-          className="db w-100 bg-black-50 vh-100 fixed top-0 left-0 z-999"
-          onClick={() => {
-            // setIsShowModal(false);
-          }}
-        >
+        <div className="db w-100 bg-black-50 vh-100 fixed top-0 left-0 z-9999">
           <div className="modal flex w-90 w-30-l center br3">
             <MailchimpSubscribe
               url={url}
