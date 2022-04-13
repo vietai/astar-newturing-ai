@@ -66,6 +66,17 @@ const What = ({ id }) => {
 
           {/* <!-- CONTENT DETAIL --> */}
 
+          {/* <!-- phase 1 --> */}
+          <div className="w-100 flex justify-end pv2">
+            <div className="w-20 tc fw5"></div>
+
+            <div className="w-80 yellow-week-box bg-pc-red ttu f3 pc-white tc">
+              <span className='fw7'>A-star Earth</span>
+              <br />
+              (Phase 1_Foundation)
+            </div>
+          </div>
+
           {/* <!-- week 1 --> */}
           <div className="w-100 flex justify-end pv2 ">
             <div className="w-20 tc fw5">Week 1</div>
@@ -73,73 +84,153 @@ const What = ({ id }) => {
             {/* <!-- hien thi mau xanh --> */}
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'green-week-box tc mr2-l'}>
-                <span className="b">Prerequisites for Machine Learning</span>
-                <br />
-                Learn about basic maths (linear algebra, calculus), Python
-                programming, and frameworks to learn AI.
+                <span className="b">AI for Everyone</span>
               </div>
               <div className={toggleCol_2 + 'pink-week-box tc ml2-l'}>
-                Introduce with Advisors (Exploration)
+                <span className="b">Define Problems and Goals</span>
               </div>
             </div>
           </div>
 
-          {/* <!-- week 2, 3 --> */}
+          {/* <!-- week 2 --> */}
           <div className="w-100 flex justify-end pv2 items-stretch   ">
             <div className="w-20 tc fw5 flex flex-wrap ">
               <div className="w-100">Week 2</div>
-              <div className="w-100">Week 3</div>
             </div>
 
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'green-week-box tc mr2-l'}>
-                <span className="b">Foundations of Machine Learning</span>
-                <br />
-                Learn how to apply AI to fundamental problems such as linear
-                regression (e.g., house-price predictions) and classification
-                (recognizing images). We will learn to use Tensorflow, Google
-                AI's framework.
+                <span className="b">Basic Data Analysis</span>
               </div>
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l'}>
                 <div className="w-100 pink-week-box tc b">
-                  Meet Advisors
+                  Meet Consultants
                   <br />
-                  (Prototype proposal)
-                </div>
-                <div className="w-100 pink-week-box tc mt3">
-                  Data Preparation /
-                  <br />
-                  Collection
+                  (Prototype Proposal)
                 </div>
               </div>
             </div>
           </div>
 
-          {/* <!-- week 4, 5, 6 7--> */}
+          {/* <!-- week 3, 4 --> */}
+          <div className="w-100 flex justify-end pv2 items-stretch">
+            <div className="w-20 tc fw5 flex flex-wrap ">
+              <div className="w-100">Week 3</div>
+              <div className="w-100">Week 4</div>
+            </div>
+            <div className="w-80 flex">
+              <div className={toggleCol_1 + 'green-week-box tc mr2-l'}>
+                <span className="b">
+                  Organize & Label data
+                  <br />
+                  Deploy & Monitor the Baseline Solution
+                </span>
+              </div>
+              <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l'}>
+                <div className="w-100 pink-week-box tc b">
+                  Evaluate The Solution
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <!-- phase 2 --> */}
+          <div className="w-100 flex justify-end pv2">
+            <div className="w-20 tc fw5"></div>
+
+            <div className="w-80 yellow-week-box bg-pc-red ttu f3 pc-white tc">
+              <span className='fw7'>A-star Moon</span>
+              <br />
+              (Phase 2_Intensive)
+            </div>
+          </div>
+
+          {/* <!-- week 5 --> */}
+          <div className="w-100 flex justify-end pv2 items-stretch   ">
+            <div className="w-20 tc fw5 flex flex-wrap ">
+              <div className="w-100">Week 5</div>
+            </div>
+
+            <div className="w-80 flex">
+              <div className={toggleCol_1 + 'green-week-box tc mr2-l'}>
+                <span className="b">Data science</span>
+                <br />
+                Learn real-world lessons on data preparation and feature engineering
+              </div>
+              <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l'}>
+                <div className="w-100 pink-week-box tc b">
+                  Introduce with Advisors
+                  <br />
+                  (Exploration)
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <!-- week 6 7--> */}
           <div className="w-100 flex justify-end pv2">
             <div className="w-20 tc fw5 flex flex-wrap">
-              <div className="w-100 h45">Week 4</div>
-              <div className="w-100 h4">Week 5</div>
               <div className="w-100 h4">Week 6</div>
               <div className="w-100 h4">Week 7</div>
             </div>
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'flex-l flex-wrap mr2-l'}>
-                <div className={'green-week-box tc h4'}>
-                  <span className="b">Data science</span>
+                <div className={'green-week-box tc'}>
+                  <span className="b">Foundations of Machine Learning</span>
                   <br />
-                  Learn real-world lessons on data preparation and feature
-                  engineering
+                  Learn how to apply AI to fundamental problems such as linear regression (e.g., house-price predictions) and classification (recognizing images). We will learn to use Tensorflow, Google AI framework.
+                </div>
+              </div>
+
+              <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l '}>
+                <div className="w-100 pink-week-box b tc">
+                  Meet Advisors
+                  <br />
+                  (Prototype proposal)
                 </div>
 
-                <div className={'green-week-box tc mt3 h56'}>
+                <div className="w-100 pink-week-box tc b mt3">
+                  Data Preparation / Collection
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Week 8 -> 15 */}
+          <div className="w-100 flex justify-end pv2">
+            <div className="w-20 tc fw5 flex flex-wrap">
+              <div className="w-100 h4">Week 8</div>
+              <div className="w-100 h4">Week 9</div>
+              <div className="w-100 h4">Week 10</div>
+              <div className="w-100 h35">Week 11</div>
+              <div className="w-100 h4">Week 12</div>
+              <div className="w-100 h4">Week 13</div>
+              <div className="w-100 h4">Week 14</div>
+              <div className="w-100 h3">Week 15</div>
+            </div>
+            <div className="w-80 flex">
+              <div className={toggleCol_1 + 'flex-l flex-wrap mr2-l'}>
+                <div className={'w-100 green-week-box tc h4'}>
+                  <span className="b">Mid-program Exam</span>
+                </div>
+
+                <div className={'green-week-box mt3 tc h58'}>
                   <br />
                   <br />
                   <br />
-                  <span className="b">Foundations of Deep Learning</span>
+                  <span className="b">Recommendation Foundations of Deep Learning Natural Language Processing</span>
                   <br />
-                  Learn latest advances in deep learning and its applications to
-                  computer vision and natural language processing.
+                  Learn latest advances in recommendation, deep learning and its applications to computer vision and natural language processing.
+                  <br />
+                </div>
+
+                <div className={'green-week-box tc mt3 h55'}>
+                  <br />
+                  <br />
+                  <br />
+                  <span className="b">Guest lectures on real-world applications:</span>
+                  <br />
+                  Recommendation Engine (Ecommerce) Credit scoring - Finance Speech Recognition - Language learning Healthcare
                 </div>
               </div>
 
@@ -147,72 +238,32 @@ const What = ({ id }) => {
                 <div className="w-100 pink-week-box tc h5">
                   Prototype Development
                 </div>
-
                 <div className="w-100 pink-week-box tc b mt3 h4">
                   Meet Advisors <br />
                   (Internal Checkup)
                 </div>
-                <div className="w-100 pink-week-box tc mt3 h4">
+                <div className="w-100 pink-week-box tc mt3 h53">
+                  <br/>
+                  <br/>
                   Prototype Development
+                </div>
+                <div className="w-100 pink-week-box tc b mt3 h35">
+                  Meet Advisors <br />
+                  (Internal Checkup)
+                </div>
+                <div className="w-100 pink-week-box tc mt3 h35">
+                  Wrap-up
                 </div>
               </div>
             </div>
           </div>
 
-          {/* <!-- week 8, 9, 10, 11 --> */}
-          <div className="w-100 flex justify-end pv2  ">
-            <div className="w-20 tc fw5 flex flex-wrap">
-              <div className="w-100 h35">Week 8</div>
-              <div className="w-100 h4">Week 9</div>
-              <div className="w-100 h4">Week 10</div>
-              <div className="w-100 h3">Week 11</div>
-            </div>
-            <div className="w-80 flex">
-              {/* <!-- cot xanh --> */}
-              <div className={toggleCol_1 + 'flex-l flex-wrap mr2-l'}>
-                <div className="w-100 green-week-box tc ">
-                  <br />
-                  <br />
-                  <br />
-                  <span className="b">
-                    Guest lectures on real-world applications
-                  </span>
-                  <br />
-                  Recommendation systems - Ecommerce
-                  <br />
-                  Credit scoring - Finance
-                  <br />
-                  Speech Recognition - Language learning
-                  <br />
-                  Healthcare
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                </div>
-              </div>
-
-              {/* <!-- cot do --> */}
-              <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l '}>
-                <div className="w-100 pink-week-box tc  h45">
-                  Prototype Development
-                </div>
-                <div className="w-100 pink-week-box tc  mt3 b">
-                  Meet Advisors (Internal Demo)
-                </div>
-
-                <div className="w-100 pink-week-box tc  mt3">Wrap Up</div>
-              </div>
-            </div>
-          </div>
-
-          {/* <!-- week 12 --> */}
+          {/* Week 16 */}
           <div className="w-100 flex justify-end pv2">
-            <div className="w-20 tc fw5">Week 12</div>
+            <div className="w-20 tc fw5">Week 16</div>
 
-            <div className="w-80 yellow-week-box bg-pc-red ttu f3 fw7 pc-white tc h35">
-              Demo day
+            <div className="w-80 yellow-week-box bg-pc-red ttu f3 pc-white tc">
+              <span className='fw7'>DEMO DAY</span>
             </div>
           </div>
         </div>

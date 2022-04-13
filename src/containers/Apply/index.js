@@ -8,7 +8,7 @@ import { countdown } from '../../assets/data.json';
 
 const HtmlApply = ({ d, h, m, s }) => {
   return (
-    <div className="db center w-100 w-60-l bg-pc-red br0 br3-l ph0 ph4-l pv5 pv6-l tc pc-white mt0 mt5-l">
+    <div className="db center w-100 w-60-l bg-pc-red br0 br3-l ph0 ph4-l pv5 pv6-l tc pc-white mt0 mt7-l">
       <p className="f2 ttu tracked fw7 ph3">APPLY FOR THE FIRST BATCH</p>
 
       <p className="f6 tracked fw3 mt4 ph3">
