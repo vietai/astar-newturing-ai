@@ -18,7 +18,7 @@ import What from './containers/What';
 import WhoApply from './containers/WhoApply';
 import AStar from './containers/AStar';
 import SubcribeModal from './components/SubcribeModal'
-import WhatStartupSay from './containers/WhatStarupSay';
+import WhatStartupSay from './containers/WhatStartupSay';
 
 function App() {
   return (
