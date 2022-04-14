@@ -133,7 +133,13 @@ const What = ({ id }) => {
               </div>
             </div>
           </div>
+          <div className="w-100 flex justify-end pv2">
+            <div className="w-20 tc fw5"></div>
 
+            <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc">
+              A select group of startups that have successfully completed Phase 1 will join Phase 2.
+            </div>
+          </div>
           {/* <!-- phase 2 --> */}
           <div className="w-100 flex justify-end pv2">
             <div className="w-20 tc fw5"></div>
