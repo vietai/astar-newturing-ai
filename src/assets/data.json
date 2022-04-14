@@ -81,18 +81,21 @@
         "col_1": {
             "title": "Mr.Lam",
             "desc": "Co-Founder / CEO - Vuihoc",
-            "content": "\"We don't know what we don't know <br/>But when we perceive it, we know where to start. <br/>Think big, step small, grow fast, focus to do & enjoy it.\""
+            "content": "\"We don't know what we don't know <br/>But when we perceive it, we know where to start. <br/>Think big, step small, grow fast, focus to do & enjoy it.\"",
+            "image": "images/s_Lam.jpg"
             
         },
         "col_2": {
             "title": "Mr.Tung",
             "desc": "CEO - MindX",
-            "content": "\"We have learned how to organize a team including data, tech, management for the AI project, how to solve difficult technical problems & how to integrate AI application into current business model_the actual operation.\""
+            "content": "\"We have learned how to organize a team including data, tech, management for the AI project, how to solve difficult technical problems & how to integrate AI application into current business model_the actual operation.\"",
+            "image": "images/s_Tung.jpg"
         },
         "col_3": {
             "title": "Mr.Akshay",
             "desc": "Co-Founder / CTO - Hoozing",
-            "content": "\"I really thank all teachers & advisors for helping a lot during the time_3 months and we have tried to achieve so many things. I have learned a lot in terms of understanding, not only the text to speech & speech to text, but also the price prediction, recommendation system that help Hoozing to implement & plan for the company in the future.\""
+            "content": "\"I really thank all teachers & advisors for helping a lot during the time_3 months and we have tried to achieve so many things. I have learned a lot in terms of understanding, not only the text to speech & speech to text, but also the price prediction, recommendation system that help Hoozing to implement & plan for the company in the future.\"",
+            "image": "images/s_Akshay.jpg"
         }
     },
     "who_apply": {
