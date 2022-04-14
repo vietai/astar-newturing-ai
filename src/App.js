@@ -33,7 +33,7 @@ function App() {
       <Mentorships id={menu.mentorship.id} />
       <What id={menu.program.id} />
       <WhoApply />
-      {/* <Process /> */}
+      <Process />
       <Apply />
       <Partners />
       {/* <QA id={menu.qa.id} /> */}

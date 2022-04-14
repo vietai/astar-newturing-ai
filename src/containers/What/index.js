@@ -70,8 +70,8 @@ const What = ({ id }) => {
           <div className="w-100 flex justify-end pv2">
             <div className="w-20 tc fw5"></div>
 
-            <div className="w-80 yellow-week-box bg-pc-red ttu f3 pc-white tc">
-              <span className='fw7'>A-star Earth</span>
+            <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc" style={{padding: 0, height: 80}}>
+              <span className='f3 fw7'>A-star Earth</span>
               <br />
               (Phase 1_Foundation)
             </div>
@@ -138,8 +138,8 @@ const What = ({ id }) => {
           <div className="w-100 flex justify-end pv2">
             <div className="w-20 tc fw5"></div>
 
-            <div className="w-80 yellow-week-box bg-pc-red ttu f3 pc-white tc">
-              <span className='fw7'>A-star Moon</span>
+            <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc" style={{padding: 0, height: 80}}>
+              <span className='f3 fw7'>A-star Moon</span>
               <br />
               (Phase 2_Intensive)
             </div>

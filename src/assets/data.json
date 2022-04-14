@@ -62,18 +62,22 @@
         }
     },
     "why_we": {
-        "title": "WHY FOUNDERS SHOULD JOIN A-STAR?",
+        "title": "WHAT STARTUPS SAY ABOUT US?",
         "col_1": {
-            "title": "1:1 Personalized<br/>AI Assessment",
-            "content": "This is a Unique Value Proposition offered by A-Star to Aspiring Founders. Each startup will be matched with a AI Expert in your field who will closely review your business and then suggest the most potential prototype & its implementation approach"
+            "title": "Mr.Lam",
+            "desc": "Co-Founder / CEO - Vuihoc",
+            "content": "We don't know what we don't know <br/>But when we perceive it, we know where to start. <br/>Think big, step small, grow fast, focus to do & enjoy it."
+            
         },
         "col_2": {
-            "title": "Global AI<br/>Expert Network",
-            "content": "A privileged Global Network of AI Experts, covering all different domains and verticals that are relevant to startups in Vietnam such as such as Finance, Retail, E-commerce, Healthcare, and Education. See our Global AI Network <a href='#ai_expert_network' >here</a>."
+            "title": "Mr.Tung",
+            "desc": "CEO - MindX",
+            "content": "We have learned how to organize a team including data, tech, management for the AI project, how to solve difficult technical problems & how to integrate AI application into current business model_the actual operation."
         },
         "col_3": {
-            "title": "Best-in-class AI<br/>Training Programs",
-            "content": "Proven AI training program offered by VietAI and advised by world-class AI experts. Our alumni have become AI experts at international organizations (e.g., Google, New York University) and local corporations (e.g., FPT, VinAI)"
+            "title": "Mr.Akshay",
+            "desc": "Co-Founder / CTO - Hoozing",
+            "content": "I really thank all teachers & advisors for helping a lot during the time_3 months and we have tried to achieve so many things. I have learned a lot in terms of understanding, not only the text to speech & speech to text, but also the price prediction, recommendation system that help Hoozing to implement & plan for the company in the future."
         }
     },
     "who_apply": {
