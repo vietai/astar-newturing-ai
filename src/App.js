@@ -18,6 +18,7 @@ import What from './containers/What';
 import WhoApply from './containers/WhoApply';
 import AStar from './containers/AStar';
 import SubcribeModal from './components/SubcribeModal'
+import WhatStartupSay from './containers/WhatStarupSay';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       <Mentorships id={menu.mentorship.id} />
       <What id={menu.program.id} />
       <WhoApply />
-      <Process />
+      <WhatStartupSay />
+      {/* <Process /> */}
       <Apply />
       <Partners />
       {/* <QA id={menu.qa.id} /> */}
