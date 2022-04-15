@@ -137,7 +137,7 @@ const What = ({ id }) => {
             <div className="w-20 tc fw5"></div>
 
             <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc">
-              A select group of startups that have successfully completed Phase 1 will join Phase 2.
+              Only selected group of startups that have successfully passed A-Star Earth will be a able to join “A-Star Moon”
             </div>
           </div>
           {/* <!-- phase 2 --> */}
