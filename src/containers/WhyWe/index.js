@@ -57,8 +57,9 @@ const WhyWe = ({ id }) => (
         </div>
       </div>
     </div>
-    <div className="dn db-l w-100 tc">
+    <div className="dn db-l w-100 tc" style={{flexDirection: 'column'}}>
       <RedApplyButton />
+      <p style={{color: 'black', marginTop: 16}}>*Deadline: May 9, 2022</p>
     </div>
   </>
 );

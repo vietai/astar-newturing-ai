@@ -68,7 +68,7 @@ const What = ({ id }) => {
 
           {/* <!-- phase 1 --> */}
           <div className="w-100 flex justify-end pv2">
-            <div className="w-20 tc fw5"></div>
+            <div className="w-20 tc fw5">May 16</div>
 
             <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc" style={{padding: 0, height: 80}}>
               <span className='f3 fw7'>A-star Earth</span>
@@ -142,7 +142,7 @@ const What = ({ id }) => {
           </div>
           {/* <!-- phase 2 --> */}
           <div className="w-100 flex justify-end pv2">
-            <div className="w-20 tc fw5"></div>
+            <div className="w-20 tc fw5">June 13</div>
 
             <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc" style={{padding: 0, height: 80}}>
               <span className='f3 fw7'>A-star Moon</span>

@@ -41,10 +41,12 @@ const Footers = () => (
       </div>
     </div>
     <div
-      className="db dn-l w-100 btnApply tc  fw7 ttu f5 pv3 tracked pointer fixed bottom-0 z-9999"
+      className="dn-l w-100 btnApply tc  fw7 f5 tracked pointer fixed bottom-0 z-9999"
+      style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', height: 60, alignItems: 'center'}}
       onClick={() => window.open(registerLink, '_blank')}
     >
       APPLY NOW
+      <p style={{color: 'black', fontSize: 12, marginTop: 8, fontWeight: 'normal'}}>*Deadline: May 9, 2022</p>
     </div>
   </>
 );
