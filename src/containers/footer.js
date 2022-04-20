@@ -41,8 +41,8 @@ const Footers = () => (
       </div>
     </div>
     <div
-      className="dn-l w-100 btnApply tc  fw7 f5 tracked pointer fixed bottom-0 z-9999"
-      style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', height: 60, alignItems: 'center'}}
+      className="flex dn-l w-100 btnApply tc  fw7 f5 tracked pointer fixed bottom-0 z-9999"
+      style={{flexDirection: 'column', justifyContent: 'center', height: 60, alignItems: 'center'}}
       onClick={() => window.open(registerLink, '_blank')}
     >
       APPLY NOW
