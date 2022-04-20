@@ -89,7 +89,7 @@
             "title": "Mr.Tung",
             "desc": "CEO - MindX",
             "content": "\"We have learned how to organize a team including data, tech, management for the AI project, how to solve difficult technical problems & how to integrate AI application into current business model_the actual operation.\"",
-            "image": "images/s_Tung.jpg"
+            "image": "images/s_Tung.jpg?v=2"
         },
         "col_3": {
             "title": "Mr.Akshay",
@@ -124,7 +124,7 @@
                     "name": "Thang Luong",
                     "image": "m_ThangLuong.png",
                     "title": "Staff Research Scientist at Google Brain; VietAI",
-                    "description": "Thang Luong is currently a staff research scientist at Google Brain. Having published over 50 scientific articles at premier conferences with over 13k citations, Dr. Luong is a well-known AI researcher in the field of deep learning and machine learning. He has authored many patents and open-source software used worldwide.<br/><br/>Dr. Luong obtained his PhD in Computer Science from Stanford University in 2016. He co-founded Project Meena, now known as Google's LaMDA chatbot, and VietAI, a non-profit organization that aims to build a community of world-class AI experts in Vietnam."
+                    "description": "Dr. Thang Luong is currently a staff research scientist at Google Brain. He obtained his PhD in Computer Science from Stanford University in 2016. Dr. Luong is a well-known AI researcher with over 20K publication citations. He co-founded Project Meena, now known as Google's LaMDA chatbot, and VietAI, a non-profit organization that aims to build a community of world-class AI experts in Vietnam."
                 },
                 {
                     "id": 2,
