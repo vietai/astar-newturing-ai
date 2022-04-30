@@ -189,6 +189,7 @@ const DesktopMentorship = () => {
                     src={'images/' + item.image}
                     alt=""
                     className="w-100 br0 h-100 mv0 pv0"
+                    style={{height: 414, objectFit: 'cover'}}
                   />
 
                   <div className="fixed_name flex flex-row items-baseline">
