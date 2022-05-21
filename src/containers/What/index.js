@@ -223,7 +223,10 @@ const What = ({ id }) => {
                   <span className="b">Advanced modules</span>
                   <br />
                   <br />
-                  <span className="b">Recommendation Foundations of Deep Learning Natural Language Processing</span>
+                  <span className="b">Recommendation system Foundations of Deep Learning</span>
+                  <br />
+                  <span className="b">Natural Language Processing</span>
+                  <br />
                   <br />
                   Learn latest advances in recommendation, deep learning and its applications to computer vision and natural language processing.
                   <br />
@@ -231,11 +234,15 @@ const What = ({ id }) => {
 
                 <div className={'green-week-box tc mt3 h55'}>
                   <br />
-                  <br />
-                  <br />
                   <span className="b">Guest lectures on real-world applications:</span>
-                  <br />
-                  Recommendation Engine (Ecommerce) Credit scoring - Finance Speech Recognition - Language learning Healthcare
+                  <br /><br/>
+                  Recommendation Engine - Ecommerce
+                  <br/><br/>
+                  Credit scoring - Finance 
+                  <br/><br/>
+                  Speech Recognition - Language learning
+                  <br/><br/>
+                  Healthcare
                 </div>
               </div>
 
