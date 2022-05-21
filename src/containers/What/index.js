@@ -1,9 +1,11 @@
 import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import { useState } from 'react';
+import useMediaQuery from '../../hooks/useMediaQuery';
 
 const What = ({ id }) => {
   const [selectedId, setSelectedId] = useState(1);
+  var isMobile = useMediaQuery('(max-width: 768px)');
 
   const toggleCol_1 =
     selectedId === 1 ? 'db w-100  w-50-l ' : 'dn db-l w-50-l ';
@@ -116,8 +118,8 @@ const What = ({ id }) => {
               <div className="w-100">Week 3</div>
               <div className="w-100">Week 4</div>
             </div>
-            <div className="w-80 flex" style={{height: '12rem'}}>
-              <div className={toggleCol_1 + 'green-week-box tc mr2-l'}>
+            <div className="w-80 flex">
+              <div className={toggleCol_1 + 'green-week-box tc mr2-l'}  style={{height: '12rem'}}>
                 <br />
                 <span className="b">
                   Organize & Label data
@@ -125,9 +127,8 @@ const What = ({ id }) => {
                   Deploy & Monitor the Baseline Solution
                 </span>
               </div>
-              <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l'}>
-                <div className="w-100 pink-week-box tc b">
-                  <br /><br />
+              <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l'}  style={{height: '12rem'}}>
+                <div className="w-100 pink-week-box tc b h-100 flex-center">
                   Evaluate The Solution
                 </div>
               </div>
@@ -189,13 +190,13 @@ const What = ({ id }) => {
               </div>
 
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l '}>
-                <div className="w-100 pink-week-box b tc">
+                <div className="w-100 pink-week-box b tc d-flex align-items flex-column">
                   Meet Advisors
                   <br />
                   (Prototype proposal)
                 </div>
 
-                <div className="w-100 pink-week-box tc b mt3">
+                <div className={`w-100 pink-week-box tc b mt3 flex-center ${isMobile ? 'h4' : ''}`}>
                   Data Preparation / Collection
                 </div>
               </div>
@@ -250,23 +251,22 @@ const What = ({ id }) => {
               </div>
 
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l '}>
-                <div className="w-100 pink-week-box tc h5">
-                  <br/><br/><br/><br/>
+                <div className="w-100 pink-week-box tc h5 flex-center">
                   Prototype Development
                 </div>
-                <div className="w-100 pink-week-box tc b mt3 h4">
+                <div className="w-100 pink-week-box tc b mt3 h4 flex-center">
                   Meet Advisors <br />
                   (Internal Checkup)
                 </div>
-                <div className="w-100 pink-week-box tc mt3 h53">
-                  <br/><br/><br/><br/><br/><br/>
+                <div className="w-100 pink-week-box tc mt3 h53 flex-center">
                   Prototype Development
                 </div>
-                <div className="w-100 pink-week-box tc b mt3 h35">
-                  Meet Advisors <br />
+                <div className="w-100 pink-week-box tc b mt3 h35 flex-center">
+                  Meet Advisors
+                  <br />
                   (Internal Checkup)
                 </div>
-                <div className="w-100 pink-week-box tc mt3 h35">
+                <div className="w-100 pink-week-box tc mt3 h35 flex-center">
                   Wrap-up
                 </div>
               </div>

@@ -495,3 +495,9 @@ _qa-title
   height: 100%;
   object-fit: cover;
 }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
