@@ -46,7 +46,7 @@ const Footers = () => (
       onClick={() => window.open(registerLink, '_blank')}
     >
       APPLY NOW
-      <p style={{color: 'black', fontSize: 12, marginTop: 8, fontWeight: 'normal'}}>*Deadline: June 5, 2022</p>
+      <p style={{color: 'black', fontSize: 12, marginTop: 8, fontWeight: 'normal'}}>*Deadline: June 10, 2022</p>
     </div>
   </>
 );

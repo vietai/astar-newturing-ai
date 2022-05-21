@@ -2,7 +2,7 @@
     "register_link": "https://forms.gle/kBhAfeofMfQDoM5k6",
     "subscribe_link": "https://vietai.us6.list-manage.com/subscribe/post?u=57067948e12d221d6b91a332c&amp;id=3c0d93f5bd",
     "countdown": {
-        "time_to_start": "2022-06-05T23:59:59"
+        "time_to_start": "2022-06-10T23:59:59"
     },
     "menu": {
         "top": {
@@ -312,6 +312,27 @@
                     "image": "m_DuongNguyen.png",
                     "title": "AI Specialist at VPS Securities JSC",
                     "description": "Dương is currently an AI Specialist at VPS Securities JSC, focusing on developing AI systems in the financial sector. Previously as a student at Hanoi University of Science and Technology, Dương was interested in Bayesian Deep Learning and his graduate thesis in this topic was published as a main conference paper at NeurIPS 2021."
+                },
+                {
+                    "id": 311,
+                    "name": "PHAM QUOC NGUYEN",
+                    "image": "m_PhamQuocNguyen.jpg",
+                    "title": "AI Engineer / NLP Researcher / AI Leader",
+                    "description": "Nguyen is an AI Leader at TMT in Ho Chi Minh City, Vietnam.\n\nInspired by a super human intelligent system that can surpass human ability of understanding the surrounding environment to make appropriate responses, he has 4 years of experience building AI models, especially in NLP field and integrating them into complex microservice production environments. Focusing on transforming traditional into data-driven businesses, his work currently also includes translating business problems into AI solvable tasks to automatically do information collection and extraction for supporting decision making processes."
+                },
+                {
+                    "id": 312,
+                    "name": "QUANG VU DAM",
+                    "image": "m_QuangVuDam.jpg",
+                    "title": "Data Analyst at VNG Corp",
+                    "description": "Vu is working as a Data Analyst at Zalo Pay in Ho Chi Minh City.\n\nHe loves working with data. To him, analyzing data, figuring out insights and transferring that knowledge to business leaders is an exciting and fulfilling process. He also has a lot of experience working with startup companies, helping them build data marts and make data-driven decisions back when he was a graduate student in the U.S.\n\n His current position focuses on building data assets, solving business problems through data analysis, and communicating the results to business leaders through data visualization."
+                },
+                {
+                    "id": 313,
+                    "name": "PHUONG VU",
+                    "image": "m_PhuongVu.jpeg",
+                    "title": "Data Analyst at VNG Corp",
+                    "description": "\"I’m a full-time innovator, a former financier, and a young data-enthusiast.\"\n\nPhuong had a couple years of experience building equity-price forecasting and M&A deal valuation models for wealth management firms in both New York & Ho Chi Minh City before switching her career path to data, as she thought to herself -\"it takes more than just Excel to excel in today’s data-driven world.\"\n\nShe specializes in statistical analytic and data management (design data structure, cleaning, transforming & visualization of large-scale data), specifically in the risk management context.\n\nPhuong is currently working on a fraud detection project for an e-wallet company in Vietnam."
                 }
             ]
         }

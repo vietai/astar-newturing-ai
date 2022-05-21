@@ -37,8 +37,7 @@ const What = ({ id }) => {
                 setSelectedId(1);
               }}
             >
-              {/* <p className="pc-training fw7 ttu">TRAINING</p> */}
-              <p className="pc-training fw7 ttu">TRAINING</p>
+              <p className="pc-training fw7 ttu tc">TECHNOLOGY TRACK</p>
             </div>
             <div
               className={
@@ -49,18 +48,17 @@ const What = ({ id }) => {
                 setSelectedId(2);
               }}
             >
-              <p className="pc_what_pink fw7 ttu">PROTOTYPE</p>
+              <p className="pc_what_pink fw7 ttu tc">BUSINESS TRACK</p>
             </div>
           </div>
 
           {/* desktop: no click no opacity */}
           <div className="dn w-100 flex-l justify-end bb bw1 b--gray pv4">
             <div className="w-40 ">
-              {/* <p className="pc_what_white fw7 ttu">TRAINING</p> */}
-              <p className="pc-training fw7 ttu">TRAINING</p>
+              <p className="pc-training fw7 ttu tc">TECHNOLOGY TRACK</p>
             </div>
             <div className="w-40  ">
-              <p className="pc_what_pink fw7 ttu">PROTOTYPE</p>
+              <p className="pc_what_pink fw7 ttu tc">BUSINESS TRACK</p>
             </div>
           </div>
 
@@ -68,7 +66,7 @@ const What = ({ id }) => {
 
           {/* <!-- phase 1 --> */}
           <div className="w-100 flex justify-end pv2">
-            <div className="w-20 tc fw5">May 16</div>
+            <div className="w-20 tc fw5"></div>
 
             <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc" style={{padding: 0, height: 80}}>
               <span className='f3 fw7'>A-star Earth</span>
@@ -118,7 +116,7 @@ const What = ({ id }) => {
               <div className="w-100">Week 3</div>
               <div className="w-100">Week 4</div>
             </div>
-            <div className="w-80 flex">
+            <div className="w-80 flex" style={{height: '12rem'}}>
               <div className={toggleCol_1 + 'green-week-box tc mr2-l'}>
                 <span className="b">
                   Organize & Label data
@@ -142,7 +140,7 @@ const What = ({ id }) => {
           </div>
           {/* <!-- phase 2 --> */}
           <div className="w-100 flex justify-end pv2">
-            <div className="w-20 tc fw5">June 13</div>
+            <div className="w-20 tc fw5"></div>
 
             <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc" style={{padding: 0, height: 80}}>
               <span className='f3 fw7'>A-star Moon</span>
@@ -151,10 +149,10 @@ const What = ({ id }) => {
             </div>
           </div>
 
-          {/* <!-- week 5 --> */}
+          {/* <!-- week 1 --> */}
           <div className="w-100 flex justify-end pv2 items-stretch   ">
             <div className="w-20 tc fw5 flex flex-wrap ">
-              <div className="w-100">Week 5</div>
+              <div className="w-100">Week 1</div>
             </div>
 
             <div className="w-80 flex">
@@ -173,11 +171,11 @@ const What = ({ id }) => {
             </div>
           </div>
 
-          {/* <!-- week 6 7--> */}
+          {/* <!-- week 2 3 --> */}
           <div className="w-100 flex justify-end pv2">
             <div className="w-20 tc fw5 flex flex-wrap">
-              <div className="w-100 h4">Week 6</div>
-              <div className="w-100 h4">Week 7</div>
+              <div className="w-100 h4">Week 2</div>
+              <div className="w-100 h4">Week 3</div>
             </div>
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'flex-l flex-wrap mr2-l'}>
@@ -202,17 +200,17 @@ const What = ({ id }) => {
             </div>
           </div>
 
-          {/* Week 8 -> 15 */}
+          {/* Week 4 -> 11 */}
           <div className="w-100 flex justify-end pv2">
             <div className="w-20 tc fw5 flex flex-wrap">
+              <div className="w-100 h4">Week 4</div>
+              <div className="w-100 h4">Week 5</div>
+              <div className="w-100 h4">Week 6</div>
+              <div className="w-100 h35">Week 7</div>
               <div className="w-100 h4">Week 8</div>
               <div className="w-100 h4">Week 9</div>
               <div className="w-100 h4">Week 10</div>
-              <div className="w-100 h35">Week 11</div>
-              <div className="w-100 h4">Week 12</div>
-              <div className="w-100 h4">Week 13</div>
-              <div className="w-100 h4">Week 14</div>
-              <div className="w-100 h3">Week 15</div>
+              <div className="w-100 h3">Week 11</div>
             </div>
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'flex-l flex-wrap mr2-l'}>
@@ -222,6 +220,7 @@ const What = ({ id }) => {
 
                 <div className={'green-week-box mt3 tc h58'}>
                   <br />
+                  <span className="b">Advanced modules</span>
                   <br />
                   <br />
                   <span className="b">Recommendation Foundations of Deep Learning Natural Language Processing</span>
@@ -264,9 +263,9 @@ const What = ({ id }) => {
             </div>
           </div>
 
-          {/* Week 16 */}
+          {/* Week 12 */}
           <div className="w-100 flex justify-end pv2">
-            <div className="w-20 tc fw5">Week 16</div>
+            <div className="w-20 tc fw5">Week 12</div>
 
             <div className="w-80 yellow-week-box bg-pc-red ttu f3 pc-white tc">
               <span className='fw7'>DEMO DAY</span>
