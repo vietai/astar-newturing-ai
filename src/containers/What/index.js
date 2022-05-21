@@ -118,6 +118,7 @@ const What = ({ id }) => {
             </div>
             <div className="w-80 flex" style={{height: '12rem'}}>
               <div className={toggleCol_1 + 'green-week-box tc mr2-l'}>
+                <br />
                 <span className="b">
                   Organize & Label data
                   <br />
@@ -126,6 +127,7 @@ const What = ({ id }) => {
               </div>
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l'}>
                 <div className="w-100 pink-week-box tc b">
+                  <br /><br />
                   Evaluate The Solution
                 </div>
               </div>
@@ -135,7 +137,7 @@ const What = ({ id }) => {
             <div className="w-20 tc fw5"></div>
 
             <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc">
-              Only selected group of startups that have successfully passed A-Star Earth will be able to join “A-Star Moon”
+              Only selected group of startups that have successfully passed "A-Star Earth" will be able to join “A-Star Moon”
             </div>
           </div>
           {/* <!-- phase 2 --> */}
@@ -215,6 +217,7 @@ const What = ({ id }) => {
             <div className="w-80 flex">
               <div className={toggleCol_1 + 'flex-l flex-wrap mr2-l'}>
                 <div className={'w-100 green-week-box tc h4'}>
+                  <br />
                   <span className="b">Mid-program Exam</span>
                 </div>
 
@@ -248,6 +251,7 @@ const What = ({ id }) => {
 
               <div className={toggleCol_2 + 'flex-l flex-wrap ml2-l '}>
                 <div className="w-100 pink-week-box tc h5">
+                  <br/><br/><br/><br/>
                   Prototype Development
                 </div>
                 <div className="w-100 pink-week-box tc b mt3 h4">
@@ -255,8 +259,7 @@ const What = ({ id }) => {
                   (Internal Checkup)
                 </div>
                 <div className="w-100 pink-week-box tc mt3 h53">
-                  <br/>
-                  <br/>
+                  <br/><br/><br/><br/><br/><br/>
                   Prototype Development
                 </div>
                 <div className="w-100 pink-week-box tc b mt3 h35">
