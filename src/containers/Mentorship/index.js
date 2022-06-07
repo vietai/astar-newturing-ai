@@ -265,7 +265,7 @@ const DesktopMentorship = () => {
       </div>
       <div className="dn db-l w-100 tc" style={{flexDirection: 'column'}}>
         <RedApplyButton />
-        <p style={{color: 'black', marginTop: 16}}>*Deadline: June 17, 2022</p>
+        <p style={{color: 'black', marginTop: 16}}>*Deadline: June 19, 2022</p>
       </div>
     </>
   );
