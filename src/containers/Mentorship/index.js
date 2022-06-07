@@ -194,7 +194,7 @@ const DesktopMentorship = () => {
 
                   <div className="fixed_name flex flex-row items-baseline">
                     <div className="h1 w25 bg-pc-red db mr2 o-70"></div>
-                    <p className="pc-near-white f4 fw6 nowrap dib">
+                    <p className="pc-near-white f4 fw6 nowrap dib" style={{whiteSpace: 'pre-line'}}>
                       {item.name}
                     </p>
                   </div>
@@ -206,8 +206,8 @@ const DesktopMentorship = () => {
                       _showInfoMentor(item.id);
                     }}
                   >
-                    <p className="ph3 white f4 fw6">{item.name}</p>
-                    <p className="ph3 white f6 fw5 mt2 lh-copy">{item.title}</p>
+                    <p className="ph3 white f4 fw6" >{item.name}</p>
+                    <p className="ph3 white f6 fw5 mt2 lh-copy" style={{whiteSpace: 'pre-line'}}>{item.title}</p>
                     <p className="ph3 white f6 fw5 mt2 mb4 pc-pink-white">
                       View More
                     </p>
@@ -247,7 +247,7 @@ const DesktopMentorship = () => {
                       </div>
                       <div className="w-60 pr4">
                         <p className="_mentor-name f2 lh-copy">{item.name}</p>
-                        <p className="_mentor-title lh-copy">{item.title}</p>
+                        <p className="_mentor-title lh-copy" style={{whiteSpace: 'pre-line'}}>{item.title}</p>
 
                         <p
                           className="_mentor-info lh-copy mt3"

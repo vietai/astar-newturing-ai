@@ -2,7 +2,7 @@
     "register_link": "https://forms.gle/kBhAfeofMfQDoM5k6",
     "subscribe_link": "https://vietai.us6.list-manage.com/subscribe/post?u=57067948e12d221d6b91a332c&amp;id=3c0d93f5bd",
     "countdown": {
-        "time_to_start": "2022-06-17T23:59:59"
+        "time_to_start": "2022-06-19T23:59:59"
     },
     "menu": {
         "top": {
@@ -232,10 +232,24 @@
                 },
                 {
                     "id": 213,
-                    "name": "Le Duy Dung ( Andrew)",
+                    "name": "Le Duy Dung (Andrew)",
                     "image": "m_LeDuyDung.jpg",
                     "title": "Assistant Professor, College of Engineering and Computer Science, VinUniversity.",
                     "description": "Le Duy Dung is currently an Assistant Professor at College of Engineering and Computer Science, VinUniversity. He is also an affiliated researcher at VinBrain and a certified Nvidia DLI University Ambassador. Previously, he was a senior data scientist in Ads and Personalization team, Grab Holdings Inc. and a research scientist in School of Information Systems, Singapore Management University (SMU). He earned his PhD in Data Science and Engineering from SMU, under the supervision of Associate Professor http://www.hadylauw.com/. In his candidature, he has been recognized with SMU Presidential Doctoral Fellowship Awards and SMU PhD Student Life Awards. Formerly, he earned his Degree of Engineer in Mathematics and Informatics from Hanoi University of Science and Technology, Vietnam in 2014. His research interests are in recommender systems, information retrieval, and visual analytics. More details can be found in his website: <a href='https://andrew-dungle.github.io/' target='_blank'>https://andrew-dungle.github.io/</a>."
+                },
+                {
+                    "id": 214,
+                    "name": "Truong Do",
+                    "image": "m_TruongDo.jpg",
+                    "title": "CEO, VAIS",
+                    "description": "He is currently the CEO of VAIS, a Vietnam AI startup company, which develops AI core engines. He has received Master and Doctor degree at the Agumented Human Communication Laboratory, Nara Institute of Science and Technology (NAIST).<br/><br/>His research interests are AI/ML technologies, especially related to speech and natural language processing such as speech recognition, speech translation, paralinguistic extraction and translation. You can find more details on <a href='http://www.truongdo.com/publication' target='_blank'>publication page</a>."
+                },
+                {
+                    "id": 215,
+                    "name": "Nguyễn Tiến Cường (Carlo Nguyen)",
+                    "image": "m_CuongNguyen.jpg",
+                    "title": "MSc, University of the West of England, UK\nMBA, University of Hawaii, US\nBSc., Hanoi University of Science and Technology, Viet Nam",
+                    "description": "Nguyễn Tiến Cường (Carlo Nguyen) is currently a Deputy Director of Research and Development Center, VNPT Group; Director of Innovation Center, VNPT-IT Company at Vietnam Posts and Telecommunications Group (VNPT), Hanoi, Vietnam. He is also an Executive Board at Forum Machine Learning Cơ bản & a member in Advisory Council of the Program \"Research and Development of Artificial Intelligence (AI) Applications in Ho Chi Minh City in the period 2020-2030\".<br/><br/>Previously, Carlo Nguyen was a Researcher at Singapore University of Technology and Design, Singapore; a Researcher (Collaborative Project) at University of Illinois, USA"
                 }
             ]
         },
