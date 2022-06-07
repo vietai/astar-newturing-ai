@@ -73,7 +73,7 @@ const MobileMentorShip = () => {
 
                       <div className="fixed_name flex flex-row items-baseline">
                         <div className="h1 w25 bg-pc-red db mr2 o-70"></div>
-                        <p className="pc-near-white f4 fw6 nowrap dib">
+                        <p className="pc-near-white f4 fw6 nowrap dib" style={{whiteSpace: 'pre-line'}}>
                           {mentor.name}
                         </p>
                       </div>
