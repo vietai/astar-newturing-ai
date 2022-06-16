@@ -3,6 +3,7 @@
 ## Start
 
 ```
+yarn
 yarn predeploy
 yarn deploy
 ```
