@@ -140,7 +140,7 @@ const HtmlCountDown = ({ d, h, m, s }) => (
 
         <div className="dn db-l w-100 tc" style={{flexDirection: 'column'}}>
           <ApplyButton />
-          <p style={{color: 'white', marginTop: 16}}>*Deadline: June 19, 2022</p>
+          <p style={{color: 'white', marginTop: 16}}>*Deadline: {countdown.deadline}</p>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import '../css/tachyons.min.css';
 import '../css/styles.css';
 import { register_link as registerLink } from '../assets/data.json';
+import { countdown } from '../assets/data.json';
 
 const Footers = () => (
   <>
@@ -46,7 +47,7 @@ const Footers = () => (
       onClick={() => window.open(registerLink, '_blank')}
     >
       APPLY NOW
-      <p style={{color: 'black', fontSize: 12, marginTop: 8, fontWeight: 'normal'}}>*Deadline: June 19, 2022</p>
+      <p style={{color: 'black', fontSize: 12, marginTop: 8, fontWeight: 'normal'}}>*Deadline: {countdown.deadline}</p>
     </div>
   </>
 );

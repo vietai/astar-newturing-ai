@@ -51,22 +51,25 @@ const Menu = () => {
         className="_mobile-menu flex dn-l w-100 shadow-2 ph4 pv2 bg-white justify-between items-center fixed top-0 z-999"
       >
         <div className="flex items-center justify-center  ">
-          <Link
-            to={menu.top.id}
+          <a
+            href={'/'}
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             className="pointer db"
+            rel="noreferrer"
           >
             <img src="images/nti_horizontal_logo.png" alt="" className="h22 db" />
-          </Link>
+          </a>
 
-          <img
-            src="images/vietai_logo.png"
-            alt=""
-            className="h2 bl b--black-10"
-          />
+          <a href='https://vietai.org/' target='_blank' className="pointer db" rel="noreferrer">
+            <img
+              src="images/vietai_logo.png"
+              alt=""
+              className="h2 bl b--black-10"
+            />
+          </a>
         </div>
 
         <img
@@ -111,22 +114,25 @@ const Menu = () => {
       >
         <div className="w-80 center flex justify-between items-center ph3">
           <div className="flex items-center justify-center">
-            <Link
-              to={menu.top.id}
+            <a
+              href={'/'}
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               className="pointer"
+              rel="noreferrer"
             >
               <img src="images/nti_horizontal_logo.png" alt="" className="h22 db" />
-            </Link>
+            </a>
 
-            <img
-              src="images/vietai_logo.png"
-              alt=""
-              className="h2 bl b--black-10"
-            />
+            <a href='https://vietai.org/' target='_blank' className="pointer" rel="noreferrer">
+              <img
+                src="images/vietai_logo.png"
+                alt=""
+                className="h2 bl b--black-10"
+              />
+            </a>
           </div>
 
           <div className="flex items-center">

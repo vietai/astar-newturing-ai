@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import './styles.css';
 import { RedApplyButton } from '../../components/ApplyButton';
+import { countdown } from '../../assets/data.json';
 
 const MobileMentorShip = () => {
   const [selectGroupId, setSelectGroupId] = useState(0);
@@ -265,7 +266,7 @@ const DesktopMentorship = () => {
       </div>
       <div className="dn db-l w-100 tc" style={{flexDirection: 'column'}}>
         <RedApplyButton />
-        <p style={{color: 'black', marginTop: 16}}>*Deadline: June 19, 2022</p>
+        <p style={{color: 'black', marginTop: 16}}>*Deadline: {countdown.deadline}</p>
       </div>
     </>
   );

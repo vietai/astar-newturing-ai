@@ -77,7 +77,7 @@ const HtmlApply = ({ d, h, m, s }) => {
       >
         APPLY NOW
       </div>
-      <p style={{color: 'white', marginTop: 16}}>*Deadline: June 19, 2022</p>
+      <p style={{color: 'white', marginTop: 16}}>*Deadline: {countdown.deadline}</p>
     </div>
   );
 };

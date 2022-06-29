@@ -2,6 +2,7 @@ import '../../css/tachyons.min.css';
 import '../../css/styles.css';
 import { why_we as whyWe } from '../../assets/data.json';
 import { RedApplyButton } from '../../components/ApplyButton';
+import { countdown } from '../../assets/data.json';
 
 const WhyWe = ({ id }) => (
   // dangerouslySetInnerHTML={{ __html: item.answer }}
@@ -59,7 +60,7 @@ const WhyWe = ({ id }) => (
     </div>
     <div className="dn db-l w-100 tc" style={{flexDirection: 'column'}}>
       <RedApplyButton />
-      <p style={{color: 'black', marginTop: 16}}>*Deadline: June 19, 2022</p>
+      <p style={{color: 'black', marginTop: 16}}>*Deadline: {countdown.deadline}</p>
     </div>
   </>
 );
