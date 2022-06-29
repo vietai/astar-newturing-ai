@@ -52,7 +52,8 @@ const Menu = () => {
       >
         <div className="flex items-center justify-center  ">
           <a
-            href={'/'}
+            href={'https://newturing.ai/'}
+            target='_blank' 
             spy={true}
             smooth={true}
             offset={-70}
@@ -115,7 +116,8 @@ const Menu = () => {
         <div className="w-80 center flex justify-between items-center ph3">
           <div className="flex items-center justify-center">
             <a
-              href={'/'}
+              href={'https://newturing.ai/'}
+              target='_blank' 
               spy={true}
               smooth={true}
               offset={-70}
