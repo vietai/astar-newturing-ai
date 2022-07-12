@@ -71,9 +71,9 @@ const What = ({ id }) => {
             <div className="w-20 tc fw5"></div>
 
             <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc" style={{padding: 0, height: 80}}>
-              <span className='f3 fw7'>A-star Earth</span>
+              <span className='f3 fw7'>A-STAR FOUNDATION</span>
               <br />
-              (Phase 1_Foundation)
+              (EARTH PHASE)
             </div>
           </div>
 
@@ -146,9 +146,9 @@ const What = ({ id }) => {
             <div className="w-20 tc fw5"></div>
 
             <div className="w-80 yellow-week-box bg-pc-red ttu pc-white tc" style={{padding: 0, height: 80}}>
-              <span className='f3 fw7'>A-star Moon</span>
+              <span className='f3 fw7'>A-STAR ACCELERATION</span>
               <br />
-              (Phase 2_Intensive)
+              (MOON PHASE)
             </div>
           </div>
 
