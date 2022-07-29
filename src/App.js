@@ -19,6 +19,7 @@ import WhoApply from './containers/WhoApply';
 import AStar from './containers/AStar';
 import SubcribeModal from './components/SubcribeModal'
 import WhatStartupSay from './containers/WhatStartupSay';
+import Video from './containers/Video';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <What id={menu.program.id} />
       <WhoApply />
       <WhatStartupSay />
+      <Video />
       {/* <Process /> */}
       <Apply />
       <Partners />
