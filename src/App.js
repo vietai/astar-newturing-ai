@@ -20,6 +20,7 @@ import AStar from './containers/AStar';
 import SubcribeModal from './components/SubcribeModal'
 import WhatStartupSay from './containers/WhatStartupSay';
 import Video from './containers/Video';
+import Fee from './containers/Fee';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <WhoApply />
       <WhatStartupSay />
       <Video />
+      <Fee />
       {/* <Process /> */}
       <Apply />
       <Partners />

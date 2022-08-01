@@ -1,0 +1,206 @@
+.fee-block {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+        font-size: 2.25rem;
+        color: #731013;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        letter-spacing: .1em;
+        font-weight: 700;
+
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__content {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .column {
+            width: 100%;
+            &.col_1, &.col_2 {
+                .header {
+                    background-color: #731013;
+                    color: #FFFFFF;
+                }
+            }
+            &.col_3 {
+                .header {
+                    background-color: #EBEBEC;
+                    color: #000000;
+                }
+            }
+            .header {
+                border-radius: 3px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+
+                height: 67px;
+
+                text-align: center;
+            }
+
+            &.col_3 {
+                .body {
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 18px;
+                    justify-content: center;
+                }
+            }
+            .body {
+                margin-top: 4px;
+                border-radius: 3px;
+                background-color: #F5F5F5;
+                white-space: pre-line;
+                padding: 0 26px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 185px;
+                .item {
+                    &:not(:first-child) {
+                        border-top: 1px solid #D9D9D9;
+                    }
+                    width: 100%;
+                    padding: 12px 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    .title {
+                        font-weight: 700;
+                        color: #000000;
+                    }
+                    p {
+                        text-align: center;
+                        font-weight: 300;
+                        font-size: 14px;
+                        line-height: 18px;
+                    }
+                }
+            }
+
+            &.col_3 {
+                .footer {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: center;
+                    
+                    color: #000000;
+                    a {
+                        color: #731013;
+                    }
+                }
+            }
+            .footer {
+                background-color: #EBEBEC;
+                height: 80px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 5px;
+                border-radius: 0px 0px 5px 5px;
+                p {
+                    text-align: center;
+                }
+                .title {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #000000;
+                }
+                .fee {
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #731013;
+                }
+            }
+        }
+    }
+    &__text {
+        margin-top: 40px;
+
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 19px;
+        /* identical to box height */
+        
+        text-align: center;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+        
+        color: #731013;
+        
+    }
+    &__cta {
+        cursor: pointer;
+        margin-top: 27px;
+
+        background: #731013;
+        border-radius: 3px;
+        padding: 10px 0;
+        width: 287px;
+
+        outline: none;
+        border: none;
+        text-transform: uppercase;
+
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 19px;
+        /* identical to box height */
+
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__deadline {
+        margin-top: 12px;
+
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+
+    }
+}
+
+@media only screen and (min-width: 768px) { 
+    .fee-block {
+        width: 70%;
+        &__title {
+            width: 100%;
+           text-align: left;
+        }
+        &__content {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            .column {
+                width: calc(100%/3);
+            }
+        }
+    }    
+}

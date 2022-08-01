@@ -99,6 +99,49 @@
             "image": "images/s_Akshay.jpg"
         }
     },
+    "fee": {
+        "title": "A-Star Tuition Fee",
+        "col_1": {
+            "header": "A-STAR FOUNDATION",
+            "body": [
+                {
+                    "title": "Purpose",
+                    "text": "Customized AI Assessment"
+                },
+                {
+                    "title": "Final result",
+                    "text": "Possible challenges to be solved by AI. \nData needed.\nAI Demo ideas."
+                }
+            ],
+            "footer": {
+                "title": "Tuition",
+                "fee": "$1.5k"
+            }
+        },
+        "col_2": {
+            "header": "A-STAR ACCELERATION",
+            "body": [
+                {
+                    "title": "Purpose",
+                    "text": "AI Deployment"
+                },
+                {
+                    "title": "Final result",
+                    "text": "AI Demo"
+                }
+            ],
+            "footer": {
+                "title": "Tuition",
+                "fee": "$4k"
+            }
+        },
+        "col_3": {
+            "header": "ONE-ON-ONE ADVANCED ADVICE BY EXPERT",
+            "body": "Customized advice",
+            "footer": "Contact us at <a href='mailto:contact@newturing.ai'><b>contact@newturing.ai</b></a> for more information."
+        },
+        "text": "Scholarships are available"
+    },
     "who_apply": {
         "title": "WHO SHOULD APPLY TO A-STAR?",
         "sub_title": "Given below is a pre-requisite list for potential companies",
