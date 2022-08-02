@@ -1,5 +1,5 @@
 import './styles.scss';
-import { fee, countdown, register_link as registerLink } from '../../assets/data.json';
+import { fee, countdown } from '../../assets/data.json';
 
 const Fee = () => {
     return (
@@ -61,7 +61,7 @@ const Fee = () => {
             <p className='fee-block__text'>{fee.text}</p>
             <button
                 className="fee-block__cta"
-                onClick={() => window.open(registerLink, '_blank')}
+                onClick={() => window.open(fee.cta_link, '_blank')}
             >
                 click here to apply
             </button>

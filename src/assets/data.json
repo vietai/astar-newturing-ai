@@ -140,7 +140,8 @@
             "body": "Customized advice",
             "footer": "Contact us at <a href='mailto:contact@newturing.ai'><b>contact@newturing.ai</b></a> for more information."
         },
-        "text": "Scholarships are available"
+        "text": "Scholarships are available",
+        "cta_link": "https://forms.gle/kdUeGE17xkWPuB8S7"
     },
     "who_apply": {
         "title": "WHO SHOULD APPLY TO A-STAR?",
