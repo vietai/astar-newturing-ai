@@ -26,7 +26,7 @@ const WhatStartupSay = ({ id }) => (
       <div className="_nen_do absolute bg-pc-red white w-40 right-0 tc h-100 top-0 z-0 br4 br--left"></div>
 
       <div className="w-70 center">
-        <p className="ph5  pc-red f2 fw7 tracked" style={{ whiteSpace: 'pre-line' }}>{whatStartupSay.title}</p>
+        <p className="ph4-l  pc-red f2 fw7 tracked" style={{ whiteSpace: 'pre-line' }}>{whatStartupSay.title}</p>
       </div>
 
       <div className="w-70 pt4 mt5 z-5 center relative flex justify-around" style={{gap: 16}}>
